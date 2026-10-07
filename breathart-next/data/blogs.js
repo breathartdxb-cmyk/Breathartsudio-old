@@ -1,5 +1,93 @@
 export const blogs = [
   {
+    slug: 'newborn-photoshoot-dubai-guide-for-parents',
+    title: 'Newborn Photoshoot in Dubai: A Complete Guide for New Parents (2026)',
+    metaTitle: 'Newborn Photoshoot Dubai 2026 | Timing, Prep & Prices from AED 499',
+    metaDescription: 'Planning a newborn photoshoot in Dubai? Learn the best age for the session, how to prepare, studio vs at-home shoots, safety tips and packages from AED 499.',
+    category: 'Newborn',
+    date: 'October 7, 2026',
+    content: `Your baby will only be this tiny for a few short weeks. A professional **newborn photoshoot in Dubai** is one of the best ways to keep those sleepy smiles, curled-up toes and first family cuddles forever. If you are a new or expecting parent in Dubai or Sharjah, this guide covers everything you need to know before you book.
+
+## When Is the Best Time for a Newborn Photoshoot?
+
+The ideal time is within the **first 5 to 14 days** after birth. During this window, babies sleep deeply, settle easily and curl naturally into the classic newborn poses parents love.
+
+That said, older babies can still be photographed beautifully. If your little one is already a few weeks old, the session simply focuses more on awake moments, expressions and family portraits.
+
+**Tip:** Book during pregnancy. Send your due date to your photographer, and they will pencil you in and confirm the exact day once your baby arrives.
+
+## Studio or At-Home Newborn Photoshoot?
+
+Both options work well in Dubai. It depends on what feels most comfortable for your family.
+
+- **Studio session:** A warm, quiet, fully prepared space with all themes, props and lighting ready to go.
+- **At-home session:** No travelling with a newborn. The team brings lighting, props and outfits to your home, so mum can rest and baby stays in a familiar space.
+- **Family and siblings:** Either option can include parents and big brothers or sisters.
+
+At **BreathArt Studio**, we offer both. Our studio is in Al Qusais 1, Dubai, and our team also travels to homes across Dubai and Sharjah.
+
+## Is a Newborn Photoshoot Safe?
+
+Safety should always come first. When choosing a newborn photographer in Dubai, look for:
+
+- Photographers **trained in newborn handling** and safe posing
+- A **warm, clean** shooting environment
+- A team that **never forces a pose** and follows your baby's rhythm
+- Plenty of time for **feeding, settling and cuddles**
+- Parents welcome to stay close throughout the session
+
+Our female-led team works slowly and calmly. Comfort always comes before the shot.
+
+## How to Prepare for Your Baby's Photoshoot
+
+A little preparation makes the session smoother and the photos even better:
+
+- **Feed your baby** just before or at the start of the session so they are full and sleepy
+- **Keep baby awake** for a while before the shoot if you can, so they sleep better during it
+- **Dress baby in loose clothes** that are easy to remove without waking them
+- **Bring extra nappies, wipes and a pacifier** if your baby uses one
+- **Plan family outfits** in soft, neutral or matching tones if parents are joining
+- **Relax and take your time** — newborn sessions are unhurried, and breaks are normal
+
+## Popular Newborn Photoshoot Themes in Dubai
+
+Themes make your photos feel personal. Some of the most loved setups at our studio include:
+
+- **Moon & Stars** — soft pastels and dreamy night-sky details
+- **Arabian Heritage** — lanterns, dallah and golden accents
+- **Teddy & Basket** — classic, cosy and timeless
+- **Floral Princess** — delicate flower crowns and blush tones
+- **Clouds & Sky** — bold colour with playful little stars
+- **Family & Siblings** — parents and siblings join in
+- **Tiny Details** — fingers, toes and the smallest moments
+
+All wraps, bonnets, baskets, headbands and props are included. You just bring your baby.
+
+## How Much Does a Newborn Photoshoot Cost in Dubai?
+
+Prices in Dubai vary depending on the session length, number of themes, edited images and whether the shoot is in a studio or at home.
+
+At **BreathArt Studio**, newborn photoshoot packages **start from AED 499**, with transparent pricing and no hidden fees. Props and outfits are included in every session.
+
+**Tip:** When comparing photographers, always check how many edited photos are included, whether at-home sessions cost extra, and how long delivery takes.
+
+## Why Parents Choose BreathArt Studio
+
+- **5+ years of experience** photographing newborns and families
+- **Female team** of photographers and assistants
+- **Trained newborn photographers** focused on safety and comfort
+- **Studio or at-home** sessions across Dubai and Sharjah
+- **Props, outfits and themes included**
+- **Transparent pricing** from AED 499
+
+## Book Your Newborn Photoshoot in Dubai
+
+Whether your baby is already here or you are still counting down the days, now is the perfect time to reserve your session. Visit our **Newborn Photography Dubai** page, or message us on WhatsApp at **+971 52 640 0679** to check packages and available dates.
+
+These first days pass quickly. Let us help you hold on to them forever.`,
+    image: '/assets/gallery/newborn/BK-108_LORRIE_890_.jpg.webp',
+  },
+  {
     slug: 'top-wedding-photography-locations-dubai-uae',
     title: 'Top Wedding Photography Locations in Dubai & UAE | BreathArt Photography',
     metaTitle: 'Top Wedding Photography Locations in Dubai & UAE | BreathArt Photography',
