@@ -10,11 +10,15 @@ export const blogs = [
 
 ## 1. Moon & Stars
 
+![Moon and stars newborn photoshoot theme in Dubai](/assets/services/newborn/newborn-and-maternity/NB-453 MUTYA (24) copy.jpg)
+
 Soft pastels, a crescent moon and tiny star details create a dreamy, peaceful look. This theme suits sleepy newborns perfectly and works with almost any nursery colour scheme.
 
 **Best for:** parents who love calm, timeless and gentle photos.
 
 ## 2. Arabian Heritage
+
+![Arabian heritage newborn photoshoot with lanterns and dallah in Dubai](/assets/services/newborn/newborn-and-maternity/1photo.jpeg)
 
 Lanterns, a traditional dallah, rich fabrics and golden accents celebrate the culture of the UAE. It is a favourite with Emirati and Arab families, and with expat parents who want a keepsake of their baby's Dubai beginnings.
 
@@ -22,11 +26,15 @@ Lanterns, a traditional dallah, rich fabrics and golden accents celebrate the cu
 
 ## 3. Teddy & Basket
 
+![Newborn baby in a basket with a teddy bear](/assets/services/newborn/newborn-and-maternity/_BAT3540 copy.jpg)
+
 A classic wooden basket, a soft teddy and cosy knitted wraps. Simple, warm and never goes out of style.
 
 **Best for:** parents who prefer a natural, traditional newborn look.
 
 ## 4. Floral Princess
+
+![Floral princess newborn photoshoot with flower headband](/assets/services/newborn/newborn-and-maternity/NB-427 KAJAL (317) copy.jpg)
 
 Delicate flower crowns, blush tones and soft floral setups for a romantic, elegant feel.
 
@@ -34,11 +42,15 @@ Delicate flower crowns, blush tones and soft floral setups for a romantic, elega
 
 ## 5. Clouds & Sky
 
+![Clouds and sky newborn photoshoot theme on blue backdrop](/assets/services/newborn/newborn-and-maternity/NB-451 DURETI (94) copy.jpg)
+
 Bold colours, fluffy clouds and playful little stars. Bright and fun while still soft enough for a sleeping baby.
 
 **Best for:** parents who want something cheerful and colourful.
 
 ## 6. Little Characters
+
+![Newborn baby in a cowboy hat and sunglasses costume](/assets/services/newborn/newborn-and-maternity/NB-433 AFIYA (193) copy.jpg)
 
 Tiny costumes full of personality, from little animals to sweet storybook-style outfits. These photos are always a hit with grandparents.
 
@@ -46,11 +58,15 @@ Tiny costumes full of personality, from little animals to sweet storybook-style 
 
 ## 7. Family & Siblings
 
+![Family newborn photoshoot with parents and big sister in Dubai](/assets/services/newborn/newborn-and-maternity/NB-450 NAADIYA (44) copy.jpg)
+
 Not every photo has to be baby alone. Parents' hands, a big sister's first cuddle or a brother holding the baby's tiny feet often become the most treasured images.
 
 **Best for:** families who want the whole story, not just the baby.
 
 ## 8. Tiny Details
+
+![Close-up of newborn baby feet held in parents hands](/assets/services/newborn/newborn-and-maternity/7phpto.jpeg)
 
 Fingers, toes, eyelashes and those first little curls. A close-up detail set is a lovely addition to any theme.
 
