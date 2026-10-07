@@ -1,11 +1,11 @@
 'use client';
-
+ 
 import React from 'react';
 import { motion } from 'framer-motion';
-
+ 
 const MarkdownRenderer = ({ content }) => {
   const blocks = content.split('\n\n');
-
+ 
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -13,12 +13,12 @@ const MarkdownRenderer = ({ content }) => {
       transition: { staggerChildren: 0.1 }
     }
   };
-
+ 
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } }
   };
-
+ 
   return (
     <motion.div 
       variants={containerVariants}
@@ -52,6 +52,25 @@ const MarkdownRenderer = ({ content }) => {
           );
         }
         
+        // Image: ![alt text](/path/to/image.jpg)
+        const imageMatch = block.trim().match(/^!\[(.*?)\]\((.+)\)$/);
+        if (imageMatch) {
+          return (
+            <motion.figure
+              variants={itemVariants}
+              key={index}
+              style={{ margin: '1.5rem 0 2rem' }}
+            >
+              <img
+                src={encodeURI(imageMatch[2])}
+                alt={imageMatch[1]}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', maxHeight: '640px', objectFit: 'cover', borderRadius: '12px', display: 'block' }}
+              />
+            </motion.figure>
+          );
+        }
+ 
         // Unordered List
         if (block.startsWith('- ')) {
           const items = block.split('\n').map(line => line.replace('- ', ''));
@@ -73,7 +92,7 @@ const MarkdownRenderer = ({ content }) => {
             </motion.ul>
           );
         }
-
+ 
         // Paragraphs (apply Drop Cap to the very first paragraph via CSS :first-child pseudo selector in globals.css)
         return (
           <motion.p 
@@ -87,7 +106,7 @@ const MarkdownRenderer = ({ content }) => {
     </motion.div>
   );
 };
-
+ 
 const renderBold = (text) => {
   const parts = text.split(/(\*\*.*?\*\*)/g);
   return parts.map((part, i) => {
@@ -97,5 +116,6 @@ const renderBold = (text) => {
     return part;
   });
 };
-
+ 
 export default MarkdownRenderer;
+ 
