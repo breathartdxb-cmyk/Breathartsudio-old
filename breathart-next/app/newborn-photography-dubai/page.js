@@ -107,19 +107,19 @@ const steps = [
 
 const testimonials = [
   {
-    text: 'The most beautiful experience! They handled our 7-day-old baby with such care and patience. The lady photographers were so gentle and professional. The pictures turned out absolutely stunning!',
-    author: 'Sarah K.',
-    location: 'Dubai Marina',
+    text: 'Great service and professional staff! Prajith and Gladson were great with the baby and calmed her down to settle for the photoshoot. I would highly recommend them!',
+    author: 'Arsalan A.',
+    location: 'Google review',
   },
   {
-    text: 'As a first-time mother, I was very nervous about my maternity shoot. The team at BreathArt made me feel so comfortable and beautiful. The private dressing rooms and custom gowns are incredible!',
-    author: 'Priya M.',
-    location: 'Downtown Dubai',
+    text: 'Did a newborn photoshoot, mobile service. What an amazing and highly professional team…',
+    author: 'Anisah A.',
+    location: 'Google review',
   },
   {
-    text: 'Exceptional service and transparent pricing. No hidden fees. We got our edited photos within 24 hours as promised! Highly recommend their Maternity & Newborn combined package.',
-    author: 'Jessica T.',
-    location: 'Jumeirah',
+    text: 'Best experience with the team. Prajith & Gladson were very patient and co-operative. We highly recommend them. Thank you team.',
+    author: 'Neha J.',
+    location: 'Google review',
   },
 ];
 
@@ -453,6 +453,7 @@ export default function NewbornLandingPage() {
             {[1, 2, 3, 4, 5].map((i) => <Star key={i} size={22} fill="currentColor" />)}
           </div>
           <h2 className={styles.h2}>What Dubai parents say</h2>
+          <p className={styles.lead}>Rated 4.7 out of 5 from 47 Google reviews</p>
         </div>
         <div className={styles.reviews}>
           {testimonials.map((t) => (
