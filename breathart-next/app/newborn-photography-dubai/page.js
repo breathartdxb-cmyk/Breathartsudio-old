@@ -47,7 +47,7 @@ const OPENING_HOURS = '';
 
 const trustPoints = [
   { icon: Star, text: '5+ Years Experience' },
-  { icon: Users, text: 'Female Team' },
+  { icon: Users, text: 'Female Photographer on Request' },
   { icon: Shield, text: 'Trained Newborn Photographers' },
   { icon: Wallet, text: 'Transparent Pricing' },
   { icon: Home, text: 'Studio or At-Home' },
@@ -61,8 +61,8 @@ const reasons = [
   },
   {
     icon: Heart,
-    title: 'Gentle, female-led team',
-    text: 'Our lady photographers and assistants work slowly and calmly, with plenty of breaks for feeding, cuddles and changes.',
+    title: 'Gentle, caring team',
+    text: 'Our trained photographers and assistants work slowly and calmly, with plenty of breaks for feeding, cuddles and changes. Prefer a female photographer? Just ask when you book.',
   },
   {
     icon: Sparkles,
@@ -268,8 +268,8 @@ export default function NewbornLandingPage() {
           </h1>
           <p className={styles.heroTagline}>Their first days pass in a breath. Keep them forever.</p>
           <p className={styles.heroLead}>
-            Gentle, baby-safe newborn photoshoots by a caring female team, in our cosy Dubai studio or in the comfort of
-            your home.
+            Gentle, baby-safe newborn photoshoots by a caring, trained team, in our cosy Dubai studio or in the comfort of
+            your home. Female photographer available on request.
           </p>
 
           <div className={styles.homeBanner}>
