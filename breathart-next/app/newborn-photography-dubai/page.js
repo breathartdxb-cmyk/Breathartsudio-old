@@ -152,13 +152,15 @@ const faqs = [
 
 const galleryStrip = [
   `${IMG}8th.jpeg`,
+  `${IMG}lp-smile-bucket.webp`,
   `${IMG}12.jpeg`,
-  `${IMG}NB-406 SOPHIE (92) copy.jpg`,
+  `${IMG}lp-nautical.webp`,
   `${IMG}10photo.jpeg`,
-  `${IMG}18.jpeg`,
-  `${IMG}NB-413 ARIANA (177) copy.jpg`,
+  `${IMG}lp-sunglasses.webp`,
+  `${IMG}lp-wizard.webp`,
   `${IMG}15photo.jpeg`,
-  `${IMG}IMG_0443.PNG`,
+  `${IMG}lp-football.webp`,
+  `${IMG}lp-theo.webp`,
 ];
 
 /* ------------------------------------------------------------------ */
@@ -305,8 +307,8 @@ export default function NewbornLandingPage() {
         <div className={styles.heroMedia}>
           <div className={styles.heroImgMain}>
             <Image
-              src={`${IMG}WhatsApp Image 2026-09-09 at 12.45.24 PM.jpeg`}
-              alt="Sleeping newborn in a cosy basket with a teddy bear, photographed in Dubai"
+              src={`${IMG}lp-hero-sleeping.webp`}
+              alt="Sleeping newborn in a white hat in a cosy basket, photographed in Dubai"
               fill
               priority
               sizes="(max-width: 900px) 100vw, 45vw"
@@ -315,8 +317,8 @@ export default function NewbornLandingPage() {
           </div>
           <div className={styles.heroImgSmall}>
             <Image
-              src={`${IMG}5th photo.jpeg`}
-              alt="Parent holding newborn's tiny fingers"
+              src={`${IMG}lp-hands.webp`}
+              alt="Newborn safely cradled in gentle hands"
               fill
               sizes="200px"
               style={{ objectFit: 'cover' }}
@@ -474,11 +476,11 @@ export default function NewbornLandingPage() {
             </p>
             <div className={styles.bookImg}>
               <Image
-                src={`${IMG}NB-342 SHAJIDHA (172) .jpg`}
-                alt="Parents with their newborn during an at-home photoshoot"
+                src={`${IMG}lp-family.webp`}
+                alt="Parents with their newborn during a family photoshoot in Dubai"
                 fill
                 sizes="(max-width: 900px) 100vw, 40vw"
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: 'cover', objectPosition: 'center 45%' }}
               />
             </div>
             <div className={styles.location}>
@@ -521,7 +523,7 @@ export default function NewbornLandingPage() {
 
       {/* ---------- Final CTA ---------- */}
       <section className={styles.final}>
-        <Image src={`${IMG}8th.jpeg`} alt="" fill sizes="100vw" style={{ objectFit: 'cover' }} />
+        <Image src={`${IMG}lp-rattan-bed.webp`} alt="" fill sizes="100vw" style={{ objectFit: 'cover' }} />
         <div className={styles.finalInner}>
           <h2>They&apos;ll only be this small once.</h2>
           <p>Book your newborn photoshoot in Dubai today. Packages from {STARTING_PRICE}.</p>
