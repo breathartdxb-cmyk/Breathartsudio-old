@@ -77,14 +77,14 @@ const reasons = [
 ];
 
 const themes = [
-  { src: `${IMG}NB-453 MUTYA (24) copy.jpg`, name: 'Moon & Stars', note: 'Soft pastels and dreamy night-sky details' },
+  { src: `${IMG}th-starry-night.webp`, name: 'Starry Night', note: 'Dreamy clouds and twinkling stars' },
+  { src: `${IMG}th-honey-bee.webp`, name: 'Little Honey Bee', note: 'Sunny yellow and the sweetest smiles' },
+  { src: `${IMG}th-dreamy-pony.webp`, name: 'Dreamy Pony', note: 'Soft neutrals with moon and clouds' },
+  { src: `${IMG}th-moon-teddies.webp`, name: 'Moon & Teddies', note: 'Cosy knits and tiny crochet friends' },
+  { src: `${IMG}th-little-sailor.webp`, name: 'Little Sailor', note: 'Welcome aboard, by the seaside' },
   { src: `${IMG}1photo.jpeg`, name: 'Arabian Heritage', note: 'Lanterns, dallah and golden accents' },
-  { src: `${IMG}_BAT3540 copy.jpg`, name: 'Teddy & Basket', note: 'Classic, cosy and timeless' },
-  { src: `${IMG}NB-427 KAJAL (317) copy.jpg`, name: 'Floral Princess', note: 'Delicate flower crowns and blush tones' },
-  { src: `${IMG}NB-451 DURETI (94) copy.jpg`, name: 'Clouds & Sky', note: 'Bold colour with playful little stars' },
-  { src: `${IMG}NB-433 AFIYA (193) copy.jpg`, name: 'Little Characters', note: 'Fun costumes full of personality' },
-  { src: `${IMG}NB-450 NAADIYA (44) copy.jpg`, name: 'Family & Siblings', note: 'Parents and big brothers or sisters join in' },
-  { src: `${IMG}7phpto.jpeg`, name: 'Tiny Details', note: 'Fingers, toes and the smallest moments' },
+  { src: `${IMG}th-floral-swing.webp`, name: 'Floral Swing', note: 'Blooming flowers and warm colours' },
+  { src: `${IMG}th-pink-bunny.webp`, name: 'Pink Bunny', note: 'Pastel knits with a little bunny' },
 ];
 
 const steps = [
@@ -161,6 +161,8 @@ const galleryStrip = [
   `${IMG}15photo.jpeg`,
   `${IMG}lp-football.webp`,
   `${IMG}lp-theo.webp`,
+  `${IMG}lp-moon-bowl.webp`,
+  `${IMG}lp-pink-smile.webp`,
 ];
 
 /* ------------------------------------------------------------------ */
@@ -523,7 +525,7 @@ export default function NewbornLandingPage() {
 
       {/* ---------- Final CTA ---------- */}
       <section className={styles.final}>
-        <Image src={`${IMG}lp-rattan-bed.webp`} alt="" fill sizes="100vw" style={{ objectFit: 'cover' }} />
+        <Image src={`${IMG}8th.jpeg`} alt="" fill sizes="100vw" style={{ objectFit: 'cover' }} />
         <div className={styles.finalInner}>
           <h2>They&apos;ll only be this small once.</h2>
           <p>Book your newborn photoshoot in Dubai today. Packages from {STARTING_PRICE}.</p>
