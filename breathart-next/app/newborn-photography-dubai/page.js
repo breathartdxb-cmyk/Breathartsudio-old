@@ -1,5 +1,5 @@
 'use client';
-
+ 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -22,20 +22,20 @@ import {
   MapPin,
 } from 'lucide-react';
 import styles from './page.module.css';
-
+ 
 /* ------------------------------------------------------------------ */
 /*  Content — edit text, prices and photos here                        */
 /* ------------------------------------------------------------------ */
-
+ 
 const IMG = '/assets/services/newborn/newborn-and-maternity/';
-
+ 
 const PHONE_DISPLAY = '+971 52 640 0679';
 const PHONE_LINK = 'tel:+971526400679';
 const WHATSAPP_LINK =
   'https://wa.me/971526400679?text=' +
   encodeURIComponent("Hi BreathArt! I'd like to know about newborn photoshoot packages and available dates.");
 const STARTING_PRICE = 'AED 499';
-
+ 
 // Studio location — taken from the map on the Contact page. Please confirm.
 const STUDIO_AREA = 'Al Qusais 1, Dubai';
 const STUDIO_LANDMARK = 'Near Pasons Supermarket (Noor Al Qusais)';
@@ -44,7 +44,7 @@ const MAPS_LINK =
   encodeURIComponent('Pasons Supermarket Al Qusais 1 Dubai');
 // Opening hours — fill in to show them on the page, e.g. 'Daily, 10am – 8pm'
 const OPENING_HOURS = '';
-
+ 
 const trustPoints = [
   { icon: Star, text: '5+ Years Experience' },
   { icon: Users, text: 'Female Photographer on Request' },
@@ -52,7 +52,7 @@ const trustPoints = [
   { icon: Wallet, text: 'Transparent Pricing' },
   { icon: Home, text: 'Studio or At-Home' },
 ];
-
+ 
 const reasons = [
   {
     icon: Shield,
@@ -75,7 +75,7 @@ const reasons = [
     text: "Can't travel with a newborn? Our team arrives at your home on time with everything needed for a beautiful shoot.",
   },
 ];
-
+ 
 const themes = [
   { src: `${IMG}th-starry-night.webp`, name: 'Starry Night', note: 'Dreamy clouds and twinkling stars' },
   { src: `${IMG}th-honey-bee.webp`, name: 'Little Honey Bee', note: 'Sunny yellow and the sweetest smiles' },
@@ -85,8 +85,12 @@ const themes = [
   { src: `${IMG}1photo.jpeg`, name: 'Arabian Heritage', note: 'Lanterns, dallah and golden accents' },
   { src: `${IMG}th-floral-swing.webp`, name: 'Floral Swing', note: 'Blooming flowers and warm colours' },
   { src: `${IMG}th-pink-bunny.webp`, name: 'Pink Bunny', note: 'Pastel knits with a little bunny' },
+  { src: `${IMG}th-peacock-krishna.webp`, name: 'Little Krishna', note: 'Peacock feathers and a tiny flute' },
+  { src: `${IMG}th-seashell.webp`, name: 'Seashell Princess', note: 'Pearly shell, coral and soft roses' },
+  { src: `${IMG}th-butterfly.webp`, name: 'Butterfly Dreams', note: 'Pastel wings framed with flowers' },
+  { src: `${IMG}th-sunflower-bouquet.webp`, name: 'Sunflower Bouquet', note: 'Wrapped like a bunch of sunshine' },
 ];
-
+ 
 const steps = [
   {
     icon: CalendarHeart,
@@ -104,7 +108,7 @@ const steps = [
     text: 'Hand-edited portraits ready to share, print and keep forever.',
   },
 ];
-
+ 
 const testimonials = [
   {
     text: 'Great service and professional staff! Prajith and Gladson were great with the baby and calmed her down to settle for the photoshoot. I would highly recommend them!',
@@ -122,7 +126,7 @@ const testimonials = [
     location: 'Google review',
   },
 ];
-
+ 
 const faqs = [
   {
     q: 'When is the best time for a newborn photoshoot?',
@@ -149,7 +153,7 @@ const faqs = [
     a: `Packages start from ${STARTING_PRICE}. Pricing is fully transparent with no hidden fees. Message us and we will share the package that suits you.`,
   },
 ];
-
+ 
 const galleryStrip = [
   `${IMG}8th.jpeg`,
   `${IMG}lp-smile-bucket.webp`,
@@ -163,33 +167,39 @@ const galleryStrip = [
   `${IMG}lp-theo.webp`,
   `${IMG}lp-moon-bowl.webp`,
   `${IMG}lp-pink-smile.webp`,
+  `${IMG}lp-sunflower-chair.webp`,
+  `${IMG}lp-blue-teddy.webp`,
+  `${IMG}lp-cloud-boat.webp`,
+  `${IMG}lp-krishna-basket.webp`,
+  `${IMG}lp-ramadan-cream.webp`,
+  `${IMG}lp-star-swing.webp`,
 ];
-
+ 
 /* ------------------------------------------------------------------ */
-
+ 
 function BookingForm({ id }) {
   const [state, handleSubmit] = useForm('meebwbzz');
-
+ 
   useEffect(() => {
     if (state.succeeded) window.location.href = '/thank-you';
   }, [state.succeeded]);
-
+ 
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
       <input type="hidden" name="service" value="newborn" />
       <input type="hidden" name="source" value="Newborn landing page" />
-
+ 
       <label className={styles.field}>
         <span>Your name</span>
         <input type="text" name="name" required autoComplete="name" placeholder="e.g. Aisha" />
       </label>
-
+ 
       <label className={styles.field}>
         <span>WhatsApp / phone</span>
         <input type="tel" name="phone" required autoComplete="tel" placeholder="+971 5X XXX XXXX" />
       </label>
       <ValidationError field="phone" prefix="Phone" errors={state.errors} className={styles.error} />
-
+ 
       <div className={styles.fieldRow}>
         <label className={styles.field}>
           <span>Due date / baby&apos;s birth date</span>
@@ -204,13 +214,13 @@ function BookingForm({ id }) {
           </select>
         </label>
       </div>
-
+ 
       <label className={styles.field}>
         <span>Email (optional)</span>
         <input type="email" name="email" autoComplete="email" placeholder="you@example.com" />
       </label>
       <ValidationError field="email" prefix="Email" errors={state.errors} className={styles.error} />
-
+ 
       <button type="submit" className={styles.btnPrimary} disabled={state.submitting} id={`${id}-submit`}>
         {state.submitting ? 'Sending…' : 'Check Availability'}
       </button>
@@ -218,7 +228,7 @@ function BookingForm({ id }) {
     </form>
   );
 }
-
+ 
 function FaqItem({ q, a }) {
   const [open, setOpen] = useState(false);
   return (
@@ -233,13 +243,13 @@ function FaqItem({ q, a }) {
     </div>
   );
 }
-
+ 
 export default function NewbornLandingPage() {
   return (
     <main className={styles.page}>
       {/* On phones the sticky bar below replaces the site-wide floating buttons */}
       <style>{`@media (max-width: 640px) { .whatsapp-float { display: none !important; } .payment-float-banner { display: none !important; } }`}</style>
-
+ 
       {/* ---------- Top bar ---------- */}
       <header className={styles.topbar}>
         <Link href="/" className={styles.logo}>
@@ -257,7 +267,7 @@ export default function NewbornLandingPage() {
           </a>
         </div>
       </header>
-
+ 
       {/* ---------- Hero ---------- */}
       <section className={styles.hero}>
         <div className={styles.heroText}>
@@ -271,7 +281,7 @@ export default function NewbornLandingPage() {
             Gentle, baby-safe newborn photoshoots by a caring, trained team, in our cosy Dubai studio or in the comfort of
             your home. Female photographer available on request.
           </p>
-
+ 
           <div className={styles.homeBanner}>
             <div className={styles.homeIcon}><Home size={22} /></div>
             <div>
@@ -279,13 +289,13 @@ export default function NewbornLandingPage() {
               <span>Can&apos;t travel with a newborn? Our team arrives with lighting, props &amp; outfits, so your baby never leaves home.</span>
             </div>
           </div>
-
+ 
           <ul className={styles.heroChecks}>
             <li><Check size={18} /> All props, wraps &amp; outfits included</li>
             <li><Check size={18} /> Trained in safe newborn posing</li>
             <li><Check size={18} /> Parents &amp; siblings welcome</li>
           </ul>
-
+ 
           <div className={styles.priceRow}>
             <div className={styles.priceTag}>
               <span>Packages from</span>
@@ -297,7 +307,7 @@ export default function NewbornLandingPage() {
               <Image src="/assets/logo/tamara-logo.webp" alt="Tamara" width={63} height={36} />
             </div>
           </div>
-
+ 
           <div className={styles.heroCtas}>
             <a href="#book" className={styles.btnPrimary}>Check Availability</a>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className={styles.btnGhost}>
@@ -305,7 +315,7 @@ export default function NewbornLandingPage() {
             </a>
           </div>
         </div>
-
+ 
         <div className={styles.heroMedia}>
           <div className={styles.heroImgMain}>
             <Image
@@ -338,7 +348,7 @@ export default function NewbornLandingPage() {
           </div>
         </div>
       </section>
-
+ 
       {/* ---------- Trust strip ---------- */}
       <section className={styles.trust} aria-label="Why BreathArt">
         {trustPoints.map(({ icon: Icon, text }) => (
@@ -348,7 +358,7 @@ export default function NewbornLandingPage() {
           </div>
         ))}
       </section>
-
+ 
       {/* ---------- Gallery strip ---------- */}
       <section className={styles.strip} aria-label="Newborn portfolio">
         <div className={styles.stripTrack}>
@@ -359,7 +369,7 @@ export default function NewbornLandingPage() {
           ))}
         </div>
       </section>
-
+ 
       {/* ---------- Why us ---------- */}
       <section className={styles.section}>
         <div className={styles.split}>
@@ -393,7 +403,7 @@ export default function NewbornLandingPage() {
           </div>
         </div>
       </section>
-
+ 
       {/* ---------- Themes ---------- */}
       <section className={`${styles.section} ${styles.tinted}`} id="themes">
         <div className={styles.center}>
@@ -423,7 +433,7 @@ export default function NewbornLandingPage() {
           </a>
         </div>
       </section>
-
+ 
       {/* ---------- How it works ---------- */}
       <section className={styles.section}>
         <div className={styles.center}>
@@ -445,7 +455,7 @@ export default function NewbornLandingPage() {
           still expecting.
         </p>
       </section>
-
+ 
       {/* ---------- Testimonials ---------- */}
       <section className={`${styles.section} ${styles.dark}`}>
         <div className={styles.center}>
@@ -466,7 +476,7 @@ export default function NewbornLandingPage() {
           ))}
         </div>
       </section>
-
+ 
       {/* ---------- Booking ---------- */}
       <section className={styles.section} id="book">
         <div className={styles.bookWrap}>
@@ -512,7 +522,7 @@ export default function NewbornLandingPage() {
           </div>
         </div>
       </section>
-
+ 
       {/* ---------- FAQ ---------- */}
       <section className={`${styles.section} ${styles.tinted}`}>
         <div className={styles.center}>
@@ -523,7 +533,7 @@ export default function NewbornLandingPage() {
           {faqs.map((f) => <FaqItem key={f.q} {...f} />)}
         </div>
       </section>
-
+ 
       {/* ---------- Final CTA ---------- */}
       <section className={styles.final}>
         <Image src={`${IMG}8th.jpeg`} alt="" fill sizes="100vw" style={{ objectFit: 'cover' }} />
@@ -538,7 +548,7 @@ export default function NewbornLandingPage() {
           </div>
         </div>
       </section>
-
+ 
       {/* ---------- Mobile sticky bar ---------- */}
       <div className={styles.stickyBar}>
         <a href={PHONE_LINK} className={styles.stickyCall}><Phone size={18} /> Call</a>
@@ -550,3 +560,4 @@ export default function NewbornLandingPage() {
     </main>
   );
 }
+ 
