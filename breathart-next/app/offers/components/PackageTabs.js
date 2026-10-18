@@ -1,0 +1,64 @@
+'use client';
+
+import { useState } from 'react';
+import { categories } from '../packages';
+import styles from '../offers.module.css';
+
+const labels = { Maternity: 'Maternity', CakeSmash: 'Cake Smash', Couple: 'Couple', Event: 'Events' };
+const wa = (msg) => `https://wa.me/971526400679?text=${encodeURIComponent(msg)}`;
+
+export default function PackageTabs() {
+  const keys = Object.keys(categories);
+  const [active, setActive] = useState(keys[0]);
+  const cat = categories[active];
+
+  return (
+    <div>
+      <div className={styles.tabs} role="tablist" aria-label="Package categories">
+        {keys.map((k) => (
+          <button
+            key={k}
+            type="button"
+            role="tab"
+            aria-selected={active === k}
+            className={`${styles.tab} ${active === k ? styles.tabActive : ''}`}
+            onClick={() => setActive(k)}
+          >
+            {labels[k] || k}
+          </button>
+        ))}
+      </div>
+
+      <div className={styles.catHead}>
+        <h3>{cat.title}</h3>
+        <p>{cat.tagline}</p>
+      </div>
+
+      <div className={styles.cards}>
+        {cat.packages.map((p, i) => {
+          const featured = i === 1;
+          return (
+            <div key={p.name} className={`${styles.card} ${featured ? styles.cardFeatured : ''}`}>
+              {featured && <span className={styles.badge}>Most popular</span>}
+              <p className={styles.pkgName}>{p.name}</p>
+              <p className={styles.price}>{p.price.replace('DHS', 'AED')}</p>
+              <ul className={styles.incl}>
+                {p.inclusions.map((x) => (
+                  <li key={x}>{x}</li>
+                ))}
+              </ul>
+              <a
+                href={wa(`Hi BreathART! I'd like to book the ${labels[active] || active} ${p.name} (${p.price.replace('DHS', 'AED')}).`)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={featured ? styles.btnGold : styles.btnDark}
+              >
+                Book this package
+              </a>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
