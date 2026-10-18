@@ -1,0 +1,110 @@
+.hero {
+  position: relative;
+  min-height: 82vh;
+  display: flex;
+  align-items: flex-end;
+  background: #1c120e;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(20, 12, 9, 0.55) 0%, rgba(20, 12, 9, 0.35) 40%, rgba(20, 12, 9, 0.88) 100%);
+}
+.heroContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 9rem 1.25rem clamp(3rem, 7vw, 5rem);
+}
+.title {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: clamp(2.6rem, 6.4vw, 5.4rem);
+  line-height: 1.04;
+  margin: 0 0 1.2rem;
+}
+.title em {
+  color: #e2cba3;
+}
+.lead {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.75;
+  max-width: 660px;
+  margin: 0 auto 2.2rem;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.chips a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(226, 203, 163, 0.45);
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.2s ease;
+}
+.chips a:hover {
+  background: #c8a46e;
+  border-color: #c8a46e;
+  color: #1c120e;
+}
+
+.faqs {
+  max-width: 860px;
+  margin: 0 auto;
+  border-top: 1px solid #e4d7c8;
+}
+.faq {
+  border-bottom: 1px solid #e4d7c8;
+}
+.faq summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.5rem 2.5rem 1.5rem 0;
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-size: 1.2rem;
+  position: relative;
+}
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+.faq summary::after {
+  content: '+';
+  position: absolute;
+  right: 0.3rem;
+  top: 1.35rem;
+  color: #c8a46e;
+  font-size: 1.4rem;
+  transition: transform 0.25s ease;
+}
+.faq[open] summary::after {
+  transform: rotate(45deg);
+}
+.faq p {
+  margin: 0 0 1.5rem;
+  color: #6f5d55;
+  line-height: 1.75;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    min-height: 88vh;
+  }
+  .chips a {
+    font-size: 0.62rem;
+    padding: 0.5rem 0.7rem;
+  }
+}
