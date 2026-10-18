@@ -28,6 +28,15 @@ const MarkdownRenderer = ({ content }) => {
       className="markdown-renderer"
     >
       {blocks.map((block, index) => {
+        // H3
+        if (block.startsWith('### ')) {
+          return (
+            <motion.h3 variants={itemVariants} key={index}>
+              {block.replace('### ', '')}
+            </motion.h3>
+          );
+        }
+
         // H2
         if (block.startsWith('## ')) {
           return (
@@ -72,8 +81,8 @@ const MarkdownRenderer = ({ content }) => {
         }
  
         // Unordered List
-        if (block.startsWith('- ')) {
-          const items = block.split('\n').map(line => line.replace('- ', ''));
+        if (block.startsWith('- ') || block.startsWith('* ')) {
+          const items = block.split('\n').map(line => line.replace(/^[-*] /, ''));
           return (
             <motion.ul variants={itemVariants} key={index}>
               {items.map((item, i) => {
@@ -107,15 +116,37 @@ const MarkdownRenderer = ({ content }) => {
   );
 };
  
-const renderBold = (text) => {
-  const parts = text.split(/(\*\*.*?\*\*)/g);
+const renderLinks = (text, keyPrefix) => {
+  const parts = text.split(/(\[[^\]]+\]\([^)\s]+\))/g);
   return parts.map((part, i) => {
-    if (part.startsWith('**') && part.endsWith('**')) {
-      return <strong key={i} className="markdown-bold">{part.slice(2, -2)}</strong>;
+    const m = part.match(/^\[([^\]]+)\]\(([^)\s]+)\)$/);
+    if (m) {
+      const external = /^https?:/.test(m[2]);
+      return (
+        <a
+          key={keyPrefix + '-' + i}
+          href={m[2]}
+          className="markdown-link"
+          style={{ color: 'var(--color-gold)', textDecoration: 'underline', textUnderlineOffset: '3px' }}
+          {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+        >
+          {m[1]}
+        </a>
+      );
     }
     return part;
   });
 };
- 
+
+const renderBold = (text) => {
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i} className="markdown-bold">{renderLinks(part.slice(2, -2), 'b' + i)}</strong>;
+    }
+    return <React.Fragment key={i}>{renderLinks(part, 't' + i)}</React.Fragment>;
+  });
+};
+
 export default MarkdownRenderer;
  
