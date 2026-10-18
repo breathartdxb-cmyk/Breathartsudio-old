@@ -69,8 +69,17 @@ export default async function BlogPostPage({ params }) {
     ],
   };
 
+  const faqSchema = blog.faqs?.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: blog.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+      }
+    : null;
+
   return (
     <main style={{ backgroundColor: 'var(--color-black)', minHeight: '100vh' }}>
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {/* Full Bleed Hero Section */}
@@ -108,16 +117,35 @@ export default async function BlogPostPage({ params }) {
       <section className="post-body-wrapper">
         <div className="post-content">
           <MarkdownRenderer content={blog.content} />
+
+          {blog.faqs?.length > 0 && (
+            <div style={{ marginTop: '3rem', color: 'var(--color-white)', fontSize: '1.08rem', lineHeight: 1.75 }}>
+              <h2 style={{ fontFamily: 'var(--font-heading), serif', fontSize: '2rem', margin: '0 0 1rem', paddingBottom: '1rem', borderBottom: '1px solid var(--color-shade-3)' }}>
+                Frequently asked questions
+              </h2>
+              {blog.faqs.map((f) => (
+                <details key={f.q} style={{ borderBottom: '1px solid var(--color-shade-3)', padding: '1.1rem 0' }}>
+                  <summary style={{ cursor: 'pointer', fontWeight: 600 }}>{f.q}</summary>
+                  <p style={{ margin: '0.8rem 0 0' }}>{f.a}</p>
+                </details>
+              ))}
+            </div>
+          )}
           
           <div className="post-cta">
             <div className="post-cta-logo">
-              <img src="/assets/logo/BreathArt Photography new Logo.png" alt="BreathArt Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <img src="/assets/logo/BreathArt%20Photography%20new%20Logo.png" alt="BreathArt Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
             <h3 className="post-cta-title">Ready to capture your story?</h3>
-            <p className="post-cta-desc">Our team is ready to help you plan the perfect session in Dubai.</p>
-            <Link href="/contact" className="noha-btn">
-              Book Your Session
-            </Link>
+            <p className="post-cta-desc">Our team is ready to help you plan the perfect session in Dubai, Abu Dhabi or at your home anywhere in the UAE.</p>
+            <a
+              href={`https://wa.me/971526400679?text=${encodeURIComponent(`Hi BreathART! I read "${blog.title.split('|')[0].trim()}" and would like to book a session.`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="noha-btn-primary"
+            >
+              Book on WhatsApp
+            </a>
           </div>
         </div>
       </section>
