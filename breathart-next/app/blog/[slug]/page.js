@@ -21,11 +21,16 @@ export async function generateMetadata({ params }) {
   return {
     title: blog.metaTitle,
     description: blog.metaDescription,
+    alternates: {
+      canonical: `/blog/${blog.slug}`,
+    },
     openGraph: {
       title: blog.metaTitle,
       description: blog.metaDescription,
-      images: [blog.image],
-    }
+      url: `https://www.breathartstudio.com/blog/${blog.slug}`,
+      type: 'article',
+      images: [encodeURI(blog.image)],
+    },
   };
 }
 
@@ -37,8 +42,37 @@ export default async function BlogPostPage({ params }) {
     notFound();
   }
 
+  const SITE = 'https://www.breathartstudio.com';
+  const published = new Date(blog.date);
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: blog.title.split('|')[0].trim(),
+    description: blog.metaDescription,
+    image: `${SITE}${encodeURI(blog.image)}`,
+    datePublished: isNaN(published.getTime()) ? undefined : published.toISOString(),
+    author: { '@type': 'Organization', name: 'BreathArt Photography Studio', url: SITE },
+    publisher: {
+      '@type': 'Organization',
+      name: 'BreathArt Photography Studio',
+      logo: { '@type': 'ImageObject', url: `${SITE}/assets/logo/BreathArt%20Photography%20new%20Logo.png` },
+    },
+    mainEntityOfPage: `${SITE}/blog/${blog.slug}`,
+  };
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE}/blog` },
+      { '@type': 'ListItem', position: 3, name: blog.title.split('|')[0].trim(), item: `${SITE}/blog/${blog.slug}` },
+    ],
+  };
+
   return (
     <main style={{ backgroundColor: 'var(--color-black)', minHeight: '100vh' }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {/* Full Bleed Hero Section */}
       <section className="post-hero">
         {/* Parallax/Scaling Background */}

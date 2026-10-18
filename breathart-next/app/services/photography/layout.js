@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../../schema';
 
 export const metadata = {
-  title: 'Professional Photography Services Dubai — Newborn, Wedding, Corporate',
-  description: 'Explore BreathArt\'s professional photography services in Dubai. Family & lifestyle, wedding & romance, corporate branding, event photography, and commercial space photography.',
+  title: 'Professional Photography Services in Dubai & Abu Dhabi | BreathART',
+  description: 'Family, newborn, cake smash, wedding, corporate and commercial photography by dedicated BreathART teams. Premium quality at affordable prices, delivered on time across the UAE.',
   alternates: {
     canonical: '/services/photography',
   },
   openGraph: {
-    title: 'Professional Photography Services — BreathArt Studio Dubai',
-    description: 'Fine-art photography services including newborn, maternity, wedding, corporate, and event photography in Dubai.',
-    url: 'https://breathart.ae/services/photography',
+    title: 'Professional Photography Services in Dubai & Abu Dhabi | BreathART',
+    description: 'Family, newborn, cake smash, wedding, corporate and commercial photography by dedicated BreathART teams. Premium quality at affordable prices, delivered on time across the UAE.',
+    url: 'https://www.breathartstudio.com/services/photography',
     images: [
       {
         url: '/assets/gallery/family/bk-279-suhad.webp',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Professional Photography Services — BreathArt Studio Dubai',
-    description: 'Fine-art photography services including newborn, maternity, wedding, corporate, and event photography in Dubai.',
+    title: 'Professional Photography Services in Dubai & Abu Dhabi | BreathART',
+    description: 'Family, newborn, cake smash, wedding, corporate and commercial photography by dedicated BreathART teams. Premium quality at affordable prices, delivered on time across the UAE.',
     images: ['/assets/gallery/family/bk-279-suhad.webp'],
   },
 };

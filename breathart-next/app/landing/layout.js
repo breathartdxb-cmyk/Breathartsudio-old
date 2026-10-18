@@ -6,10 +6,11 @@ export const metadata = {
   alternates: {
     canonical: '/landing',
   },
+  robots: { index: false, follow: true },
   openGraph: {
     title: 'BreathArt Studio Dubai — Luxury Photography & Exclusive Offers',
     description: 'Luxury photography and videography with exclusive limited-time offers. 50% off newborn photography, couple sessions, and event coverage.',
-    url: 'https://breathart.ae/landing',
+    url: 'https://www.breathartstudio.com/landing',
     images: [
       {
         url: '/assets/hero/hero_nature.png',

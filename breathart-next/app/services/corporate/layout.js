@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../../schema';
 
 export const metadata = {
-  title: 'Corporate Photography Dubai — BreathArt',
-  description: 'Elevate your professional brand with executive headshots, company branding campaigns, and corporate event photography in Dubai.',
+  title: 'Corporate Photography & Headshots Dubai & Abu Dhabi | BreathART',
+  description: 'Executive headshots, team photos, office and brand photography and corporate event coverage for UAE businesses. On-location or in studio, with on-time delivery.',
   alternates: {
     canonical: '/services/corporate',
   },
   openGraph: {
-    title: 'Corporate Photography Dubai — BreathArt',
-    description: 'Elevate your professional brand with executive headshots, company branding campaigns, and corporate event photography in Dubai.',
-    url: 'https://breathart.ae/services/corporate',
+    title: 'Corporate Photography & Headshots Dubai & Abu Dhabi | BreathART',
+    description: 'Executive headshots, team photos, office and brand photography and corporate event coverage for UAE businesses. On-location or in studio, with on-time delivery.',
+    url: 'https://www.breathartstudio.com/services/corporate',
     images: [
       {
         url: '/assets/gallery/corporate/pexels-ono-kosuki-5648103.webp',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Corporate Photography Dubai — BreathArt',
-    description: 'Elevate your professional brand with executive headshots, company branding campaigns, and corporate event photography in Dubai.',
+    title: 'Corporate Photography & Headshots Dubai & Abu Dhabi | BreathART',
+    description: 'Executive headshots, team photos, office and brand photography and corporate event coverage for UAE businesses. On-location or in studio, with on-time delivery.',
     images: ['/assets/gallery/corporate/pexels-ono-kosuki-5648103.webp'],
   },
 };

@@ -5,8 +5,35 @@
  */
 
 const SITE_URL = 'https://www.breathartstudio.com';
-const SITE_NAME = 'BreathArt Photography Studio';
-const LOGO_URL = `${SITE_URL}/assets/logo/BreathArt Photography new Logo.png`;
+const SITE_NAME = 'BreathART Photography Studio';
+const PARENT = {
+  '@type': 'Organization',
+  name: 'BreathART Group',
+  subOrganization: [
+    { '@type': 'Organization', name: 'Forventures' },
+    { '@type': 'Organization', name: 'TradeLicenceDXB', url: 'https://tradelicencedxb.com' },
+    { '@type': 'EducationalOrganization', name: 'BICT', url: 'https://www.breathartinstitute.in/' },
+  ],
+};
+const AREAS = [
+  { '@type': 'City', name: 'Dubai' },
+  { '@type': 'City', name: 'Abu Dhabi' },
+  { '@type': 'City', name: 'Sharjah' },
+  { '@type': 'Country', name: 'United Arab Emirates' },
+];
+const LOGO_URL = `${SITE_URL}/assets/logo/BreathArt%20Photography%20new%20Logo.png`;
+const SAME_AS = [
+  'https://www.instagram.com/breathart.photography',
+  'https://www.instagram.com/newborn_photography_breathart',
+  'https://www.facebook.com/share/193V3fhepb/',
+];
+const ADDRESS = {
+  '@type': 'PostalAddress',
+  streetAddress: '12 22A Street, Al Qusais',
+  addressLocality: 'Dubai',
+  addressRegion: 'Dubai',
+  addressCountry: 'AE',
+};
 
 // ── Organization Schema ──
 export function OrganizationSchema() {
@@ -16,7 +43,10 @@ export function OrganizationSchema() {
     name: SITE_NAME,
     url: SITE_URL,
     logo: LOGO_URL,
-    description: 'Premium photography and videography studio in Dubai specializing in newborn, wedding, corporate, and event photography with cinematic elegance.',
+    alternateName: ['BreathArt Studio', 'BreathART Photography'],
+    description: 'Premium photography studio with outlets in Dubai and Abu Dhabi, offering family, newborn, cake smash, wedding, corporate and commercial photography, videography, events and photo printing at affordable prices.',
+    parentOrganization: PARENT,
+    areaServed: AREAS,
     contactPoint: [
       {
         '@type': 'ContactPoint',
@@ -34,15 +64,9 @@ export function OrganizationSchema() {
       },
     ],
     email: 'info@breathartstudio.com',
-    sameAs: [
-      'https://wa.me/971526400679',
-    ],
+    sameAs: SAME_AS,
     foundingDate: '2012',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Dubai',
-      addressCountry: 'AE',
-    },
+    address: ADDRESS,
   };
 
   return (
@@ -58,8 +82,9 @@ export function WebSiteSchema() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: SITE_NAME,
-    url: SITE_URL,
+    name: 'BreathART Photography Studio',
+    alternateName: ['BreathArt Studio', 'BreathART Dubai'],
+    url: `${SITE_URL}/`,
     description: 'Premium photography studio in Dubai offering newborn, wedding, corporate, event photography and videography services.',
     publisher: {
       '@type': 'Organization',
@@ -88,27 +113,17 @@ export function LocalBusinessSchema() {
     url: SITE_URL,
     logo: LOGO_URL,
     image: `${SITE_URL}/assets/hero/hero_nature.png`,
-    description: 'Dubai\'s luxury photography studio specializing in cinematic visual legacies — newborn, wedding, corporate, and event photography.',
-    telephone: ['+971-52-640-0679', '+971-52-215-0837'],
+    '@id': `${SITE_URL}/#business`,
+    description: 'Premium photography studio in Al Qusais, Dubai (with an outlet in Abu Dhabi) for family, newborn, cake smash, wedding, corporate and commercial photography, videography, events and photo printing.',
+    parentOrganization: { '@type': 'Organization', name: 'BreathART Group' },
+    telephone: '+971-52-640-0679',
     email: 'info@breathartstudio.com',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Dubai',
-      addressRegion: 'Dubai',
-      addressCountry: 'AE',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 25.2048493,
-      longitude: 55.27078280,
-    },
+    address: ADDRESS,
+    sameAs: SAME_AS,
     priceRange: '$$',
     currenciesAccepted: 'AED',
     paymentAccepted: 'Cash, Credit Card, Tamara',
-    areaServed: {
-      '@type': 'Country',
-      name: 'United Arab Emirates',
-    },
+    areaServed: AREAS,
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Photography & Videography Services',
@@ -117,7 +132,10 @@ export function LocalBusinessSchema() {
           '@type': 'OfferCatalog',
           name: 'Photography',
           itemListElement: [
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Newborn Fine-Art Photography' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Newborn & Maternity Photography' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Cake Smash Photography' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Commercial & Product Photography' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Photo Printing' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Wedding Photography' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Corporate Photography' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Event Photography' } },

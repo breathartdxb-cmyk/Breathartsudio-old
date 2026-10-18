@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../../schema';
 
 export const metadata = {
-  title: 'Real Estate & Architectural Photography Dubai — BreathArt',
-  description: 'High-end wide-angle and HDR architectural photography for commercial spaces, luxury properties, and real estate in Dubai.',
+  title: 'Real Estate, Interior & Commercial Photography Dubai | BreathART',
+  description: 'Property, hotel, interior and commercial photography for agents, developers and brands in Dubai and Abu Dhabi. Wide-angle, HDR and on-time delivery.',
   alternates: {
     canonical: '/services/real-estate',
   },
   openGraph: {
-    title: 'Real Estate & Architectural Photography Dubai — BreathArt',
-    description: 'High-end wide-angle and HDR architectural photography for commercial spaces, luxury properties, and real estate in Dubai.',
-    url: 'https://breathart.ae/services/real-estate',
+    title: 'Real Estate, Interior & Commercial Photography Dubai | BreathART',
+    description: 'Property, hotel, interior and commercial photography for agents, developers and brands in Dubai and Abu Dhabi. Wide-angle, HDR and on-time delivery.',
+    url: 'https://www.breathartstudio.com/services/real-estate',
     images: [
       {
         url: '/assets/gallery/corporate/compagnons-Uhfb85y_B-U-unsplash.jpg',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Real Estate & Architectural Photography Dubai — BreathArt',
-    description: 'High-end wide-angle and HDR architectural photography for commercial spaces, luxury properties, and real estate in Dubai.',
+    title: 'Real Estate, Interior & Commercial Photography Dubai | BreathART',
+    description: 'Property, hotel, interior and commercial photography for agents, developers and brands in Dubai and Abu Dhabi. Wide-angle, HDR and on-time delivery.',
     images: ['/assets/gallery/corporate/compagnons-Uhfb85y_B-U-unsplash.jpg'],
   },
 };

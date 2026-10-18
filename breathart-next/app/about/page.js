@@ -2,30 +2,50 @@ import Link from 'next/link';
 import { BreadcrumbSchema, WebPageSchema } from '../schema';
 
 export const metadata = {
-  title: 'About BreathArt Photography Studio Dubai — Our Story & Philosophy',
-  description: 'Discover the story behind BreathArt Photography Studio Dubai. 12+ years of premium photography expertise, experienced photographers, dedicated lady staff, and a state-of-the-art studio environment.',
+  title: 'About BreathART Photography Studio | Dubai & Abu Dhabi | BreathART Group',
+  description: 'BreathART Photography Studio is part of BreathART Group, with outlets in Dubai and Abu Dhabi. Family, newborn, cake smash, wedding, corporate and commercial photography — premium quality at affordable prices, delivered on time.',
   alternates: {
     canonical: '/about',
   },
   openGraph: {
-    title: 'About BreathArt Photography Studio Dubai — Our Story & Philosophy',
-    description: 'Discover the story behind Dubai\'s premier photography studio. 12+ years of expertise, experienced photographers, and a premium studio environment.',
-    url: 'https://breathart.ae/about',
+    title: 'About BreathART Photography Studio | Dubai & Abu Dhabi',
+    description: 'Premium photography at affordable prices — family, newborn, wedding, corporate and commercial. Outlets in Dubai and Abu Dhabi. Part of BreathART Group.',
+    url: 'https://www.breathartstudio.com/about',
     images: [
       {
         url: '/assets/hero/hero_nature.png',
         width: 1200,
         height: 630,
-        alt: 'About BreathArt Photography Studio Dubai',
+        alt: 'About BreathART Photography Studio',
       },
     ],
   },
-  twitter: {
-    title: 'About BreathArt Photography Studio Dubai — Our Story & Philosophy',
-    description: 'Discover the story behind Dubai\'s premier photography studio. 12+ years of expertise and a premium studio environment.',
-    images: ['/assets/hero/hero_nature.png'],
-  },
 };
+
+const groupCompanies = [
+  {
+    name: 'BreathART Photography',
+    text: 'Family, newborn, cake smash, wedding, corporate and commercial photography, plus events and photo printing across the UAE.',
+    href: '/',
+    linkLabel: 'You are here',
+  },
+  {
+    name: 'Forventures',
+    text: 'A consultancy and service provider for corporates, using AI technology to strengthen marketing, operations, human resources and accounts.',
+  },
+  {
+    name: 'TradeLicenceDXB',
+    text: 'Helping entrepreneurs obtain the right trade licence and legal documentation to start and run a business in the UAE.',
+    href: 'https://tradelicencedxb.com',
+    linkLabel: 'tradelicencedxb.com',
+  },
+  {
+    name: 'BICT',
+    text: 'An AI and creative technology institution in India, now expanding to the UAE.',
+    href: 'https://www.breathartinstitute.in/',
+    linkLabel: 'breathartinstitute.in',
+  },
+];
 
 const features = [
   {
@@ -53,14 +73,14 @@ const features = [
     link: '/services',
   },
   {
-    title: 'Fast Delivery',
-    desc: 'Rapid turn-around without compromising the artistry of post-production.',
+    title: 'On-Time Delivery',
+    desc: 'The best quality, delivered when we promise — without compromising on post-production.',
     image: '/assets/features/feature_delivery.png',
     link: '/services',
   },
   {
-    title: 'Trusted By 1000+',
-    desc: 'Building lasting relationships through exceptional art and trusted services.',
+    title: '100+ Creators',
+    desc: 'Dedicated teams for each service, backed by a network of more than 100 creators.',
     image: '/assets/services/service_wedding.png',
     link: '/services',
   },
@@ -122,8 +142,8 @@ export default function AboutPage() {
         ]}
       />
       <WebPageSchema
-        name="About BreathArt Photography Studio Dubai"
-        description="Discover the story behind Dubai's premier photography studio. 12+ years of expertise, experienced photographers, and a premium studio environment."
+        name="About BreathART Photography Studio"
+        description="Premium photography studio with outlets in Dubai and Abu Dhabi, part of BreathART Group."
         url="/about"
       />
       <header
@@ -136,7 +156,7 @@ export default function AboutPage() {
       >
         <div className="container container-narrow animate-reveal">
           <span className="cinematic-title" style={{ color: 'var(--color-gold)' }}>The Legacy</span>
-          <h1 style={{ color: 'var(--color-white)', fontSize: '4rem' }}>About BreathArt</h1>
+          <h1 style={{ color: 'var(--color-white)', fontSize: '4rem' }}>About BreathART</h1>
         </div>
       </header>
 
@@ -150,7 +170,7 @@ export default function AboutPage() {
           {/* Left Column */}
           <div className="story-left-col">
             <p className="story-text-emphasis">
-              At <strong>BreathArt</strong>, we see photography and visual storytelling as more than just captures. To us, it's about creating memorable, personal experiences that elevate your everyday life. It's about understanding the unique nuances of the creative market in our region and the behaviors and desires of its audience.
+              <strong>BreathART Photography Studio</strong> is a premium photography studio with outlets in <strong>Dubai and Abu Dhabi</strong>, and part of <strong>BreathART Group</strong>. We offer premium services at affordable prices — from family photography to weddings, newborn to cake smash, and corporate to commercial.
             </p>
             <img src="/assets/about/album_intro.png" alt="Our Story Showcase" className="story-portrait-img" loading="lazy" decoding="async" />
           </div>
@@ -158,14 +178,40 @@ export default function AboutPage() {
           {/* Right Column */}
           <div className="story-right-col">
             <p className="story-text">
-              Every photoshoot is carefully planned to provide a seamless and comfortable experience for our clients. From lighting and composition to styling and storytelling, we focus on every detail to ensure exceptional results.
+              Each type of shoot is handled by its own talented team, supported by a network of more than 100 creators. Together they bring fresh, creative ideas to every session — whether it is a newborn theme, a wedding film or a brand campaign.
             </p>
             <p className="story-text">
-              At BreathArt Photography Studio, we deliver more than just photographs—we create timeless visual experiences. With years of professional expertise, our team combines artistic vision with advanced photography techniques to capture moments with elegance and precision.
+              Two things matter most to us: the best possible quality, and delivering on time. Beyond photography and videography, we also cover events and offer professional photo printing services across the UAE.
             </p>
             <p className="story-text" style={{ fontStyle: 'italic', fontWeight: '500' }}>
               This is the BreathArt difference. This is art, redefined.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* BreathART Group */}
+      <section className="section" style={{ padding: '2rem 0 5rem 0' }}>
+        <div className="container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
+            <span className="cinematic-title" style={{ color: 'var(--color-gold)' }}>Part of something bigger</span>
+            <h2 className="section-title" style={{ fontSize: '2.5rem' }}>BreathART Group</h2>
+            <p style={{ color: 'var(--color-text-muted)', maxWidth: '640px', margin: '1rem auto 0', lineHeight: 1.8 }}>
+              BreathART Photography is a member of BreathART Group — a family of companies serving creators, families and businesses in the UAE and India.
+            </p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.5rem' }}>
+            {groupCompanies.map((c) => (
+              <div key={c.name} style={{ border: '1px solid rgba(158, 112, 96, 0.25)', borderRadius: '4px', padding: '2rem 1.6rem', background: '#fff' }}>
+                <h3 style={{ fontFamily: "'Playfair Display', serif", fontWeight: 500, fontSize: '1.35rem', margin: '0 0 0.8rem', color: 'var(--color-white)' }}>{c.name}</h3>
+                <p style={{ color: 'var(--color-text-muted)', lineHeight: 1.7, fontSize: '0.95rem', margin: 0 }}>{c.text}</p>
+                {c.href && (
+                  <a href={c.href} target={c.href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer" style={{ display: 'inline-block', marginTop: '1.2rem', color: 'var(--color-gold)', fontSize: '0.85rem', letterSpacing: '0.05em' }}>
+                    {c.linkLabel} →
+                  </a>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </section>

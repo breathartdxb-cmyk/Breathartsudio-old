@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'Privacy Policy | BreathArt Photography Studio Dubai',
     description: 'Learn how BreathArt Photography Studio collects, processes, and protects personal data in compliance with UAE data protection laws (PDPL).',
-    url: 'https://breathart.ae/privacy-policy',
+    url: 'https://www.breathartstudio.com/privacy-policy',
     images: [
       {
         url: '/assets/hero/hero_nature.png',
@@ -59,7 +59,7 @@ export default function PrivacyPolicyPage() {
             Welcome to <strong>BreathArt Creative Studio</strong> (hereinafter referred to as &ldquo;BreathArt,&rdquo; &ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;). We are committed to safeguarding the privacy and security of our clients&rsquo; and visitors&rsquo; personal data. 
           </p>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: '1.75', marginBottom: '1.25rem' }}>
-            This Privacy Policy outlines how we collect, process, store, and share your personal information when you visit our website (breathart.ae), use our booking channels, contact forms, or communicate with us directly. This policy is written in compliance with applicable laws of the United Arab Emirates, specifically the <strong>UAE Federal Decree-Law No. 45 of 2021 on Personal Data Protection (PDPL)</strong>.
+            This Privacy Policy outlines how we collect, process, store, and share your personal information when you visit our website (breathartstudio.com), use our booking channels, contact forms, or communicate with us directly. This policy is written in compliance with applicable laws of the United Arab Emirates, specifically the <strong>UAE Federal Decree-Law No. 45 of 2021 on Personal Data Protection (PDPL)</strong>.
           </p>
 
           <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.8rem', color: 'var(--color-white)', marginTop: '2.5rem', marginBottom: '1rem' }}>

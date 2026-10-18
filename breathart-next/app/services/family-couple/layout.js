@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../../schema';
 
 export const metadata = {
-  title: 'Artistic Family & Couple Photography Dubai — BreathArt',
-  description: 'Professional family lifestyle portraiture, sunset outdoor sessions, cake smashes, and romantic couple portrait portfolios in Dubai. Capture pure connections.',
+  title: 'Family, Couple & Cake Smash Photography Dubai & Abu Dhabi | BreathART',
+  description: 'Family portraits, couple shoots and first-birthday cake smash sessions in our studio or on location in Dubai and Abu Dhabi. Book with BreathART Photography Studio.',
   alternates: {
     canonical: '/services/family-couple',
   },
   openGraph: {
-    title: 'Artistic Family & Couple Photography Dubai — BreathArt',
-    description: 'Professional family lifestyle portraiture, sunset outdoor sessions, cake smashes, and romantic couple portrait portfolios in Dubai.',
-    url: 'https://breathart.ae/services/family-couple',
+    title: 'Family, Couple & Cake Smash Photography Dubai & Abu Dhabi | BreathART',
+    description: 'Family portraits, couple shoots and first-birthday cake smash sessions in our studio or on location in Dubai and Abu Dhabi. Book with BreathART Photography Studio.',
+    url: 'https://www.breathartstudio.com/services/family-couple',
     images: [
       {
         url: '/assets/gallery/family/bk-279-suhad.webp',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Artistic Family & Couple Photography Dubai — BreathArt',
-    description: 'Professional family lifestyle portraiture, sunset outdoor sessions, cake smashes, and romantic couple portrait portfolios in Dubai.',
+    title: 'Family, Couple & Cake Smash Photography Dubai & Abu Dhabi | BreathART',
+    description: 'Family portraits, couple shoots and first-birthday cake smash sessions in our studio or on location in Dubai and Abu Dhabi. Book with BreathART Photography Studio.',
     images: ['/assets/gallery/family/bk-279-suhad.webp'],
   },
 };

@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../../schema';
 
 export const metadata = {
-  title: 'Premium Event Photography & Management Dubai — BreathArt',
-  description: 'Luxury social gatherings, private birthdays, baby showers, and grand corporate event production and photography in Dubai. Full execution and celebrity curation.',
+  title: 'Event Photography & Coverage Dubai & Abu Dhabi | BreathART',
+  description: 'Photography and video for birthdays, baby showers, corporate events, conferences and private celebrations across the UAE, plus professional photo printing.',
   alternates: {
     canonical: '/services/events',
   },
   openGraph: {
-    title: 'Premium Event Photography & Management Dubai — BreathArt',
-    description: 'Luxury social gatherings, private birthdays, baby showers, and grand corporate event production and photography in Dubai.',
-    url: 'https://breathart.ae/services/events',
+    title: 'Event Photography & Coverage Dubai & Abu Dhabi | BreathART',
+    description: 'Photography and video for birthdays, baby showers, corporate events, conferences and private celebrations across the UAE, plus professional photo printing.',
+    url: 'https://www.breathartstudio.com/services/events',
     images: [
       {
         url: '/assets/gallery/event/pexels-caleboquendo-11329860.webp',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Premium Event Photography & Management Dubai — BreathArt',
-    description: 'Luxury social gatherings, private birthdays, baby showers, and grand corporate event production and photography in Dubai.',
+    title: 'Event Photography & Coverage Dubai & Abu Dhabi | BreathART',
+    description: 'Photography and video for birthdays, baby showers, corporate events, conferences and private celebrations across the UAE, plus professional photo printing.',
     images: ['/assets/gallery/event/pexels-caleboquendo-11329860.webp'],
   },
 };

@@ -50,11 +50,12 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL('https://www.breathartstudio.com'),
   title: {
-    default: 'BreathArt Photography Studio Dubai | Premium Photography & Videography',
-    template: '%s | BreathArt Photography Studio Dubai',
+    default: 'BreathART Photography Studio | Dubai & Abu Dhabi',
+    template: '%s',
   },
-  description: 'Dubai\'s premier luxury photography studio specializing in newborn, wedding, corporate, and event photography. Cinematic visual storytelling with 12+ years of expertise. Book your session today.',
-  keywords: ['photography studio Dubai', 'wedding photography Dubai', 'newborn photography Dubai', 'corporate photography UAE', 'event photography', 'videography Dubai', 'BreathArt', 'luxury photography', 'portrait studio', 'maternity photography'],
+  description: 'Premium photography at affordable prices — family, newborn, cake smash, wedding, corporate and commercial. Outlets in Dubai & Abu Dhabi. Rated 4.7 on Google. Part of BreathART Group.',
+  keywords: ['photography studio Dubai', 'newborn photography Dubai', 'maternity photography Dubai', 'cake smash photoshoot Dubai', 'family photographer Dubai', 'wedding photography Dubai', 'corporate photography UAE', 'BreathArt Studio'],
+  applicationName: 'BreathArt Studio',
   authors: [{ name: 'BreathArt Photography Studio' }],
   creator: 'BreathArt Photography Studio',
   publisher: 'BreathArt Photography Studio',
@@ -63,42 +64,29 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  alternates: {
-    canonical: 'https://www.breathartstudio.com/',
-    languages: {
-      'en-IN': 'https://www.breathartstudio.com/',
-      'x-default': 'https://www.breathartstudio.com/',
-    },
-  },
-  verification: {
-    google: 'YOUR_GOOGLE_VERIFICATION_CODE',
-    yandex: 'YOUR_YANDEX_VERIFICATION_CODE',
-    yahoo: 'YOUR_YAHOO_VERIFICATION_CODE',
-    other: {
-      'msvalidate.01': ['YOUR_BING_VERIFICATION_CODE'],
-    },
-  },
   openGraph: {
-    title: 'BreathArt Photography Studio Dubai | Premium Photography & Videography',
-    description: 'Dubai\'s premier luxury photography studio specializing in newborn, wedding, corporate, and event photography. Cinematic visual storytelling with 12+ years of expertise.',
-    url: 'https://www.breathartstudio.com/',
-    siteName: 'BreathArt Photography Studio',
-    locale: 'en_IN',
+    title: 'BreathART Photography Studio | Dubai & Abu Dhabi',
+    description: 'Premium photography at affordable prices — family, newborn, wedding, corporate and commercial. Outlets in Dubai & Abu Dhabi.',
+    siteName: 'BreathART Photography Studio',
+    locale: 'en_AE',
     type: 'website',
     images: [
       {
         url: '/assets/hero/hero_nature.png',
         width: 1200,
         height: 630,
-        alt: 'BreathArt Photography Studio Dubai — Premium Photography & Videography',
+        alt: 'BreathArt Photography Studio Dubai',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BreathArt Photography Studio Dubai | Premium Photography & Videography',
-    description: 'Dubai\'s premier luxury photography studio specializing in newborn, wedding, corporate, and event photography with cinematic elegance.',
+    title: 'BreathART Photography Studio | Dubai & Abu Dhabi',
+    description: 'Photography studio in Al Qusais, Dubai — newborn, maternity, cake smash, family, wedding and corporate shoots.',
     images: ['/assets/hero/hero_nature.png'],
+  },
+  verification: {
+    google: '6aDKn65egxmkQVXrF4P7RBf-S6vlIN3LXdA2h-NmJb0',
   },
   robots: {
     index: true,

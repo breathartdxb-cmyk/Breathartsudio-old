@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, ContactPageSchema, WebPageSchema } from '../schema';
 
 export const metadata = {
-  title: 'Contact Us — Book Your Photography Session in Dubai',
-  description: 'Get in touch with BreathArt Photography Studio Dubai. Book your newborn, wedding, corporate, or event photography session. Call +971 52 640 0679 or visit our studio.',
+  title: 'Contact BreathART Photography Studio | Dubai & Abu Dhabi',
+  description: 'Book your shoot with BreathART. Call or WhatsApp +971 52 640 0679, email info@breathartstudio.com, or visit our studio at 12 22A Street, Al Qusais, Dubai.',
   alternates: {
     canonical: '/contact',
   },
   openGraph: {
-    title: 'Contact BreathArt Photography Studio Dubai — Book Your Session',
-    description: 'Reserve your photography session at Dubai\'s premier luxury studio. Newborn, wedding, corporate, and event photography. Call us or fill out our inquiry form.',
-    url: 'https://breathart.ae/contact',
+    title: 'Contact BreathART Photography Studio | Dubai & Abu Dhabi',
+    description: 'Book your shoot with BreathART. Call or WhatsApp +971 52 640 0679, email info@breathartstudio.com, or visit our studio at 12 22A Street, Al Qusais, Dubai.',
+    url: 'https://www.breathartstudio.com/contact',
     images: [
       {
         url: '/assets/hero/hero_nature.png',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Contact BreathArt Photography Studio Dubai — Book Your Session',
-    description: 'Reserve your photography session at Dubai\'s premier luxury studio. Call us or fill out our inquiry form.',
+    title: 'Contact BreathART Photography Studio | Dubai & Abu Dhabi',
+    description: 'Book your shoot with BreathART. Call or WhatsApp +971 52 640 0679, email info@breathartstudio.com, or visit our studio at 12 22A Street, Al Qusais, Dubai.',
     images: ['/assets/hero/hero_nature.png'],
   },
 };

@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, WebPageSchema, OfferCatalogSchema } from '../schema';
 
 export const metadata = {
-  title: 'Photography Packages & Special Offers Dubai',
-  description: 'Explore BreathArt Photography Studio\'s exclusive packages and offers. Maternity, cake smash, couple, and event photography packages with transparent pricing in Dubai.',
+  title: 'Photography Packages & Offers Dubai & Abu Dhabi | BreathART',
+  description: 'Current BreathART photography packages and offers — newborn, maternity, cake smash, family, couple and event photography at affordable prices in the UAE.',
   alternates: {
     canonical: '/offers',
   },
   openGraph: {
-    title: 'Photography Packages & Special Offers — BreathArt Dubai',
-    description: 'Exclusive photography packages and limited-time offers. Maternity, cake smash, couple, and event sessions with transparent pricing.',
-    url: 'https://breathart.ae/offers',
+    title: 'Photography Packages & Offers Dubai & Abu Dhabi | BreathART',
+    description: 'Current BreathART photography packages and offers — newborn, maternity, cake smash, family, couple and event photography at affordable prices in the UAE.',
+    url: 'https://www.breathartstudio.com/offers',
     images: [
       {
         url: '/assets/hero/hero_nature.png',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Photography Packages & Special Offers — BreathArt Dubai',
-    description: 'Exclusive photography packages and limited-time offers. Maternity, cake smash, couple, and event sessions.',
+    title: 'Photography Packages & Offers Dubai & Abu Dhabi | BreathART',
+    description: 'Current BreathART photography packages and offers — newborn, maternity, cake smash, family, couple and event photography at affordable prices in the UAE.',
     images: ['/assets/hero/hero_nature.png'],
   },
 };

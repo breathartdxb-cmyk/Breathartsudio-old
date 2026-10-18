@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../../schema';
 
 export const metadata = {
-  title: 'Event Management & Production Services Dubai — Events By BreathArt',
-  description: 'Events By BreathArt — UAE\'s premier event management company. Stage shows, celebrity collaborations, corporate events, brand activations, and entertainment programs in Dubai.',
+  title: 'Events by BreathART — Event Management & Production UAE',
+  description: 'Events by BreathART plans and produces corporate events, brand activations, stage shows and private celebrations in Dubai and across the UAE. Part of BreathART Group.',
   alternates: {
     canonical: '/services/events-by-breathart',
   },
   openGraph: {
-    title: 'Event Management & Production — Events By BreathArt Dubai',
-    description: 'Creating unforgettable UAE events through innovative planning. Stage shows, celebrity collaborations, corporate events, and brand activations.',
-    url: 'https://breathart.ae/services/events-by-breathart',
+    title: 'Events by BreathART — Event Management & Production UAE',
+    description: 'Events by BreathART plans and produces corporate events, brand activations, stage shows and private celebrations in Dubai and across the UAE. Part of BreathART Group.',
+    url: 'https://www.breathartstudio.com/services/events-by-breathart',
     images: [
       {
         url: '/assets/gallery/event/pexels-panditwiguna-2788487.webp',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Event Management & Production — Events By BreathArt Dubai',
-    description: 'Creating unforgettable UAE events. Stage shows, celebrity collaborations, corporate events, and brand activations.',
+    title: 'Events by BreathART — Event Management & Production UAE',
+    description: 'Events by BreathART plans and produces corporate events, brand activations, stage shows and private celebrations in Dubai and across the UAE. Part of BreathART Group.',
     images: ['/assets/gallery/event/pexels-panditwiguna-2788487.webp'],
   },
 };

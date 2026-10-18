@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'Terms & Conditions | BreathArt Photography Studio Dubai',
     description: 'Read the terms and conditions for booking photography and videography services with BreathArt Creative Studio in Dubai.',
-    url: 'https://breathart.ae/terms-and-conditions',
+    url: 'https://www.breathartstudio.com/terms-and-conditions',
     images: [
       {
         url: '/assets/hero/hero_nature.png',

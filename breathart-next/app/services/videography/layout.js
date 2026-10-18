@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../../schema';
 
 export const metadata = {
-  title: 'Cinematic Videography Services Dubai — Wedding Films, Corporate & Aerial',
-  description: 'BreathArt\'s premium videography services in Dubai. Cinematic wedding films, corporate promos, social media reels, event coverage, and aerial drone cinematography.',
+  title: 'Videography Services Dubai & Abu Dhabi — Wedding, Corporate & Reels | BreathART',
+  description: 'Cinematic wedding films, corporate and brand videos, social media reels, event coverage and drone filming by BreathART in Dubai, Abu Dhabi and across the UAE.',
   alternates: {
     canonical: '/services/videography',
   },
   openGraph: {
-    title: 'Cinematic Videography Services — BreathArt Studio Dubai',
-    description: 'Premium videography including cinematic wedding films, corporate promos, social reels, and aerial drone cinematography in Dubai.',
-    url: 'https://breathart.ae/services/videography',
+    title: 'Videography Services Dubai & Abu Dhabi — Wedding, Corporate & Reels | BreathART',
+    description: 'Cinematic wedding films, corporate and brand videos, social media reels, event coverage and drone filming by BreathART in Dubai, Abu Dhabi and across the UAE.',
+    url: 'https://www.breathartstudio.com/services/videography',
     images: [
       {
         url: '/assets/gallery/wedding/pexels-habib-hosseini-3673463.webp',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Cinematic Videography Services — BreathArt Studio Dubai',
-    description: 'Premium videography including cinematic wedding films, corporate promos, and aerial drone cinematography.',
+    title: 'Videography Services Dubai & Abu Dhabi — Wedding, Corporate & Reels | BreathART',
+    description: 'Cinematic wedding films, corporate and brand videos, social media reels, event coverage and drone filming by BreathART in Dubai, Abu Dhabi and across the UAE.',
     images: ['/assets/gallery/wedding/pexels-habib-hosseini-3673463.webp'],
   },
 };

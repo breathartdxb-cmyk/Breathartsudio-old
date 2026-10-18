@@ -12,7 +12,7 @@ export default function Footer() {
               <Image src="/assets/logo/BreathArt Photography new Logo.png" alt="BreathArt Photography Logo" width={182} height={45} style={{ height: '45px', width: 'auto', objectFit: 'contain' }} />
             </Link>
             <p className="footer-desc">
-              Dubai&apos;s luxury photography studio specializing in cinematic visual legacies. We turn fleeting moments into timeless fine-art treasures.
+              Premium photography at affordable prices — family, newborn, cake smash, wedding, corporate and commercial. Outlets in Dubai &amp; Abu Dhabi. Part of BreathART Group.
             </p>
             <div className="payment-acceptance">
               <span>We accept</span>
@@ -26,19 +26,22 @@ export default function Footer() {
             <h4>Services</h4>
             <ul>
               <li>
-                <Link href="/services#service-newborn">Newborn Portraiture</Link>
+                <Link href="/newborn-photography-dubai">Newborn &amp; Maternity</Link>
               </li>
               <li>
-                <Link href="/services#service-wedding">Wedding Stories</Link>
+                <Link href="/services/family-couple">Family &amp; Cake Smash</Link>
               </li>
               <li>
-                <Link href="/services/corporate">Corporate Branding</Link>
+                <Link href="/services/wedding">Wedding Photography</Link>
               </li>
               <li>
-                <Link href="/services/real-estate">Real Estate Showcase</Link>
+                <Link href="/services/corporate">Corporate &amp; Commercial</Link>
               </li>
               <li>
-                <Link href="/services#service-event">Event Photography</Link>
+                <Link href="/services/events">Events &amp; Printing</Link>
+              </li>
+              <li>
+                <Link href="/services/videography">Videography</Link>
               </li>
             </ul>
           </div>
@@ -103,14 +106,15 @@ export default function Footer() {
 
         <div className="footer-group-companies">
           <div className="group-company-wrapper">
-            <span className="group-label">BreathArt Group:</span>
-            <div className="group-logos">
-              <a href="https://www.breathartinstitute.in/" target="_blank" rel="noopener noreferrer">
-                <Image src="/assets/logo/institute_logo.png" alt="BreathArt Academy Logo" width={63} height={35} className="group-logo institute-logo" />
+            <span className="group-label">BreathART Group:</span>
+            <div className="group-logos" style={{ flexWrap: 'wrap', gap: '0.6rem 1.4rem', alignItems: 'center' }}>
+              <a href="https://breathartstudio.com" aria-label="BreathART Photography">
+                <Image src="/assets/logo/photography-logo.webp" alt="BreathART Photography Logo" width={30} height={30} className="group-logo" />
               </a>
-              <Image src="/assets/logo/marketing_logo.webp" alt="BreathArt Marketing Logo" width={30} height={30} className="group-logo marketing-logo" />
-              <a href="https://breathartstudio.com" target="_blank" rel="noopener noreferrer">
-                <Image src="/assets/logo/photography-logo.webp" alt="BreathArt Photography Logo" width={30} height={30} className="group-logo" />
+              <span style={{ fontSize: '0.8rem', letterSpacing: '1px', textTransform: 'uppercase', color: 'var(--color-text-muted)', textDecoration: 'none' }}>Forventures</span>
+              <a href="https://tradelicencedxb.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', letterSpacing: '1px', textTransform: 'uppercase', color: 'var(--color-text-muted)', textDecoration: 'none' }}>TradeLicenceDXB</a>
+              <a href="https://www.breathartinstitute.in/" target="_blank" rel="noopener noreferrer" aria-label="BICT – BreathART Institute">
+                <Image src="/assets/logo/institute_logo.png" alt="BICT Logo" width={63} height={35} className="group-logo institute-logo" />
               </a>
             </div>
           </div>
@@ -118,7 +122,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
-          <p>&copy; {new Date().getFullYear()} BreathArt Creative Studio. Crafted for Cinematic Elegance.</p>
+          <p>&copy; {new Date().getFullYear()} BreathART Photography Studio · A BreathART Group company.</p>
           <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>
             Developed by{' '}
             <a 

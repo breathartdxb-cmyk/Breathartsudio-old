@@ -1,15 +1,15 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../../schema';
 
 export const metadata = {
-  title: 'Luxury Wedding & Pre-Wedding Photography Dubai — BreathArt',
-  description: 'Capturing your romantic milestones, grand wedding day promises, and pre-wedding romance with high-end, cinematic fine-art storytelling in Dubai.',
+  title: 'Wedding Photography & Videography Dubai & Abu Dhabi | BreathART',
+  description: 'Wedding, nikah, engagement and pre-wedding photography and films in Dubai and Abu Dhabi. Calm, experienced BreathART teams, premium quality at affordable prices.',
   alternates: {
     canonical: '/services/wedding',
   },
   openGraph: {
-    title: 'Luxury Wedding & Pre-Wedding Photography Dubai — BreathArt',
-    description: 'Capturing your romantic milestones, grand wedding day promises, and pre-wedding romance with high-end, cinematic fine-art storytelling in Dubai.',
-    url: 'https://breathart.ae/services/wedding',
+    title: 'Wedding Photography & Videography Dubai & Abu Dhabi | BreathART',
+    description: 'Wedding, nikah, engagement and pre-wedding photography and films in Dubai and Abu Dhabi. Calm, experienced BreathART teams, premium quality at affordable prices.',
+    url: 'https://www.breathartstudio.com/services/wedding',
     images: [
       {
         url: '/assets/gallery/wedding/pexels-habib-hosseini-3673463.webp',
@@ -20,8 +20,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Luxury Wedding & Pre-Wedding Photography Dubai — BreathArt',
-    description: 'Capturing your romantic milestones, grand wedding day promises, and pre-wedding romance with high-end, cinematic fine-art storytelling in Dubai.',
+    title: 'Wedding Photography & Videography Dubai & Abu Dhabi | BreathART',
+    description: 'Wedding, nikah, engagement and pre-wedding photography and films in Dubai and Abu Dhabi. Calm, experienced BreathART teams, premium quality at affordable prices.',
     images: ['/assets/gallery/wedding/pexels-habib-hosseini-3673463.webp'],
   },
 };

@@ -6,15 +6,15 @@ import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../schema';
 const ContactForm = dynamic(() => import('../../components/ContactForm'));
 
 export const metadata = {
-  title: 'Photography & Videography Services Dubai — Newborn, Wedding, Corporate, Events',
-  description: 'Explore BreathArt\'s premium photography and videography services in Dubai. Newborn fine-art, wedding, family, corporate, real estate photography, and full event management.',
+  title: 'Photography & Videography Services in Dubai & Abu Dhabi | BreathART',
+  description: 'All BreathART services in one place: family, newborn, maternity, cake smash, wedding, corporate, commercial and real estate photography, videography, events and photo printing in the UAE.',
   alternates: {
     canonical: '/services',
   },
   openGraph: {
-    title: 'Photography & Videography Services — BreathArt Studio Dubai',
-    description: 'Premium photography services in Dubai: newborn, wedding, family, corporate, real estate, and event management.',
-    url: 'https://breathart.ae/services',
+    title: 'Photography & Videography Services in Dubai & Abu Dhabi | BreathART',
+    description: 'All BreathART services in one place: family, newborn, maternity, cake smash, wedding, corporate, commercial and real estate photography, videography, events and photo printing in the UAE.',
+    url: 'https://www.breathartstudio.com/services',
     images: [
       {
         url: '/assets/gallery/newborn/BK-108_LORRIE_890_.jpg.webp',
@@ -25,8 +25,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: 'Photography & Videography Services — BreathArt Studio Dubai',
-    description: 'Premium photography services in Dubai: newborn, wedding, family, corporate, and event photography.',
+    title: 'Photography & Videography Services in Dubai & Abu Dhabi | BreathART',
+    description: 'All BreathART services in one place: family, newborn, maternity, cake smash, wedding, corporate, commercial and real estate photography, videography, events and photo printing in the UAE.',
     images: ['/assets/gallery/newborn/BK-108_LORRIE_890_.jpg.webp'],
   },
 };
