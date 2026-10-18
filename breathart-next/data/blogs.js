@@ -1,4 +1,7 @@
+import { newBlogs } from './blogsNew';
+
 export const blogs = [
+  ...newBlogs,
   {
     slug: 'newborn-photoshoot-themes-ideas-dubai',
     title: '8 Newborn Photoshoot Themes Dubai Parents Love (2026 Ideas & Prices)',
