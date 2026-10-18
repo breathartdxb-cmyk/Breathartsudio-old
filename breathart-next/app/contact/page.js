@@ -1,104 +1,132 @@
-'use client';
-
+import Image from 'next/image';
+import home from '../(home)/home.module.css';
+import styles from './contact.module.css';
 import ContactForm from '../../components/ContactForm';
-import Link from 'next/link';
+
+const wa = (msg) => `https://wa.me/971526400679?text=${encodeURIComponent(msg)}`;
+
+const channels = [
+  {
+    label: 'WhatsApp',
+    value: '+971 52 640 0679',
+    note: 'Fastest reply',
+    href: wa("Hi BreathART! I'd like to book a photoshoot."),
+    external: true,
+  },
+  { label: 'Call us', value: '+971 52 640 0679', note: '+971 52 215 0837', href: 'tel:+971526400679' },
+  { label: 'Email', value: 'info@breathartstudio.com', note: 'breathartdxb@gmail.com', href: 'mailto:info@breathartstudio.com' },
+  {
+    label: 'Visit',
+    value: 'Al Qusais, Dubai',
+    note: '12 22A Street',
+    href: 'https://www.google.com/maps/search/?api=1&query=BreathART+Photography+Studio+Al+Qusais+Dubai',
+    external: true,
+  },
+];
 
 export default function ContactPage() {
   return (
-    <>
-      {/* Header Section */}
-      <header className="page-header" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.4), transparent)' }}>
-        <div className="container animate-reveal" style={{ textAlign: 'center' }}>
-          <span className="cinematic-title" style={{ color: 'var(--color-gold)' }}>Connect With Us</span>
-          <h1 style={{ fontSize: '5rem', lineHeight: 1, color: 'var(--color-white)', marginTop: '1rem' }}>
-            Let&apos;s Capture <span className="text-gold">Art.</span>
+    <main className={home.page}>
+      {/* Hero */}
+      <section className={styles.hero}>
+        <Image src="/assets/gallery/wedding/pexels-habib-hosseini-3673463.webp" alt="Bride portrait by BreathART" fill priority sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
+        <div className={styles.overlay} />
+        <div className={styles.heroContent}>
+          <p className={home.heroEyebrow}>Contact · Dubai &amp; Abu Dhabi</p>
+          <h1 className={styles.title}>
+            Let&apos;s create <em>something beautiful</em>
           </h1>
-          <p style={{ marginTop: '2rem', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto', opacity: 0.7 }}>
-            Reserve your date for a premium visual experience. We specialize in cinematic storytelling for life&apos;s most precious moments.
+          <p className={styles.lead}>
+            Tell us about your shoot — newborn, family, wedding, corporate or commercial — and we&apos;ll reply with
+            availability and the right package.
           </p>
         </div>
-      </header>
+      </section>
 
-      <section className="section" style={{ paddingTop: '2rem' }}>
-        <div className="container">
-          <div className="grid-2" style={{ alignItems: 'flex-start', gap: '6rem' }}>
+      {/* Channels */}
+      <section className={styles.channelsWrap}>
+        <div className={styles.channels}>
+          {channels.map((c) => (
+            <a
+              key={c.label}
+              href={c.href}
+              target={c.external ? '_blank' : undefined}
+              rel={c.external ? 'noopener noreferrer' : undefined}
+              className={styles.channel}
+            >
+              <span className={styles.chLabel}>{c.label}</span>
+              <strong>{c.value}</strong>
+              <span className={styles.chNote}>{c.note}</span>
+            </a>
+          ))}
+        </div>
+      </section>
 
-            {/* Left Column: Info & Map */}
-            <div className="animate-reveal">
-              <div style={{ marginBottom: '4rem' }}>
-                <h2 className="section-title" style={{ textAlign: 'left', marginBottom: '2rem' }}>Our Studio</h2>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+      {/* Form + locations */}
+      <section className={home.section}>
+        <div className={styles.split}>
+          <div className={styles.formCard}>
+            <p className={home.eyebrow}>Enquiry form</p>
+            <h2 className={home.h2}>Reserve your date</h2>
+            <p className={styles.formNote}>Share a few details and our team will get back to you shortly.</p>
+            <ContactForm buttonText="Send enquiry" showPackageField={false} />
+          </div>
 
-                  <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                    <i className="fas fa-map-marker-alt" style={{ color: 'var(--color-gold)', fontSize: '1.5rem', marginTop: '0.3rem' }}></i>
-                    <div>
-                      <h4 className="cinematic-title" style={{ fontSize: '0.7rem', marginBottom: '0.5rem' }}>Location</h4>
-                      <p style={{ opacity: 0.8 }}>BreathArt Photography Studio<br />Dubai, United Arab Emirates</p>
-                    </div>
-                  </div>
+          <div>
+            <p className={home.eyebrow}>Our outlets</p>
+            <h2 className={home.h2}>Visit or book on location</h2>
 
-                  <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                    <i className="fas fa-envelope" style={{ color: 'var(--color-gold)', fontSize: '1.5rem', marginTop: '0.3rem' }}></i>
-                    <div>
-                      <h4 className="cinematic-title" style={{ fontSize: '0.7rem', marginBottom: '0.5rem' }}>Electronic Mail</h4>
-                      <p style={{ opacity: 0.8, display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                        <a href="mailto:info@breathartstudio.com" style={{ color: 'inherit' }}>info@breathartstudio.com</a>
-                        <a href="mailto:Breathartdxb@gmail.com" style={{ color: 'inherit' }}>Breathartdxb@gmail.com</a>
-                      </p>
-                    </div>
-                  </div>
-
-                  <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                    <i className="fab fa-whatsapp" style={{ color: 'var(--color-gold)', fontSize: '1.5rem', marginTop: '0.3rem' }}></i>
-                    <div>
-                      <h4 className="cinematic-title" style={{ fontSize: '0.7rem', marginBottom: '0.5rem' }}>WhatsApp & Call</h4>
-                      <p style={{ opacity: 0.8, display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                        <a href="https://wa.me/971526400679" style={{ color: 'inherit' }}>+971 52 640 0679</a>
-                        <a href="https://wa.me/971522150837" style={{ color: 'inherit' }}>+971 52 215 0837</a>
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              {/* Map */}
-              <div
-                className="map-container"
-                style={{
-                  width: '100%',
-                  height: '350px',
-                  border: '1px solid rgba(197, 160, 33, 0.2)',
-                  borderRadius: '8px',
-                  overflow: 'hidden',
-                  boxShadow: '0 20px 50px rgba(0,0,0,0.1)',
-                }}
-              >
-                <iframe
-                  src="https://maps.google.com/maps?q=Pasons+Supermarket+-+Al+Qusais+(Noor+al+Qusais+)+-+18+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%A7+-+Al+Qusais+-+Al+Qusais+1+-+Dubai&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
+            <div className={styles.outlet}>
+              <h3>Dubai studio</h3>
+              <p>12 22A Street, Al Qusais, Dubai, UAE</p>
+              <p>
+                <a href="tel:+971526400679">+971 52 640 0679</a>
+              </p>
             </div>
-
-            {/* Right Column: Form */}
-            <div className="home-contact-wrapper animate-reveal" style={{ background: 'var(--color-shade-2)', padding: '4rem', borderRadius: '12px', border: '1px solid rgba(158, 112, 96, 0.15)', boxShadow: '0 20px 40px rgba(43, 27, 20, 0.05)' }}>
-              <h3 className="cinematic-title" style={{ marginBottom: '0.5rem', color: 'var(--color-gold)' }}>Inquiry Form</h3>
-              <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: '2.2rem', marginBottom: '3rem', color: 'var(--color-white)' }}>
-                Initiate Your <span className="text-gold">Story</span>
-              </h2>
-
-              <ContactForm buttonText="Reserve Your Date" showPackageField={false} />
+            <div className={styles.map}>
+              <iframe
+                title="BreathART Photography Studio, Al Qusais, Dubai"
+                src="https://maps.google.com/maps?q=BreathART%20Photography%20Studio%20Al%20Qusais%20Dubai&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </div>
-
+            <div className={styles.outlet}>
+              <h3>Abu Dhabi</h3>
+              <p>Studio and on-location sessions across Abu Dhabi.</p>
+              <p>
+                <a href={wa("Hi BreathART! Could you share your Abu Dhabi location?")} target="_blank" rel="noopener noreferrer">
+                  Ask for directions on WhatsApp →
+                </a>
+              </p>
+            </div>
+            <div className={styles.outlet}>
+              <h3>On location, anywhere in the UAE</h3>
+              <p>At-home newborn and family sessions, weddings, offices, venues and events — Dubai, Abu Dhabi, Sharjah and beyond.</p>
+            </div>
           </div>
         </div>
       </section>
-    </>
+
+      {/* CTA */}
+      <section className={home.cta}>
+        <div className={home.ctaInner}>
+          <p className={home.heroEyebrow}>Prefer to chat?</p>
+          <h2>We usually reply on WhatsApp first</h2>
+          <p>Send us a message any time — our team replies with availability, packages and next steps.</p>
+          <div className={home.ctaRow} style={{ justifyContent: 'center' }}>
+            <a href={wa("Hi BreathART! I'd like to book a photoshoot.")} target="_blank" rel="noopener noreferrer" className={home.btnGold}>
+              Chat on WhatsApp
+            </a>
+            <a href="tel:+971526400679" className={home.btnGlass}>
+              Call now
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

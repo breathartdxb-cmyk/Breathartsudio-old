@@ -1,0 +1,159 @@
+.hero {
+  position: relative;
+  min-height: 64vh;
+  display: flex;
+  align-items: flex-end;
+  background: #1c120e;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(20, 12, 9, 0.55) 0%, rgba(20, 12, 9, 0.4) 40%, rgba(20, 12, 9, 0.9) 100%);
+}
+.heroContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 9rem 1.25rem 6.5rem;
+}
+.title {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.05;
+  margin: 0 0 1.2rem;
+}
+.title em {
+  color: #e2cba3;
+}
+.lead {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.75;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* Channels (overlap hero) */
+.channelsWrap {
+  position: relative;
+  z-index: 3;
+  padding: 0 clamp(1.25rem, 4vw, 2.5rem);
+  margin-top: -3.5rem;
+}
+.channels {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #fff;
+  border: 1px solid #ece2d6;
+  box-shadow: 0 30px 60px -40px rgba(43, 26, 19, 0.5);
+}
+.channel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 2rem 1.6rem;
+  text-decoration: none;
+  color: #2b1a13;
+  border-right: 1px solid #ece2d6;
+  transition: background 0.2s ease;
+}
+.channel:last-child {
+  border-right: none;
+}
+.channel:hover {
+  background: #faf6f1;
+}
+.chLabel {
+  font-size: 0.72rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: #9e7060;
+  font-weight: 600;
+}
+.channel strong {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  word-break: break-word;
+}
+.chNote {
+  font-size: 0.85rem;
+  color: #6f5d55;
+}
+
+/* Split */
+.split {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  align-items: start;
+}
+.formCard {
+  background: #fff;
+  border: 1px solid #ece2d6;
+  padding: clamp(2rem, 4vw, 3.2rem);
+}
+.formNote {
+  color: #6f5d55;
+  margin: -0.4rem 0 2rem;
+  line-height: 1.7;
+}
+.outlet {
+  border-top: 1px solid #c8a46e;
+  padding: 1.4rem 0 1.6rem;
+}
+.outlet h3 {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 0 0 0.5rem;
+}
+.outlet p {
+  margin: 0 0 0.4rem;
+  color: #6f5d55;
+  line-height: 1.65;
+}
+.outlet a {
+  color: #2b1a13;
+}
+.map {
+  height: 300px;
+  margin: 0 0 1.6rem;
+  border: 1px solid #ece2d6;
+  overflow: hidden;
+  filter: grayscale(0.35) sepia(0.12);
+}
+
+@media (max-width: 1024px) {
+  .channels {
+    grid-template-columns: 1fr 1fr;
+  }
+  .channel:nth-child(2) {
+    border-right: none;
+  }
+  .channel:nth-child(-n + 2) {
+    border-bottom: 1px solid #ece2d6;
+  }
+}
+@media (max-width: 900px) {
+  .split {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 520px) {
+  .channels {
+    grid-template-columns: 1fr;
+  }
+  .channel {
+    border-right: none;
+    border-bottom: 1px solid #ece2d6;
+  }
+}
