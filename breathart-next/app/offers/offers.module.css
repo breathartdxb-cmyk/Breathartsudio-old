@@ -1,0 +1,319 @@
+.hero {
+  position: relative;
+  min-height: 72vh;
+  display: flex;
+  align-items: flex-end;
+  background: #1c120e;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(20, 12, 9, 0.55) 0%, rgba(20, 12, 9, 0.35) 40%, rgba(20, 12, 9, 0.9) 100%);
+}
+.heroContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 9rem 1.25rem clamp(3rem, 7vw, 5rem);
+}
+.title {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.05;
+  margin: 0 0 1.2rem;
+}
+.title em {
+  color: #e2cba3;
+}
+.lead {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.75;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* Featured */
+.featured {
+  background: #2a1c16;
+  color: #fff;
+  padding: clamp(4rem, 8vw, 6.5rem) clamp(1.25rem, 4vw, 2.5rem);
+}
+.featuredInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: center;
+}
+.featuredMedia {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  border-radius: 999px 999px 4px 4px;
+  overflow: hidden;
+  max-height: 560px;
+}
+.featuredText h2 {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  margin: 0 0 0.6rem;
+}
+.featuredPrice {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-size: clamp(2.4rem, 4.6vw, 3.8rem);
+  color: #e2cba3;
+  margin: 0 0 1.2rem;
+}
+.featuredPrice span {
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 0.6rem;
+  font-family: var(--font-outfit), system-ui, sans-serif;
+}
+.featuredLead {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.8;
+  margin: 0 0 2rem;
+  max-width: 480px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.6rem;
+}
+.tab {
+  border: 1px solid #e4d7c8;
+  background: transparent;
+  color: #6f5d55;
+  padding: 0.8rem 1.6rem;
+  font: inherit;
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.tab:hover {
+  border-color: #c8a46e;
+  color: #2b1a13;
+}
+.tabActive,
+.tabActive:hover {
+  background: #2b1a13;
+  border-color: #2b1a13;
+  color: #fff;
+}
+.catHead {
+  text-align: center;
+  margin-bottom: 2.6rem;
+}
+.catHead h3 {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0 0 0.4rem;
+}
+.catHead p {
+  margin: 0;
+  color: #6f5d55;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+  align-items: stretch;
+}
+.card {
+  position: relative;
+  background: #fff;
+  border: 1px solid #ece2d6;
+  padding: 2.6rem 2rem 2.2rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px -30px rgba(43, 26, 19, 0.45);
+}
+.cardFeatured {
+  background: #2a1c16;
+  border-color: #2a1c16;
+  color: #fff;
+}
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #c8a46e;
+  color: #1c120e;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.4rem 0.9rem;
+}
+.pkgName {
+  font-size: 0.74rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: #9e7060;
+  margin: 0 0 0.8rem;
+}
+.cardFeatured .pkgName {
+  color: #e2cba3;
+}
+.price {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-size: 2.6rem;
+  margin: 0 0 1.6rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid #ece2d6;
+}
+.cardFeatured .price {
+  border-bottom-color: rgba(200, 164, 110, 0.3);
+}
+.incl {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+  display: grid;
+  gap: 0.75rem;
+  flex: 1;
+}
+.incl li {
+  position: relative;
+  padding-left: 1.4rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #6f5d55;
+}
+.cardFeatured .incl li {
+  color: rgba(255, 255, 255, 0.8);
+}
+.incl li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  border: 1px solid #c8a46e;
+}
+.btnGold,
+.btnDark {
+  display: block;
+  text-align: center;
+  padding: 1rem 1.2rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.btnGold {
+  background: #c8a46e;
+  color: #1c120e;
+}
+.btnGold:hover {
+  background: #e2cba3;
+}
+.btnDark {
+  background: #2b1a13;
+  color: #fff;
+}
+.btnDark:hover {
+  background: #9e7060;
+}
+
+/* Quote band */
+.quoteBand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  border: 1px solid #c8a46e;
+  padding: clamp(2rem, 4vw, 3.2rem);
+}
+.quoteBand > div {
+  max-width: 640px;
+}
+
+/* FAQ */
+.faqs {
+  max-width: 860px;
+  margin: 0 auto;
+  border-top: 1px solid #e4d7c8;
+}
+.faq {
+  border-bottom: 1px solid #e4d7c8;
+}
+.faq summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.5rem 2.5rem 1.5rem 0;
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-size: 1.2rem;
+  position: relative;
+}
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+.faq summary::after {
+  content: '+';
+  position: absolute;
+  right: 0.3rem;
+  top: 1.35rem;
+  color: #c8a46e;
+  font-size: 1.4rem;
+  transition: transform 0.25s ease;
+}
+.faq[open] summary::after {
+  transform: rotate(45deg);
+}
+.faq p {
+  margin: 0 0 1.5rem;
+  color: #6f5d55;
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  .featuredInner {
+    grid-template-columns: 1fr;
+  }
+  .featuredMedia {
+    aspect-ratio: 4 / 3;
+    border-radius: 200px 200px 4px 4px;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+    max-width: 460px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 640px) {
+  .tab {
+    padding: 0.7rem 1rem;
+    font-size: 0.68rem;
+  }
+}
