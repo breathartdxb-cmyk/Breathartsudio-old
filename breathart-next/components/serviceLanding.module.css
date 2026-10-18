@@ -1,0 +1,225 @@
+.hero {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: flex-end;
+  background: #1c120e;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(20, 12, 9, 0.6) 0%, rgba(20, 12, 9, 0.35) 38%, rgba(20, 12, 9, 0.9) 100%);
+}
+.heroContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 9rem 1.25rem clamp(3rem, 6vw, 4.5rem);
+}
+.title {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: clamp(2.4rem, 5.8vw, 4.8rem);
+  line-height: 1.06;
+  margin: 0 0 1.2rem;
+}
+.lead {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.75;
+  max-width: 680px;
+  margin: 0 auto 2.2rem;
+}
+.ctas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+.trust {
+  list-style: none;
+  padding: 1.6rem 0 0;
+  margin: 2.2rem auto 0;
+  max-width: 760px;
+  border-top: 1px solid rgba(200, 164, 110, 0.3);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+}
+
+/* Offerings */
+.offerGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+.offer {
+  background: #fff;
+  border: 1px solid #ece2d6;
+  padding: 2rem 1.8rem;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+.offer:hover {
+  border-color: #c8a46e;
+  transform: translateY(-3px);
+}
+.offer h3 {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: 1.35rem;
+  margin: 0.6rem 0 0.5rem;
+}
+.offer p {
+  margin: 0;
+  color: #6f5d55;
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.galleryItem {
+  position: relative;
+  margin: 0;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: #e4d7c8;
+}
+.galleryItem img {
+  transition: transform 0.9s ease;
+}
+.galleryItem:hover img {
+  transform: scale(1.05);
+}
+
+/* Price band */
+.priceBand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  border: 1px solid #c8a46e;
+  padding: clamp(2rem, 4vw, 3.2rem);
+}
+.priceBand > div:first-child {
+  max-width: 660px;
+}
+.priceActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+/* FAQ */
+.faqs {
+  max-width: 860px;
+  margin: 0 auto;
+  border-top: 1px solid #e4d7c8;
+}
+.faq {
+  border-bottom: 1px solid #e4d7c8;
+}
+.faq summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.5rem 2.5rem 1.5rem 0;
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-size: 1.2rem;
+  position: relative;
+}
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+.faq summary::after {
+  content: '+';
+  position: absolute;
+  right: 0.3rem;
+  top: 1.35rem;
+  color: #c8a46e;
+  font-size: 1.4rem;
+  transition: transform 0.25s ease;
+}
+.faq[open] summary::after {
+  transform: rotate(45deg);
+}
+.faq p {
+  margin: 0 0 1.5rem;
+  color: #6f5d55;
+  line-height: 1.75;
+}
+
+/* Related */
+.related {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.related a {
+  border: 1px solid #e4d7c8;
+  padding: 0.7rem 1.2rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #2b1a13;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.related a:hover {
+  background: #2b1a13;
+  border-color: #2b1a13;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .offerGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .hero {
+    min-height: 88vh;
+  }
+  .ctas a {
+    flex: 1 1 100%;
+  }
+  .offerGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+  .offer {
+    padding: 1.3rem 1.1rem;
+  }
+  .offer h3 {
+    font-size: 1.08rem;
+  }
+  .offer p {
+    font-size: 0.85rem;
+  }
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+  .trust {
+    gap: 0.4rem 1.2rem;
+    font-size: 0.74rem;
+  }
+}
