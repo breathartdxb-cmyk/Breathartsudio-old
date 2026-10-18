@@ -1,0 +1,216 @@
+.header {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  padding: clamp(8.5rem, 12vw, 10rem) clamp(1.25rem, 4vw, 2.5rem) 2.5rem;
+}
+.title {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(2.4rem, 5.6vw, 4.6rem);
+  line-height: 1.06;
+  margin: 0 0 1.2rem;
+  color: #2b1a13;
+}
+.title em {
+  color: #9e7060;
+}
+.lead {
+  color: #6f5d55;
+  font-size: 1.08rem;
+  line-height: 1.75;
+  max-width: 620px;
+  margin: 0 auto 2.4rem;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.6rem;
+}
+.filter {
+  border: none;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  color: #6f5d55;
+  padding: 0.4rem 0.1rem;
+  font: inherit;
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.filter:hover {
+  color: #2b1a13;
+}
+.filterActive,
+.filterActive:hover {
+  color: #2b1a13;
+  border-bottom-color: #c8a46e;
+}
+
+/* Featured */
+.featuredWrap {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 1rem clamp(1.25rem, 4vw, 2.5rem) 0;
+}
+.featured {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  background: #2a1c16;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+}
+.featuredImg {
+  position: relative;
+  min-height: 460px;
+}
+.featuredImg img {
+  transition: transform 1s ease;
+}
+.featured:hover .featuredImg img {
+  transform: scale(1.04);
+}
+.featuredBody {
+  padding: clamp(2rem, 4vw, 3.4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.featuredMeta {
+  font-size: 0.74rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 1.2rem;
+}
+.featuredMeta span {
+  color: #e2cba3;
+}
+.featuredBody h2 {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1.15;
+  margin: 0 0 1rem;
+}
+.featuredBody p:not(.featuredMeta) {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.75;
+  margin: 0 0 1.8rem;
+}
+.readLight {
+  color: #e2cba3;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid #c8a46e;
+  align-self: flex-start;
+  padding-bottom: 2px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+.grid:has(> :nth-child(2):last-child),
+.grid:has(> :only-child) {
+  grid-template-columns: repeat(2, 1fr);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #ece2d6;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 24px 48px -30px rgba(43, 26, 19, 0.45);
+}
+.cardImg {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+.cardImg img {
+  transition: transform 0.8s ease;
+}
+.card:hover .cardImg img {
+  transform: scale(1.05);
+}
+.cat {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(255, 255, 255, 0.94);
+  color: #7f5646;
+  font-size: 0.66rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.4rem 0.75rem;
+}
+.cardBody {
+  padding: 1.6rem 1.6rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.date {
+  font-size: 0.74rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #9e7060;
+  margin: 0 0 0.7rem;
+}
+.cardBody h3 {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin: 0 0 0.7rem;
+}
+.excerpt {
+  color: #6f5d55;
+  font-size: 0.93rem;
+  line-height: 1.65;
+  margin: 0 0 1.3rem;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.read {
+  color: #2b1a13;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid #c8a46e;
+  align-self: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .featured {
+    grid-template-columns: 1fr;
+  }
+  .featuredImg {
+    min-height: 300px;
+  }
+}
+@media (max-width: 640px) {
+  .grid,
+  .grid:has(> :nth-child(2):last-child) {
+    grid-template-columns: 1fr;
+  }
+}

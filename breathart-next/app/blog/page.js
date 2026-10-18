@@ -1,147 +1,116 @@
 'use client';
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { blogs } from '@/data/blogs';
+import home from '../(home)/home.module.css';
+import styles from './blog.module.css';
+
+const clean = (t) => t.split('|')[0].trim();
+
+function Card({ b }) {
+  return (
+    <Link href={`/blog/${b.slug}`} className={styles.card}>
+      <div className={styles.cardImg}>
+        <Image src={b.image} alt={clean(b.title)} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ objectFit: 'cover' }} />
+        <span className={styles.cat}>{b.category}</span>
+      </div>
+      <div className={styles.cardBody}>
+        <p className={styles.date}>{b.date}</p>
+        <h3>{clean(b.title)}</h3>
+        <p className={styles.excerpt}>{b.metaDescription}</p>
+        <span className={styles.read}>Read article →</span>
+      </div>
+    </Link>
+  );
+}
 
 export default function BlogListingPage() {
-  const [activeCategory, setActiveCategory] = useState('All posts');
-  
-  // Extract unique categories
-  const categories = ['All posts', ...new Set(blogs.map(blog => blog.category))].sort((a, b) => {
-      if (a === 'All posts') return -1;
-      if (b === 'All posts') return 1;
-      return a.localeCompare(b);
-  });
-
-  const filteredBlogs = activeCategory === 'All posts' 
-    ? blogs 
-    : blogs.filter(blog => blog.category === activeCategory);
+  const categories = ['All', ...Array.from(new Set(blogs.map((b) => b.category)))];
+  const [active, setActive] = useState('All');
+  const list = active === 'All' ? blogs : blogs.filter((b) => b.category === active);
+  const [featured, ...rest] = list;
 
   return (
-    <main className="blog-minimal-main">
-      {/* Editorial Header */}
-      <div className="blog-minimal-header">
-        <motion.h1 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="blog-minimal-title"
-        >
-          The Journal
-        </motion.h1>
-        <motion.p 
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
-          className="blog-minimal-intro"
-        >
-          After years of capturing beautiful moments, we decided to take up the challenge to share our stories! Here we post stories from our photoshoots, to give you an idea of our work but also to share and talk about our passion for photography. Enjoy our blog.
-        </motion.p>
-      </div>
-
-      {/* Navigation / Filters */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.2 }}
-        className="blog-minimal-nav"
-      >
-        <div className="blog-minimal-categories">
-          {categories.map((cat, idx) => (
-            <span 
-              key={idx} 
-              className={`blog-minimal-cat ${activeCategory === cat ? 'active' : ''}`}
-              onClick={() => setActiveCategory(cat)}
+    <main className={home.page}>
+      {/* Header */}
+      <section className={styles.header}>
+        <p className={home.eyebrow}>The BreathART Journal</p>
+        <h1 className={styles.title}>
+          Ideas, guides &amp; <em>stories</em> from our studio
+        </h1>
+        <p className={styles.lead}>
+          Newborn themes, wedding locations, family and corporate photography tips — written by the BreathART team in
+          Dubai and Abu Dhabi.
+        </p>
+        <div className={styles.filters} role="tablist" aria-label="Filter articles">
+          {categories.map((c) => (
+            <button
+              key={c}
+              type="button"
+              role="tab"
+              aria-selected={active === c}
+              className={`${styles.filter} ${active === c ? styles.filterActive : ''}`}
+              onClick={() => setActive(c)}
             >
-              {cat}
-            </span>
+              {c}
+            </button>
           ))}
         </div>
-      </motion.div>
+      </section>
 
-      <div className="blog-minimal-layout-grid">
-        {/* Blog Feed */}
-        <div className="blog-minimal-feed">
-          {filteredBlogs.map((blog, idx) => (
-            <motion.article 
-              key={blog.slug}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ delay: idx * 0.1 }}
-              className="blog-minimal-post"
+      {/* Featured */}
+      {featured && (
+        <section className={styles.featuredWrap}>
+          <Link href={`/blog/${featured.slug}`} className={styles.featured}>
+            <div className={styles.featuredImg}>
+              <Image src={featured.image} alt={clean(featured.title)} fill priority sizes="(max-width: 900px) 100vw, 60vw" style={{ objectFit: 'cover' }} />
+            </div>
+            <div className={styles.featuredBody}>
+              <p className={styles.featuredMeta}>
+                <span>{featured.category}</span> · {featured.date}
+              </p>
+              <h2>{clean(featured.title)}</h2>
+              <p>{featured.metaDescription}</p>
+              <span className={styles.readLight}>Read the article →</span>
+            </div>
+          </Link>
+        </section>
+      )}
+
+      {/* Grid */}
+      {rest.length > 0 && (
+        <section className={home.section} style={{ paddingTop: '3.5rem' }}>
+          <div className={styles.grid}>
+            {rest.map((b) => (
+              <Card key={b.slug} b={b} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* CTA */}
+      <section className={home.cta}>
+        <div className={home.ctaInner}>
+          <p className={home.heroEyebrow}>Inspired?</p>
+          <h2>Let&apos;s plan your shoot</h2>
+          <p>Message us with your idea and date — we&apos;ll help with themes, outfits and locations.</p>
+          <div className={home.ctaRow} style={{ justifyContent: 'center' }}>
+            <a
+              href={`https://wa.me/971526400679?text=${encodeURIComponent("Hi BreathART! I read your blog and I'd like to plan a photoshoot.")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={home.btnGold}
             >
-              <Link href={`/blog/${blog.slug}`} className="blog-minimal-image-wrapper block">
-                <img 
-                  src={blog.image} 
-                  alt={blog.title} 
-                  className="blog-minimal-image"
-                />
-              </Link>
-              
-              <div className="blog-minimal-content">
-                <Link href={`/blog/${blog.slug}`} className="block">
-                  <h2 className="blog-minimal-post-title">
-                    {blog.title.split('|')[0]}
-                  </h2>
-                  <span className="blog-minimal-meta">
-                    {/* Simulate a date since we don't have one in data currently */}
-                    {idx === 0 ? 'October 2024' : idx === 1 ? 'September 2024' : 'August 2024'} - {blog.category}
-                  </span>
-                  <p className="blog-minimal-excerpt">
-                    {blog.metaDescription}
-                  </p>
-                </Link>
-                
-                <div className="blog-minimal-post-footer">
-                  <Link href={`/blog/${blog.slug}`} className="blog-minimal-readmore">
-                    Read More 
-                    <svg style={{marginLeft: '0.5rem'}} width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </Link>
-                </div>
-              </div>
-            </motion.article>
-          ))}
+              Chat on WhatsApp
+            </a>
+            <Link href="/services" className={home.btnGlass}>
+              Explore services
+            </Link>
+          </div>
         </div>
-
-        {/* Right Sidebar */}
-        <aside className="blog-minimal-sidebar">
-          {/* Categories Section */}
-          <div className="blog-sidebar-section">
-            <h3 className="blog-sidebar-title">Category</h3>
-            <ul className="blog-sidebar-list">
-              {categories.filter(c => c !== 'All posts').map((cat, idx) => (
-                <li key={idx} className="blog-sidebar-item">
-                  <span 
-                    className="blog-sidebar-link" 
-                    style={{ cursor: 'pointer' }}
-                    onClick={() => setActiveCategory(cat)}
-                  >
-                    {cat}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Recent Blogs Section */}
-          <div className="blog-sidebar-section">
-            <h3 className="blog-sidebar-title">Recent Blog</h3>
-            <ul className="blog-sidebar-list">
-              {blogs.slice(0, 4).map((blog, idx) => (
-                <li key={idx} className="blog-sidebar-item" style={{ marginBottom: '1.5rem' }}>
-                  <Link href={`/blog/${blog.slug}`} className="blog-sidebar-recent-title">
-                    {blog.title.split('|')[0]}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </aside>
-      </div>
+      </section>
     </main>
   );
 }
