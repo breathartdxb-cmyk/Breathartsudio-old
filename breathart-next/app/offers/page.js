@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import home from '../(home)/home.module.css';
 import styles from './offers.module.css';
@@ -44,7 +43,7 @@ export default function OffersPage() {
             Premium photography, <em>honest prices</em>
           </h1>
           <p className={styles.lead}>
-            Clear, affordable packages for maternity, cake smash, couple and event photography — with custom quotes for
+            Clear, affordable packages for newborn, maternity, cake smash, couple and event photography — with custom quotes for
             weddings and corporate shoots.
           </p>
         </div>
@@ -63,16 +62,16 @@ export default function OffersPage() {
               <span>from</span> AED 499
             </p>
             <p className={styles.featuredLead}>
-              Safe, gentle newborn sessions with hand-made themes — in our studio or at your home. Lady photographer
-              available on request.
+              Safe, gentle newborn sessions with hand-made themes — in our studio or at your home anywhere in the UAE.
+              Four packages from AED 499 to AED 1,800. Female photographer available as an add-on.
             </p>
             <div className={home.ctaRow}>
               <a href={wa("Hi BreathART! I'd like to book a newborn photoshoot (from AED 499).")} target="_blank" rel="noopener noreferrer" className={home.btnGold}>
                 Book newborn shoot
               </a>
-              <Link href="/newborn-photography-dubai" className={home.linkLight}>
-                See themes &amp; packages →
-              </Link>
+              <a href="#packages" className={home.linkLight}>
+                See newborn packages →
+              </a>
             </div>
           </div>
         </div>

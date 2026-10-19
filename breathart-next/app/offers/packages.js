@@ -1,5 +1,82 @@
 // Package data for the offers page
 export const categories = {
+  Newborn: {
+    title: "Newborn Photography Packages",
+    tagline: "Safe, baby-led newborn sessions in our studio or at your home anywhere in the UAE",
+    packages: [
+      {
+        name: "Basic",
+        price: "AED 499",
+        subtitle: "Simple, beautiful newborn memories",
+        inclusions: [
+          "1–2 hour session",
+          "20 professionally retouched images",
+          "50+ soft-edited images",
+          "1 premium theme",
+          "Parents included (up to 5 family members)",
+          "Candid shots",
+          "Private online gallery"
+        ]
+      },
+      {
+        name: "Silver Nest",
+        price: "AED 699",
+        subtitle: "A complete newborn experience",
+        inclusions: [
+          "2–3 hour session",
+          "30 professionally retouched images",
+          "100+ unedited images",
+          "1–2 premium themes",
+          "Parents & siblings included",
+          "Candid close-up shots",
+          "1 reel video",
+          "Digital album",
+          "Passport-size photo (digital)"
+        ]
+      },
+      {
+        name: "Golden Nest",
+        price: "AED 999",
+        subtitle: "Premium storytelling experience",
+        inclusions: [
+          "3–4 hour session",
+          "40 professionally retouched images",
+          "80–120 soft-edited images",
+          "3–4 premium themes",
+          "Full family coverage",
+          "Signature newborn poses",
+          "Candid + artistic shots",
+          "FREE cinematic highlight video",
+          "Digital album",
+          "3 premium photo frames",
+          "Passport-size photo (digital)"
+        ]
+      },
+      {
+        name: "Diamond Nest",
+        price: "AED 1,800",
+        subtitle: "The ultimate newborn experience",
+        inclusions: [
+          "Unlimited session time",
+          "70 professionally retouched images",
+          "4–5 premium themes",
+          "Full family coverage",
+          "Signature + creative concept shots",
+          "FREE cinematic highlight video (2 min)",
+          "Digital album + premium printed album",
+          "3 premium photo frames",
+          "Passport-size photo (digital)"
+        ]
+      }
+    ],
+    addons: [
+      { name: "Extra edited image", price: "AED 25" },
+      { name: "Home service (anywhere in the UAE)", price: "AED 100–300" },
+      { name: "Makeup artist", price: "AED 300" },
+      { name: "Female photographer", price: "AED 250" },
+      { name: "Extra hour", price: "AED 100" }
+    ]
+  },
   Maternity: {
     title: "Maternity Fine-Art Series",
     tagline: "Elegant pregnancy portraiture celebrating raw beauty & motherhood",
