@@ -368,4 +368,106 @@ The ideal window is **5 to 14 days after birth**. Babies sleep more deeply, curl
 
 Message BreathART on WhatsApp at +971 52 640 0679, or explore our [newborn and maternity photography service](/services/newborn-maternity). Prefer not to travel? Read about our [at-home newborn photography](/blog/at-home-newborn-photography-dubai), or see why parents call BreathART the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
   },
+  {
+    slug: 'maternity-photoshoot-dubai',
+    title: 'Maternity Photoshoot in Dubai: The Complete Guide to Timing, Outfits, Locations & Prices',
+    metaTitle: 'Maternity Photoshoot Dubai | From AED 499 | BreathART',
+    metaDescription: 'Maternity photoshoot in Dubai: when to book, what to wear, studio vs outdoor, and packages from AED 499. Al Qusais studio, sessions across the UAE.',
+    category: 'Maternity',
+    date: 'October 26, 2026',
+    image: '/assets/services/newborn/newborn-and-maternity/pregnant-woman-with-protea-flowers-concept-style-pregnancy.jpg',
+    faqs: [
+      {
+        q: 'When is the best time for a maternity photoshoot?',
+        a: 'Most mothers book their maternity photoshoot between 28 and 34 weeks of pregnancy. The bump is clearly visible, and most women still feel comfortable enough to stand, sit and move for a relaxed session.',
+      },
+      {
+        q: 'How much does a maternity photoshoot cost in Dubai?',
+        a: 'BreathART maternity packages start from AED 499 (10–15 fully edited pictures and 25 raw high-res pictures). AED 599 adds two themes and a cinematic highlight reel, and AED 799 includes 30–35 edited pictures and a professional cinematic video. Tabby and Tamara instalments are available.',
+      },
+      {
+        q: 'Can I do my maternity shoot outdoors in Dubai?',
+        a: 'Yes. Our maternity packages include indoor or outdoor session options. Outdoor shoots are best in the cooler months (roughly October to April) and early in the morning or at golden hour before sunset.',
+      },
+      {
+        q: 'Can I book a lady photographer for my maternity shoot?',
+        a: 'Yes. A lady photographer is available on request, which many mothers prefer for maternity sessions.',
+      },
+      {
+        q: 'Can I combine a maternity shoot with a newborn photoshoot?',
+        a: 'Yes. Many families book both together: the maternity session during pregnancy and the newborn session 5–14 days after birth. Message us on WhatsApp and we will plan both dates with you.',
+      },
+    ],
+    content: `Pregnancy goes by faster than anyone expects. A **maternity photoshoot in Dubai** is a beautiful way to remember the months before your baby arrives — and with the right planning, it is relaxed, comfortable and a lot of fun. This guide covers everything mothers ask us at **BreathART Photography Studio**: when to book, what to wear, studio or outdoor, and how much it costs.
+
+## When should I book my maternity photoshoot?
+
+The best time for a maternity shoot is usually **between 28 and 34 weeks**. By then:
+
+* Your bump is clearly visible and beautifully rounded
+* Most mothers still feel comfortable standing, sitting and changing outfits
+* There is time to plan your newborn photoshoot before the baby arrives
+
+If you are expecting twins, or your doctor has advised rest, we recommend shooting a little earlier, around 26–30 weeks. Book two to four weeks in advance, especially for weekends.
+
+## Studio or outdoor maternity shoot?
+
+Both are lovely — it depends on the look you want.
+
+### Studio maternity photography
+
+Our studio in **Al Qusais, Dubai** gives you full control: soft, flattering light, air-conditioning, privacy, and styled themed setups. Studio sessions are perfect in the summer months and for elegant, fine-art portraits with flowing gowns.
+
+### Outdoor maternity photography
+
+Dubai has stunning backdrops — beaches, desert dunes, parks and the city skyline. Outdoor sessions work best from **October to April**, either early in the morning or at **golden hour** before sunset, when the light is warm and soft. All BreathART maternity packages include **indoor or outdoor session options**.
+
+### At home
+
+Prefer to stay close to home? Our team can come to you anywhere in the UAE. Read more about our [home photography services across the UAE](/blog/home-photography-services-uae).
+
+## What to wear for a maternity photoshoot
+
+* **Fitted or flowing gowns** that show the shape of your bump look timeless
+* **Soft, neutral colours** — cream, white, blush, beige — suit every backdrop
+* **One bold colour** (red, emerald, royal blue) makes a striking studio portrait
+* **Partner outfits** should complement yours, not match exactly; plain shirts work best
+* Bring **two or three outfits** and comfortable shoes for moving between setups
+
+Not sure what to wear? Message us before your shoot and we will share outfit ideas for your chosen theme.
+
+## Include your partner and children
+
+Some of the most emotional maternity portraits include the whole family — a partner's hands around the bump, or an older sibling kissing the belly. Siblings are welcome; we keep the session relaxed and playful so little ones stay happy.
+
+## Maternity photoshoot packages and prices in Dubai
+
+BreathART maternity packages are designed to be premium in quality and affordable in price:
+
+* **Package 1 — AED 499:** 10–15 fully edited pictures, 25 raw high-res pictures, one creative themed studio setup, indoor or outdoor session option
+* **Package 2 — AED 599:** 20–25 fully edited pictures, 35 raw high-res pictures, two creative themed setups, indoor or outdoor option, one cinematic video highlight reel
+* **Package 3 — AED 799:** 30–35 fully edited pictures, 25 raw high-res pictures, one professional cinematic video, one styled theme setup
+
+You can pay by card or cash, or split the cost with **Tabby** or **Tamara**. See all current offers on our [packages page](/offers).
+
+## Comfort and privacy come first
+
+We know pregnancy can be tiring. Every BreathART maternity session is paced around you, with breaks, water and a comfortable place to sit between setups. A **lady photographer is available on request**, and your photos are delivered privately — never shared without your permission.
+
+## Maternity and newborn: plan both together
+
+Many families book their maternity shoot and newborn photoshoot together. Your maternity session happens during pregnancy, and your newborn session is ideally **5 to 14 days after birth**, when babies are sleepy and curl naturally into poses. Learn more in our guide to the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae) and our [newborn photography safety guide](/blog/newborn-photography-safety-guide-uae).
+
+## Why mothers in Dubai choose BreathART
+
+* More than **12 years** photographing families in the UAE
+* **Rated 4.7 on Google** by parents
+* Studio in **Al Qusais, Dubai**, an outlet in **Abu Dhabi**, and sessions at your home anywhere in the UAE
+* Hand-made themes and careful, hand-edited photos
+* Lady photographer on request
+
+## Book your maternity photoshoot
+
+Message BreathART on WhatsApp at **+971 52 640 0679** with your due date and the look you have in mind, and we will reply with available dates. You can also explore our [newborn and maternity photography service](/services/newborn-maternity).`,
+  },
 ];
