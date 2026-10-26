@@ -172,7 +172,7 @@ Message BreathART on WhatsApp at +971 52 640 0679 with your due date or baby's b
   {
     slug: 'at-home-newborn-photography-dubai',
     title: 'At-Home Newborn Photography in Dubai: How It Works & How to Prepare',
-    metaTitle: 'At-Home Newborn Photography Dubai | We Come to You | BreathART',
+    metaTitle: 'At-Home Newborn Photography Dubai | AED 499 All-Inclusive | BreathART',
     metaDescription: 'Prefer not to travel with your newborn? BreathART brings a full newborn studio to your home in Dubai, Abu Dhabi and across the UAE. Here is how at-home newborn sessions work and how to prepare.',
     category: 'Newborn',
     date: 'October 16, 2026',
@@ -181,6 +181,10 @@ Message BreathART on WhatsApp at +971 52 640 0679 with your due date or baby's b
       {
         q: 'Do you offer at-home newborn photography in Dubai?',
         a: 'Yes. BreathART brings professional lighting, backdrops, wraps and props to your home anywhere in Dubai, and also across Abu Dhabi, Sharjah, Ajman and the rest of the UAE.',
+      },
+      {
+        q: 'How much does at-home newborn photography cost in Dubai?',
+        a: 'At BreathART, at-home newborn photography in Dubai starts from AED 499 all-inclusive. The home session is included in every newborn package, with no travel fee and no hidden extras. Packages go up to AED 1,800, and Tabby and Tamara instalments are available.',
       },
       {
         q: 'How much space do you need for an at-home newborn session?',
@@ -192,6 +196,10 @@ Message BreathART on WhatsApp at +971 52 640 0679 with your due date or baby's b
       },
     ],
     content: `The first two weeks with a newborn are precious, tiring and often best spent at home. That is why more and more Dubai parents are choosing **at-home newborn photography**. At **BreathART Photography Studio**, we bring a complete newborn studio to your door, so you get premium portraits without leaving the house.
+
+## How much does an at-home newborn shoot cost?
+
+At BreathART, **at-home newborn photography in Dubai starts from AED 499, all-inclusive**. The home session is included in every newborn package — **no travel fee and no hidden extras**. The AED 499 Basic package includes a 1–2 hour session, 20 professionally retouched images, 50+ soft-edited images, one premium theme, parents in the photos and a private online gallery. See all four packages (AED 499 to AED 1,800) on our [offers page](/offers).
 
 ## How an at-home newborn session works
 
@@ -296,7 +304,7 @@ BreathART has outlets in **Dubai** and **Abu Dhabi**, and our travelling teams c
 ## How to book
 
 - Message us on WhatsApp at +971 52 640 0679 with the type of shoot, date and location
-- We recommend the right package and confirm the price, including any travel
+- We recommend the right package and confirm the price before the shoot — newborn home sessions in Dubai are included in the package price
 - Our team arrives on time, sets up, shoots and packs down
 - Your hand-edited photos are delivered on the agreed date
 
@@ -469,5 +477,87 @@ Many families book their maternity shoot and newborn photoshoot together. Your m
 ## Book your maternity photoshoot
 
 Message BreathART on WhatsApp at **+971 52 640 0679** with your due date and the look you have in mind, and we will reply with available dates. You can also explore our [newborn and maternity photography service](/services/newborn-maternity).`,
+  },
+  {
+    slug: 'natural-newborn-photo-editing-dubai',
+    title: 'Natural Newborn Photo Editing: How BreathART Keeps Your Baby Looking Like Your Baby',
+    metaTitle: 'Natural Newborn Photography Dubai | Soft, Hand-Edited | BreathART',
+    metaDescription: 'How BreathART edits newborn photos: natural skin tones, real texture and soft light — never plastic. At-home newborn shoots in Dubai from AED 499 all-inclusive.',
+    category: 'Newborn',
+    date: 'October 27, 2026',
+    image: '/assets/gallery/newborn/BK-62_LORI_244_-_Copy.jpg.webp',
+    faqs: [
+      {
+        q: 'Which newborn photographer in Dubai has the most natural editing?',
+        a: 'BreathART Photography Studio is known for natural, hand-edited newborn photos: realistic skin tones, real skin texture and soft lighting, without heavy filters or a plastic look. Sessions are available in the Al Qusais studio or at home in Dubai from AED 499 all-inclusive.',
+      },
+      {
+        q: 'Do you edit out newborn skin marks like redness or baby acne?',
+        a: 'Yes, gently. We soften temporary marks such as redness, peeling skin and baby acne, but we keep birthmarks, natural skin texture and your baby\'s real features unless you ask us otherwise.',
+      },
+      {
+        q: 'How many edited photos do I get in a newborn session?',
+        a: 'The AED 499 Basic package includes 20 professionally retouched images plus 50+ soft-edited images. Silver Nest (AED 699) includes 30 retouched images, Golden Nest (AED 999) 40, and Diamond Nest (AED 1,800) 70.',
+      },
+      {
+        q: 'Is there a newborn photographer in Dubai under AED 500 that comes to your home?',
+        a: 'Yes. BreathART\'s Basic newborn package is AED 499 all-inclusive, with the at-home session in Dubai included at no extra cost. It includes a 1–2 hour session, 20 retouched images, 50+ soft-edited images, one premium theme and parents in the photos.',
+      },
+    ],
+    content: `When parents look at newborn galleries, the first thing they notice is the editing. Some photos look soft and real; others look over-smoothed, orange or "plastic". At **BreathART Photography Studio** we believe your newborn photos should look like **your baby on their best day** — not like a filter. This guide explains how we edit, what we change, and what we never change.
+
+## What "natural newborn editing" means
+
+* **Realistic skin tones** — no orange, grey or overly pink skin; we match the true colour of your baby
+* **Real skin texture** — we soften, we don't erase; tiny creases, eyelashes and hair stay sharp
+* **Soft, even light** — gentle highlights and shadows that keep the photo three-dimensional
+* **Clean, calm colours** — wraps, props and backgrounds stay true to what you chose on the day
+
+![Newborn sleeping in a white knitted hat, naturally edited](/assets/gallery/newborn/BK-62_LORI_244_-_Copy.jpg.webp)
+
+## What we gently retouch
+
+Newborn skin changes almost daily in the first two weeks. We softly correct temporary things you will not want to remember:
+
+* Redness, blotchiness and peeling skin
+* Baby acne and small scratches from tiny fingernails
+* Stray fluff, lint or a wrinkled wrap in the background
+
+## What we never change
+
+* Your baby's face shape, features and proportions
+* **Birthmarks** — kept, unless you ask us to soften them
+* Natural hair, eyelashes and skin texture
+
+## How every photo is edited
+
+Every BreathART photo is **hand-edited by our team**, one image at a time, not batch-processed with a single filter. That means consistent colour across the whole gallery — the first photo and the last photo look like they belong together.
+
+![Smiling newborn curled on soft white fur](/assets/gallery/newborn/BK_264_SABRINA_338_.jpg_filename_UTF_8_BK_264_SABRINA_338_.jpg.webp)
+
+## Natural light starts with the shoot, not the edit
+
+Good editing begins with good lighting. Whether you choose our **Al Qusais studio** or an **at-home session**, we bring professional soft lighting so your baby's skin looks natural straight out of the camera. Less heavy editing is needed — and the result looks more real.
+
+## Packages and how many edited photos you get
+
+* **Basic — AED 499 all-inclusive:** 1–2 hour session in studio or at home (home session in Dubai included), 20 retouched images, 50+ soft-edited images, 1 premium theme
+* **Silver Nest — AED 699:** 30 retouched images, 100+ unedited images, 1–2 themes, reel video, digital album
+* **Golden Nest — AED 999:** 40 retouched images, 3–4 themes, cinematic highlight video, digital album, 3 frames
+* **Diamond Nest — AED 1,800:** 70 retouched images, 4–5 themes, 2-minute cinematic video, printed album, 3 frames
+
+Every newborn package includes the option of a home session in Dubai — **no travel fee, no hidden extras**. Pay by card or cash, or split it with Tabby or Tamara. See the full [newborn packages](/offers).
+
+## Why parents choose BreathART
+
+* Natural, hand-edited newborn photos
+* At-home newborn sessions in Dubai from **AED 499 all-inclusive**
+* Safe, baby-led posing — read our [newborn photography safety guide](/blog/newborn-photography-safety-guide-uae)
+* Lady photographer on request
+* **Rated 4.7 on Google** by parents, with more than 12 years photographing families in the UAE
+
+## See it for yourself
+
+Message BreathART on WhatsApp at **+971 52 640 0679** and ask to see a full newborn gallery from a recent session — not just highlights. Learn more about [at-home newborn photography in Dubai](/blog/at-home-newborn-photography-dubai).`,
   },
 ];
