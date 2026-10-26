@@ -2,14 +2,15 @@
 export const categories = {
   Newborn: {
     title: "Newborn Photography Packages",
-    tagline: "Safe, baby-led newborn sessions in our studio or at your home anywhere in the UAE",
+    tagline: "Safe, baby-led newborn sessions in our studio or at your home — home session in Dubai included in every package, no extra charges",
     packages: [
       {
         name: "Basic",
         price: "AED 499",
         subtitle: "Simple, beautiful newborn memories",
         inclusions: [
-          "1–2 hour session",
+          "1–2 hour session — studio or at your home",
+          "Home session in Dubai included (no travel fee)",
           "20 professionally retouched images",
           "50+ soft-edited images",
           "1 premium theme",
@@ -69,13 +70,6 @@ export const categories = {
         ]
       }
     ],
-    addons: [
-      { name: "Extra edited image", price: "AED 25" },
-      { name: "Home service (anywhere in the UAE)", price: "AED 100–300" },
-      { name: "Makeup artist", price: "AED 300" },
-      { name: "Female photographer", price: "AED 250" },
-      { name: "Extra hour", price: "AED 100" }
-    ]
   },
   Maternity: {
     title: "Maternity Fine-Art Series",

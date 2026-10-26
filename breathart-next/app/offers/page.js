@@ -63,7 +63,7 @@ export default function OffersPage() {
             </p>
             <p className={styles.featuredLead}>
               Safe, gentle newborn sessions with hand-made themes — in our studio or at your home anywhere in the UAE.
-              Four packages from AED 499 to AED 1,800. Female photographer available as an add-on.
+              Four packages from AED 499 to AED 1,800 — home session in Dubai included, no hidden extras. Lady photographer on request.
             </p>
             <div className={home.ctaRow}>
               <a href={wa("Hi BreathART! I'd like to book a newborn photoshoot (from AED 499).")} target="_blank" rel="noopener noreferrer" className={home.btnGold}>
