@@ -138,7 +138,7 @@ const faqs = [
   },
   {
     q: 'Can you come to our home?',
-    a: 'Absolutely. Our team brings lighting, props and outfits to your home, so you and your baby can stay comfortable.',
+    a: 'Absolutely. Our team brings lighting, props and outfits to your home, so you and your baby can stay comfortable. The home session in Dubai is included in every package (from AED 499 all-inclusive) with no travel fee.',
   },
   {
     q: 'Can parents and siblings be in the photos?',
@@ -286,7 +286,7 @@ export default function NewbornLandingPage() {
             <div className={styles.homeIcon}><Home size={22} /></div>
             <div>
               <strong>The studio comes to your home</strong>
-              <span>Can&apos;t travel with a newborn? Our team arrives with lighting, props &amp; outfits, so your baby never leaves home.</span>
+              <span>Can&apos;t travel with a newborn? Our team arrives with lighting, props &amp; outfits, so your baby never leaves home. Home session in Dubai included from AED 499 — no travel fee.</span>
             </div>
           </div>
  
