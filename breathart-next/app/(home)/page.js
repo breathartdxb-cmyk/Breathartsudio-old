@@ -76,9 +76,9 @@ const features = [
       'Lady photographer on request',
       'Maternity, cake smash & family shoots',
     ],
-    main: { src: `${NB}lp-moon-bowl.webp`, alt: 'Newborn baby in a moon-themed setup' },
+    main: { src: `${NB}1photo.jpeg`, alt: 'Newborn in a Ramadan-themed Emirati setup' },
     side: [
-      { src: `${NB}lp-smile-bucket.webp`, alt: 'Smiling newborn in a knitted hat' },
+      { src: `${NB}th-sunflower-bouquet.webp`, alt: 'Newborn in a sunflower bouquet setup' },
       { src: '/assets/gallery/family/IMG_9601.webp', alt: 'Family portrait with a baby' },
     ],
     cta: { label: 'Book a newborn session', href: wa("Hi BreathArt! I'd like to book a newborn photoshoot.") },
