@@ -35,6 +35,8 @@ const items = [
   { src: `${G}BK_264_SABRINA_338_.jpg_filename_UTF_8_BK_264_SABRINA_338_.jpg.webp`, alt: 'Smiling newborn curled on white fur', cat: 'Newborn' },
   { src: `${NB}th-moon-teddies.webp`, alt: 'Newborn on a moon pillow with knitted teddies', cat: 'Newborn' },
   { src: `${NB}th-starry-night.webp`, alt: 'Newborn in a starry night basket setup', cat: 'Newborn' },
+  { src: `${G}bk-hand-cradle.webp`, alt: 'Newborn cradled in a parent\'s hand on white', cat: 'Newborn' },
+  { src: `${G}bk-pink-hammock.webp`, alt: 'Sleeping newborn in a pink knit hat in a hanging wrap with a teddy', cat: 'Newborn' },
 
   // Family
   { src: `${F}IMG_9770.webp`, alt: 'Parents cuddling their newborn', cat: 'Family' },
@@ -43,6 +45,7 @@ const items = [
   { src: `${F}img_1263.webp`, alt: 'Black and white portrait of parents with their baby', cat: 'Family' },
   { src: `${NB}lp-family.webp`, alt: 'Parents with their newborn in soft window light', cat: 'Family' },
   { src: `${NB}20.jpeg`, alt: 'Mother and father with their newborn daughter', cat: 'Family' },
+  { src: `${F}bk-parents-forehead.webp`, alt: 'Parents forehead to forehead holding their sleeping newborn', cat: 'Family' },
 
   // Events
   { src: `${E}WhatsApp_Image_2026-06-25_at_17.28.30.webp`, alt: 'Outdoor dinner event setup at sunset', cat: 'Events' },
