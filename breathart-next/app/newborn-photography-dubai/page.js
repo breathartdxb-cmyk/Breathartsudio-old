@@ -155,6 +155,9 @@ const faqs = [
 ];
  
 const galleryStrip = [
+  '/assets/gallery/newborn/bk-hand-cradle.webp',
+  '/assets/gallery/newborn/bk-pink-hammock.webp',
+  '/assets/gallery/family/bk-parents-forehead.webp',
   `${IMG}8th.jpeg`,
   `${IMG}lp-smile-bucket.webp`,
   `${IMG}12.jpeg`,
