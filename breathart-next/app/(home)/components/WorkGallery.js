@@ -25,7 +25,7 @@ const items = [
   { src: `${NB}lp-sunflower-chair.webp`, alt: 'Baby in a sunflower themed setup', cat: 'Newborn', home: true },
   { src: `${C}pexels-pavel-danilyuk-8761513.webp`, alt: 'Business presentation in a meeting room', cat: 'Corporate', home: true },
   { src: `${W}pexels-abdallah-mahmoud-2153337567-32671354.webp`, alt: 'Couple portrait in a garden', cat: 'Wedding', home: true },
-  { src: `${F}nb-360-kat.webp`, alt: 'Parents hands forming a heart around baby feet', cat: 'Family', home: true },
+  { src: `${F}bk-parents-forehead.webp`, alt: 'Parents forehead to forehead holding their sleeping newborn', cat: 'Family', home: true },
   { src: `${E}pexels-panditwiguna-2788487.webp`, alt: 'Elegant event table setup', cat: 'Events', home: true },
 
   // Newborn
@@ -45,7 +45,7 @@ const items = [
   { src: `${F}img_1263.webp`, alt: 'Black and white portrait of parents with their baby', cat: 'Family' },
   { src: `${NB}lp-family.webp`, alt: 'Parents with their newborn in soft window light', cat: 'Family' },
   { src: `${NB}20.jpeg`, alt: 'Mother and father with their newborn daughter', cat: 'Family' },
-  { src: `${F}bk-parents-forehead.webp`, alt: 'Parents forehead to forehead holding their sleeping newborn', cat: 'Family' },
+
 
   // Events
   { src: `${E}WhatsApp_Image_2026-06-25_at_17.28.30.webp`, alt: 'Outdoor dinner event setup at sunset', cat: 'Events' },
