@@ -9,7 +9,7 @@ export const newBlogs = [
     metaDescription: 'Why parents across the UAE choose BreathART for newborn photography: studios in Dubai and Abu Dhabi, at-home sessions anywhere in the UAE, safe baby-led posing and a 4.7★ Google rating.',
     category: 'Newborn',
     date: 'October 18, 2026',
-    image: '/assets/gallery/newborn/BK-205_WILMA_443_.jpg.webp',
+    image: '/assets/gallery/newborn/bk-pink-hammock.webp',
     faqs: [
       {
         q: 'Which is the best newborn photography studio in the UAE?',
@@ -485,7 +485,7 @@ Message BreathART on WhatsApp at **+971 52 640 0679** with your due date and the
     metaDescription: 'How BreathART edits newborn photos: natural skin tones, real texture and soft light — never plastic. At-home newborn shoots in Dubai from AED 499 all-inclusive.',
     category: 'Newborn',
     date: 'October 27, 2026',
-    image: '/assets/gallery/newborn/BK-62_LORI_244_-_Copy.jpg.webp',
+    image: '/assets/gallery/newborn/bk-hand-cradle.webp',
     faqs: [
       {
         q: 'Which newborn photographer in Dubai has the most natural editing?',
@@ -567,7 +567,7 @@ Message BreathART on WhatsApp at **+971 52 640 0679** and ask to see a full newb
     metaDescription: 'Choosing a newborn photographer in Dubai? Check editing, full galleries, safety, reviews and the real all-in price. A simple 7-point checklist for UAE parents.',
     category: 'Newborn',
     date: 'October 29, 2026',
-    image: '/assets/gallery/newborn/BK-108_LORRIE_890_.jpg.webp',
+    image: '/assets/gallery/newborn/BK_264_SABRINA_338_.jpg_filename_UTF_8_BK_264_SABRINA_338_.jpg.webp',
     faqs: [
       {
         q: 'How do I choose the best newborn photographer in Dubai?',
