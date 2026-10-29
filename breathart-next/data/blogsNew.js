@@ -560,4 +560,88 @@ Every newborn package includes the option of a home session in Dubai — **no tr
 
 Message BreathART on WhatsApp at **+971 52 640 0679** and ask to see a full newborn gallery from a recent session — not just highlights. Learn more about [at-home newborn photography in Dubai](/blog/at-home-newborn-photography-dubai).`,
   },
+  {
+    slug: 'how-to-choose-newborn-photographer-dubai',
+    title: 'How to Choose a Newborn Photographer in Dubai: 7 Things to Check Before You Book',
+    metaTitle: 'How to Choose a Newborn Photographer in Dubai | 7-Point Checklist',
+    metaDescription: 'Choosing a newborn photographer in Dubai? Check editing, full galleries, safety, reviews and the real all-in price. A simple 7-point checklist for UAE parents.',
+    category: 'Newborn',
+    date: 'October 29, 2026',
+    image: '/assets/gallery/newborn/BK-108_LORRIE_890_.jpg.webp',
+    faqs: [
+      {
+        q: 'How do I choose the best newborn photographer in Dubai?',
+        a: 'Compare five things: natural editing (real skin tones and texture), a full gallery from one session rather than a few highlights, safe baby-led posing, recent Google reviews from parents, and the all-in price including home visit and edited photos.',
+      },
+      {
+        q: 'How much should a newborn photoshoot cost in Dubai?',
+        a: 'Prices vary widely between studios, so always compare the all-in price including home travel and edited photos. At BreathART, packages start from AED 499 all-inclusive, with the home session in Dubai included, up to AED 1,800 for the Diamond Nest package.',
+      },
+      {
+        q: 'What questions should I ask a newborn photographer before booking?',
+        a: 'Ask to see a full gallery from one recent session, how many edited photos you receive, whether home travel is included in the price, how they keep the baby safe and warm, whether a lady photographer is available, and when you will receive your photos.',
+      },
+      {
+        q: 'Is at-home or studio newborn photography better?',
+        a: 'Both can look equally professional if the photographer brings proper lighting. At-home sessions are easier for a newborn and mother in the first two weeks; studios offer more themed setups. BreathART offers both, with the home session in Dubai included in every package.',
+      },
+    ],
+    content: `Your baby is only this small for a few weeks, so choosing the right **newborn photographer in Dubai** matters. Beautiful sample photos are not enough. Use this 7-point checklist to compare studios before you book — it is the same checklist we would use ourselves.
+
+## 1. Look at the editing first
+
+Editing is what makes newborn photos look timeless — or dated. Look for:
+
+* **Realistic skin tones** — not orange, grey or overly pink
+* **Real skin texture** — soft, but not plastic or airbrushed
+* **Soft, even lighting** and calm, consistent colours
+
+Read how we approach it in our guide to [natural newborn photo editing](/blog/natural-newborn-photo-editing-dubai).
+
+## 2. Ask for a full gallery, not just highlights
+
+Any studio can show ten great photos. Ask to see **every delivered photo from one recent session**. A consistent full gallery shows the photographer's real standard.
+
+## 3. Check safety and how they handle newborns
+
+* Baby-led posing, with breaks for feeding and settling
+* Advanced poses done as safe composites, with a hand always near the baby
+* A warm room and clean wraps and props for every session
+
+Our [newborn photography safety guide](/blog/newborn-photography-safety-guide-uae) explains what good practice looks like.
+
+## 4. Read recent reviews from parents
+
+Look at Google reviews from the last few months. The most useful ones mention **editing quality, how the team handled the baby, and whether they were on time**. BreathART is **rated 4.7 on Google** by parents across the UAE.
+
+## 5. Compare the real, all-in price
+
+Many prices look low until extras are added: home travel, extra edited photos, a lady photographer. Always ask for the **total price**. At BreathART:
+
+* **Basic — AED 499 all-inclusive:** studio or at-home session (home session in Dubai included, no travel fee), 20 retouched images, 50+ soft-edited images, 1 premium theme
+* **Silver Nest — AED 699**, **Golden Nest — AED 999**, **Diamond Nest — AED 1,800**
+* Pay later with **Tabby or Tamara**
+
+See every package on our [offers page](/offers).
+
+## 6. Studio or at home?
+
+In the first two weeks, many mothers prefer not to travel. A good photographer brings professional lighting, props and outfits so **at-home photos look as good as studio ones**. Read more about [at-home newborn photography in Dubai](/blog/at-home-newborn-photography-dubai).
+
+## 7. Book early and ask about timing
+
+The best time for newborn photos is **5 to 14 days after birth**. Book during pregnancy and confirm the date once your baby arrives. Ask how long delivery of the edited photos takes.
+
+## Quick checklist to send to studios
+
+* Can I see a full gallery from one session?
+* How many retouched photos are included?
+* Is home travel included in the price?
+* Is a lady photographer available?
+* How do you keep newborns safe and warm?
+
+## Book with BreathART
+
+BreathART Photography Studio is in **Al Qusais, Dubai**, with an outlet in Abu Dhabi, and photographs families across the UAE. Message us on WhatsApp at **+971 52 640 0679** — ask us anything on this checklist. See why parents call us the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
+  },
 ];
