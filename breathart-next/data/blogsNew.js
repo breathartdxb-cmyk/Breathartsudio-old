@@ -651,7 +651,7 @@ BreathART Photography Studio is in **Al Qusais, Dubai**, with an outlet in Abu D
     metaDescription: 'Plan your pre-wedding or engagement photoshoot in Dubai: the best locations, when to shoot, what to wear and BreathART couple packages from AED 499.',
     category: 'Wedding',
     date: 'October 30, 2026',
-    image: '/assets/gallery/wedding/breathart-pre-wedding-dubai-cover.webp',
+    image: '/assets/gallery/wedding/breathart-pre-wedding-dubai-.webp',
     faqs: [
       {
         q: 'How much does a pre-wedding photoshoot cost in Dubai?',
