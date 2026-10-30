@@ -644,4 +644,73 @@ The best time for newborn photos is **5 to 14 days after birth**. Book during pr
 
 BreathART Photography Studio is in **Al Qusais, Dubai**, with an outlet in Abu Dhabi, and photographs families across the UAE. Message us on WhatsApp at **+971 52 640 0679** — ask us anything on this checklist. See why parents call us the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
   },
+  {
+    slug: 'pre-wedding-photoshoot-dubai',
+    title: 'Pre-Wedding Photoshoot in Dubai: Best Locations, Outfits & Packages',
+    metaTitle: 'Pre-Wedding Photoshoot Dubai | Locations & Packages from AED 499',
+    metaDescription: 'Plan your pre-wedding or engagement photoshoot in Dubai: the best locations, when to shoot, what to wear and BreathART couple packages from AED 499.',
+    category: 'Wedding',
+    date: 'October 30, 2026',
+    image: '/assets/gallery/wedding/breathart-pre-wedding-dubai-cover.webp',
+    faqs: [
+      {
+        q: 'How much does a pre-wedding photoshoot cost in Dubai?',
+        a: 'BreathART couple and pre-wedding packages start from AED 499 for a 1–2 hour session at one outdoor location with 15–20 fully edited photos and unlimited raw photos. AED 799 adds a cinematic romance video, and AED 999 covers two locations with 20–30 edited photos and a video.',
+      },
+      {
+        q: 'What are the best pre-wedding photoshoot locations in Dubai?',
+        a: 'Popular choices include the desert dunes at sunset, Dubai Marina and JBR beach, Old Dubai and Al Fahidi, Downtown with the Burj Khalifa skyline, and quiet parks such as Al Barsha Pond Park. Some locations need a permit, so we help you plan.',
+      },
+      {
+        q: 'When is the best time for an outdoor couple shoot in Dubai?',
+        a: 'October to April is the most comfortable season. Shoot in the hour before sunset (golden hour) or early morning for soft light and fewer crowds.',
+      },
+    ],
+    content: `A **pre-wedding photoshoot in Dubai** is the perfect way to celebrate your engagement — and to feel relaxed in front of the camera before the big day. This guide covers the best locations, timing, outfits and what a shoot costs with **BreathART Photography Studio**.
+
+## Best pre-wedding photoshoot locations in Dubai
+
+* **Desert dunes** — golden sand and a glowing sunset; the most iconic Dubai couple shoot
+* **Dubai Marina & JBR beach** — sea, skyline and evening lights
+* **Old Dubai & Al Fahidi** — wind towers, alleys and warm heritage colours
+* **Downtown Dubai** — the Burj Khalifa and modern architecture
+* **Parks and gardens** — green, calm and great for natural portraits
+
+Some locations require a permit or have shooting rules. We advise you on what is allowed when you book.
+
+![Couple pre-wedding photoshoot on the steps in front of the Burj Khalifa, Downtown Dubai, by BreathART](/assets/gallery/wedding/breathart-couple-burj-khalifa-stairs.webp)
+
+## When to shoot
+
+The most comfortable months are **October to April**. Plan your session for the **golden hour before sunset**, or early morning for empty streets and soft light.
+
+## What to wear
+
+* Two outfits work well: one elegant, one casual
+* Coordinate colours rather than matching exactly
+* Flowing dresses look beautiful in the desert breeze
+* Bring comfortable shoes for walking between spots
+
+![Couple walking between palm trees in Downtown Dubai during a BreathART pre-wedding shoot](/assets/gallery/wedding/breathart-couple-downtown-palms.webp)
+
+## Pre-wedding & couple packages
+
+* **Package 01 — AED 499:** 1–2 hour creative session, one outdoor location, 15–20 fully edited photos, unlimited raw photos
+* **Package 02 — AED 799:** one outdoor location, 15–20 edited photos, unlimited raw photos, a cinematic romance video
+* **Package 03 — AED 999:** two outdoor locations, 20–30 edited photos, unlimited raw photos, a cinematic romance video
+
+Pay by card or cash, or split it with Tabby or Tamara. See all [couple packages](/offers).
+
+![Couple holding hands under the dandelion sculptures near the Burj Khalifa, photographed by BreathART](/assets/gallery/wedding/breathart-couple-downtown-dandelions.webp)
+
+## Why couples choose BreathART
+
+* More than 12 years photographing couples and families in the UAE
+* A calm team that guides your poses — no awkward moments
+* Photo and video from one team
+* Female photographer on request
+* Rated 4.7 on Google
+
+Planning the wedding itself? See our [wedding photography service](/services/wedding) and our guide to the [top wedding photography locations in Dubai](/blog/top-wedding-photography-locations-dubai-uae). Message us on WhatsApp at **+971 52 640 0679** with your date and favourite location.`,
+  },
 ];
