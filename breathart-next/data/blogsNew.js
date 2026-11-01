@@ -713,4 +713,77 @@ Pay by card or cash, or split it with Tabby or Tamara. See all [couple packages]
 
 Planning the wedding itself? See our [wedding photography service](/services/wedding) and our guide to the [top wedding photography locations in Dubai](/blog/top-wedding-photography-locations-dubai-uae). Message us on WhatsApp at **+971 52 640 0679** with your date and favourite location.`,
   },
+    {
+    slug: 'wedding-photographer-dubai-cost',
+    title: 'Wedding Photographer in Dubai: What It Costs and What to Ask Before You Book',
+    metaTitle: 'Wedding Photographer Dubai Cost | What Affects the Price | BreathART',
+    metaDescription: 'How much does a wedding photographer in Dubai cost? What affects the price, photo vs video, albums and 10 questions to ask before you book.',
+    category: 'Wedding',
+    date: 'November 1, 2026',
+    image: '/assets/gallery/wedding/breathart-wedding-dubai-cover.webp',
+    faqs: [
+      {
+        q: 'How much does a wedding photographer cost in Dubai?',
+        a: 'There is no single price, because every wedding is different. The cost depends on the number of hours, how many photographers and videographers you need, whether you want a film, and if you add a printed album. BreathART gives a clear written quote after you share your date, venue and hours on WhatsApp at +971 52 640 0679.',
+      },
+      {
+        q: 'Is it cheaper to book wedding photo and video together?',
+        a: 'Usually yes. Booking photography and videography from one team means one plan, one timeline and no overlap between crews, so combined photo and video packages are the most popular and best value option at BreathART.',
+      },
+      {
+        q: 'Can we book a female photographer for our wedding in Dubai?',
+        a: 'Yes. BreathART offers a lady photographer on request, which many families choose for ladies-only events, bridal preparation and mehndi or henna nights.',
+      },
+    ],
+    content: `Searching for a **wedding photographer in Dubai** and wondering what it will cost? Prices vary a lot, and two quotes can look very different even when they seem to cover "the whole day". This guide explains what affects the cost, what you should get for your money and the questions to ask before you book. It is written by **BreathART Photography Studio**, a wedding, family and newborn studio in Al Qusais, Dubai, with an outlet in Abu Dhabi.
+ 
+## Why there is no fixed wedding photography price
+ 
+A two-hour nikah in a family home and a 12-hour wedding with 500 guests are very different jobs. That is why most experienced wedding photographers in Dubai, including BreathART, work with a **custom quote** instead of one fixed price. A clear quote should list exactly what is included, so you can compare like with like.
+ 
+![Wedding details — calla lily bouquet, tiara, cake and invitation — photographed by BreathART in Dubai](/assets/gallery/wedding/breathart-wedding-dubai-details.webp)
+ 
+## What affects the cost of a wedding photographer in Dubai
+ 
+* **Hours of coverage** — getting ready, ceremony, reception and the last dance add up. Most of the price comes from time on the day.
+* **Number of photographers** — one photographer suits a small nikah; large weddings often need two, so the bride and groom sides are both covered.
+* **Video or film** — a cinematic highlight film and a full-length video need a separate videographer and many hours of editing.
+* **Number of events** — mehndi or henna night, nikah, wedding day and reception can each be a separate session.
+* **Albums and prints** — a premium printed album, frames or parent albums are extra deliverables.
+* **Location** — venues outside Dubai, permits for some outdoor locations and early starts can affect the plan.
+* **Delivery time and editing** — the number of fully edited photos and how fast you need them.
+ 
+## Photo, video or both?
+ 
+Photos give you the frames you print and share; a film brings back the voices, music and movement of the day. Many couples now choose **photo and video together**. With one team you get one timeline, no crews competing for the same angle and a consistent style. See our [videography service](/services/videography) for wedding films.
+ 
+## 10 questions to ask before you book
+ 
+1. Is my date available, and who exactly will photograph my wedding?
+2. Can I see a **full wedding gallery**, not only the best 10 photos?
+3. How many hours, photographers and videographers are included?
+4. How many edited photos will I receive, and do I also get the unedited files?
+5. When will my photos and film be delivered?
+6. Is an album included, or is it an extra?
+7. Do you have experience with nikah, mehndi and multicultural weddings?
+8. Can I have a **lady photographer** for the bridal preparation or ladies-only areas?
+9. What happens if the event runs later than planned?
+10. What is the deposit, and can I pay in instalments?
+ 
+## How BreathART prices your wedding
+ 
+Message us with your **date, venue, number of hours and whether you want photo, video or both**. We reply with a clear written quote — no hidden charges on the day. You can pay by card or cash, or split the amount with **Tabby or Tamara**.
+ 
+* Calm, discreet wedding team with photo and video from one studio
+* Nikah, mehndi, wedding day, reception and bridal portraits
+* Lady photographer on request
+* Coverage across the UAE, from our studio in Al Qusais, Dubai and our Abu Dhabi outlet
+* Rated **4.7 on Google**
+ 
+## Start with a pre-wedding shoot
+ 
+A pre-wedding or engagement shoot is a great way to meet your photographer and feel relaxed in front of the camera before the big day. Our couple packages start from **AED 499** — read the [pre-wedding photoshoot guide](/blog/pre-wedding-photoshoot-dubai), browse the [top wedding photography locations in Dubai](/blog/top-wedding-photography-locations-dubai-uae) and see all [packages and offers](/offers).
+ 
+Ready for a quote? Visit our [wedding photography page](/services/wedding) or message us on WhatsApp at **+971 52 640 0679** with your date and venue.`,
+  },
 ];
