@@ -2,7 +2,7 @@
 export const categories = {
   Newborn: {
     title: "Newborn Photography Packages",
-    tagline: "Safe, baby-led newborn sessions in our studio or at your home — home session in Dubai included in every package, no extra charges",
+    tagline: "Safe, baby-led newborn sessions in our studio or at your home — home sessions available across the UAE (a travel charge may apply, depending on location)",
     packages: [
       {
         name: "Basic",
@@ -10,7 +10,7 @@ export const categories = {
         subtitle: "Simple, beautiful newborn memories",
         inclusions: [
           "1–2 hour session — studio or at your home",
-          "Home session in Dubai included (no travel fee)",
+          "Home sessions available across the UAE (travel charge may apply)",
           "20 professionally retouched images",
           "50+ soft-edited images",
           "1 premium theme",
