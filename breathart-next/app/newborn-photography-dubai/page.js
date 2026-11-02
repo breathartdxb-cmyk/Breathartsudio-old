@@ -138,7 +138,7 @@ const faqs = [
   },
   {
     q: 'Can you come to our home?',
-    a: 'Absolutely. Our team brings lighting, props and outfits to your home, so you and your baby can stay comfortable. The home session in Dubai is included in every package (from AED 499 all-inclusive) with no travel fee.',
+    a: 'Absolutely. Our team brings lighting, props and outfits to your home, so you and your baby can stay comfortable. Home sessions are available across the UAE. A travel charge may apply for home sessions, depending on your location.',
   },
   {
     q: 'Can parents and siblings be in the photos?',
@@ -150,9 +150,15 @@ const faqs = [
   },
   {
     q: 'How much does a newborn photoshoot cost?',
-    a: `Packages start from ${STARTING_PRICE}. Pricing is fully transparent with no hidden fees. Message us and we will share the package that suits you.`,
+    a: `Newborn packages start from ${STARTING_PRICE} (Basic). Silver Nest is AED 699, Golden Nest AED 999 and Diamond Nest AED 1,800. A travel charge may apply for home sessions, depending on your location. You can pay later with Tabby or Tamara.`,
   },
 ];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
  
 const galleryStrip = [
   '/assets/gallery/newborn/bk-hand-cradle.webp',
@@ -249,6 +255,7 @@ function FaqItem({ q, a }) {
 export default function NewbornLandingPage() {
   return (
     <main className={styles.page}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       {/* On phones the sticky bar below replaces the site-wide floating buttons */}
       <style>{`@media (max-width: 640px) { .whatsapp-float { display: none !important; } .payment-float-banner { display: none !important; } }`}</style>
  
@@ -273,7 +280,7 @@ export default function NewbornLandingPage() {
       {/* ---------- Hero ---------- */}
       <section className={styles.hero}>
         <div className={styles.heroText}>
-          <span className={styles.eyebrow}>Studio &amp; at-home sessions · From {STARTING_PRICE}</span>
+          <span className={styles.eyebrow}>Newborn packages from {STARTING_PRICE} · Home sessions available across the UAE</span>
           <h1 className={styles.heroTitle}>
             Newborn Photography
             <em> in Dubai</em>
@@ -288,7 +295,7 @@ export default function NewbornLandingPage() {
             <div className={styles.homeIcon}><Home size={22} /></div>
             <div>
               <strong>The studio comes to your home</strong>
-              <span>Can&apos;t travel with a newborn? Our team arrives with lighting, props &amp; outfits, so your baby never leaves home. Home session in Dubai included from AED 499 — no travel fee.</span>
+              <span>Can&apos;t travel with a newborn? Our team arrives with lighting, props &amp; outfits, so your baby never leaves home. Home sessions available across the UAE.</span>
             </div>
           </div>
  
@@ -311,10 +318,10 @@ export default function NewbornLandingPage() {
           </div>
  
           <div className={styles.heroCtas}>
-            <a href="#book" className={styles.btnPrimary}>Check Availability</a>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className={styles.btnGhost}>
-              <MessageCircle size={18} /> Chat on WhatsApp
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary} id="hero-whatsapp">
+              <MessageCircle size={18} /> WhatsApp Us Now
             </a>
+            <a href="#book" className={styles.btnGhost}>Check Availability</a>
           </div>
         </div>
  
@@ -465,7 +472,7 @@ export default function NewbornLandingPage() {
             {[1, 2, 3, 4, 5].map((i) => <Star key={i} size={22} fill="currentColor" />)}
           </div>
           <h2 className={styles.h2}>What Dubai parents say</h2>
-          <p className={styles.lead}>Rated 4.7 out of 5 from 47 Google reviews</p>
+          <p className={styles.lead}>Rated 4.7 out of 5 on Google</p>
         </div>
         <div className={styles.reviews}>
           {testimonials.map((t) => (
