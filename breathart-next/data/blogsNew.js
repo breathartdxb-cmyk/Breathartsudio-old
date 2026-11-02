@@ -240,7 +240,7 @@ Our team follows the same safety standards at home as in the studio: clean, wash
 
 ## Book an at-home newborn session
 
-Message BreathART on WhatsApp at +971 52 640 0679 with your baby's due date or birth date and your location. A **lady photographer** is available on request. Explore our [newborn and maternity service](/services/newborn-maternity), or read why families call BreathART the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
+Message BreathART on WhatsApp at +971 52 640 0679 with your baby's due date or birth date and your location. A **lady photographer** is available on request. Explore our [newborn photography in Dubai](/newborn-photography-dubai) page, or read why families call BreathART the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
   },
 
   {
@@ -308,7 +308,7 @@ BreathART has outlets in **Dubai** and **Abu Dhabi**, and our travelling teams c
 - Our team arrives on time, sets up, shoots and packs down
 - Your hand-edited photos are delivered on the agreed date
 
-See our [family and cake smash photography](/services/family-couple), [newborn photography](/services/newborn-maternity) and current [packages and offers](/offers).`,
+See our [family and cake smash photography](/services/family-couple), [newborn photography in Dubai](/newborn-photography-dubai) and current [packages and offers](/offers).`,
   },
 
   {
@@ -374,7 +374,7 @@ The ideal window is **5 to 14 days after birth**. Babies sleep more deeply, curl
 
 ## Ready to book with confidence?
 
-Message BreathART on WhatsApp at +971 52 640 0679, or explore our [newborn and maternity photography service](/services/newborn-maternity). Prefer not to travel? Read about our [at-home newborn photography](/blog/at-home-newborn-photography-dubai), or see why parents call BreathART the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
+Message BreathART on WhatsApp at +971 52 640 0679, or see our [newborn photography in Dubai](/newborn-photography-dubai) packages and themes. Prefer not to travel? Read about our [at-home newborn photography](/blog/at-home-newborn-photography-dubai), or see why parents call BreathART the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
   },
   {
     slug: 'maternity-photoshoot-dubai',
@@ -476,7 +476,7 @@ Many families book their maternity shoot and newborn photoshoot together. Your m
 
 ## Book your maternity photoshoot
 
-Message BreathART on WhatsApp at **+971 52 640 0679** with your due date and the look you have in mind, and we will reply with available dates. You can also explore our [newborn and maternity photography service](/services/newborn-maternity).`,
+Message BreathART on WhatsApp at **+971 52 640 0679** with your due date and the look you have in mind, and we will reply with available dates. You can also explore our [newborn and maternity photography service](/services/newborn-maternity). Planning newborn photos too? See our [newborn photography in Dubai](/newborn-photography-dubai) page.`,
   },
   {
     slug: 'natural-newborn-photo-editing-dubai',
@@ -558,7 +558,7 @@ Every newborn package can be done as a home session anywhere in the UAE; a trave
 
 ## See it for yourself
 
-Message BreathART on WhatsApp at **+971 52 640 0679** and ask to see a full newborn gallery from a recent session — not just highlights. Learn more about [at-home newborn photography in Dubai](/blog/at-home-newborn-photography-dubai).`,
+Message BreathART on WhatsApp at **+971 52 640 0679** and ask to see a full newborn gallery from a recent session — not just highlights. Learn more about [at-home newborn photography in Dubai](/blog/at-home-newborn-photography-dubai), or see our [newborn photography in Dubai](/newborn-photography-dubai) themes and packages.`,
   },
   {
     slug: 'how-to-choose-newborn-photographer-dubai',
@@ -586,7 +586,7 @@ Message BreathART on WhatsApp at **+971 52 640 0679** and ask to see a full newb
         a: 'Both can look equally professional if the photographer brings proper lighting. At-home sessions are easier for a newborn and mother in the first two weeks; studios offer more themed setups. BreathART offers both, with home sessions available across the UAE.',
       },
     ],
-    content: `Your baby is only this small for a few weeks, so choosing the right **newborn photographer in Dubai** matters. Beautiful sample photos are not enough. Use this 7-point checklist to compare studios before you book — it is the same checklist we would use ourselves.
+    content: `Your baby is only this small for a few weeks, so choosing the right [newborn photographer in Dubai](/newborn-photography-dubai) matters. Beautiful sample photos are not enough. Use this 7-point checklist to compare studios before you book — it is the same checklist we would use ourselves.
 
 ## 1. Look at the editing first
 
