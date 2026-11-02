@@ -489,8 +489,8 @@ const NewbornMaternityHero = () => {
       <div className="newborn-hero-left">
         <span className="newborn-hero-label">We Capture</span>
         <h1 className="newborn-hero-title">
-          Newborn & <br/>
-          Maternity <br/>
+          Maternity & <br/>
+          Newborn <br/>
           <span className="accent">Photography</span> <br/>
           in Dubai
         </h1>
@@ -502,6 +502,9 @@ const NewbornMaternityHero = () => {
         <p style={{ color: 'var(--color-white)', fontSize: '1.25rem', fontWeight: '500', marginTop: '0.5rem', fontFamily: 'var(--font-heading)' }}>
           Starts from 499dhs
         </p>
+        <Link href="/newborn-photography-dubai" style={{ color: 'var(--color-white)', textDecoration: 'underline', fontSize: '1rem', marginTop: '0.75rem', display: 'inline-block' }}>
+          See newborn photography packages &amp; themes →
+        </Link>
       </div>
       
       {/* Right form card block */}
