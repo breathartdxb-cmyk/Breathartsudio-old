@@ -1,8 +1,8 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../schema';
 
-const TITLE = 'Newborn Photography Dubai — Safe, Gentle Studio & Home Sessions | BreathArt';
+const TITLE = 'Newborn Photography Dubai from AED 499 | Home Sessions UAE';
 const DESCRIPTION =
-  'Book a newborn photoshoot in Dubai with BreathArt. Trained newborn photographers, female photographer on request, props & outfits included, studio or at-home sessions. Packages from AED 499.';
+  'Newborn photoshoot in Dubai from AED 499. Studio or home sessions across the UAE, trained newborn photographers, lady photographer on request. Rated 4.7.';
 const OG_IMAGE = '/assets/services/newborn/newborn-and-maternity/8th.jpeg';
 
 export const metadata = {
