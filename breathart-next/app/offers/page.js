@@ -17,6 +17,7 @@ const included = [
 const faqs = [
   { q: 'Can I customise a package?', a: 'Yes. Tell us what you need — extra edited photos, a video reel, an album or a second location — and we will tailor the package and price.' },
   { q: 'Do you have packages for weddings and corporate shoots?', a: 'Weddings and corporate shoots are quoted individually based on hours, team size and deliverables. Message us for a quick quote.' },
+  { q: 'Is there a travel charge for home sessions?', a: 'Home sessions are available across the UAE. A travel charge may apply for home sessions, depending on your location. We confirm the full price on WhatsApp before you book.' },
   { q: 'Can I pay in instalments?', a: 'Yes — we accept Tabby and Tamara, as well as cash and card.' },
   { q: 'How do I book?', a: 'Tap “Book this package” to message us on WhatsApp. We will confirm your date and send the details.' },
 ];
@@ -63,7 +64,7 @@ export default function OffersPage() {
             </p>
             <p className={styles.featuredLead}>
               Safe, gentle newborn sessions with hand-made themes — in our studio or at your home anywhere in the UAE.
-              Four packages from AED 499 to AED 1,800 — home session in Dubai included, no hidden extras. Lady photographer on request.
+              Four packages from AED 499 to AED 1,800. Home sessions available across the UAE — a travel charge may apply, depending on your location. Lady photographer on request.
             </p>
             <div className={home.ctaRow}>
               <a href={wa("Hi BreathART! I'd like to book a newborn photoshoot (from AED 499).")} target="_blank" rel="noopener noreferrer" className={home.btnGold}>
