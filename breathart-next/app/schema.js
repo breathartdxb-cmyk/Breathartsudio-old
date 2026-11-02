@@ -143,9 +143,9 @@ export function LocalBusinessSchema() {
       itemListElement: [
         {
           '@type': 'OfferCatalog',
-          name: 'Newborn Photography Packages (studio or at home in Dubai, all-inclusive)',
+          name: 'Newborn Photography Packages (studio or at home across the UAE)',
           itemListElement: [
-            ['Basic newborn photoshoot', 499, '1–2 hour session in studio or at home (home session in Dubai included), 20 retouched images, 50+ soft-edited images, 1 theme'],
+            ['Basic newborn photoshoot', 499, '1–2 hour session in studio or at home (travel charge may apply for home sessions), 20 retouched images, 50+ soft-edited images, 1 theme'],
             ['Silver Nest newborn photoshoot', 699, '2–3 hour session, 30 retouched images, 100+ unedited images, 1–2 themes, reel video, digital album'],
             ['Golden Nest newborn photoshoot', 999, '3–4 hour session, 40 retouched images, 3–4 themes, cinematic highlight video, digital album, 3 frames'],
             ['Diamond Nest newborn photoshoot', 1800, 'Unlimited session time, 70 retouched images, 4–5 themes, 2-minute cinematic video, printed album, 3 frames'],
