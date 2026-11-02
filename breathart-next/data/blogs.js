@@ -93,7 +93,7 @@ Every theme above is ready in our studio, and our team can also bring setups to 
 
 ## How Much Does a Themed Newborn Photoshoot Cost?
 
-At **BreathArt Studio**, newborn photoshoot packages **start from AED 499**, with transparent pricing and no hidden fees. The final price depends on the number of themes and edited photos — and a home session in Dubai is included in every package at no extra cost.
+At **BreathArt Studio**, newborn photoshoot packages **start from AED 499**, with clear package pricing. The final price depends on the number of themes and edited photos. Home sessions are available across the UAE; a travel charge may apply for home sessions, depending on your location.
 
 ## Book Your Newborn Theme Session
 
