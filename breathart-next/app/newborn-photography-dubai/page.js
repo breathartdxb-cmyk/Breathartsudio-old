@@ -77,6 +77,9 @@ const reasons = [
 ];
  
 const themes = [
+  { src: `${IMG}th-honey-bear.webp`, name: 'Honey Bear', note: 'Mustard knits and fresh lemons' },
+  { src: `${IMG}th-lavender-bloom.webp`, name: 'Lavender Bloom', note: 'Pink bear bonnet with lavender flowers' },
+  { src: `${IMG}th-red-rose-bow.webp`, name: 'Red Rose Bow', note: 'A bright red bow and a bed of roses' },
   { src: `${IMG}th-starry-night.webp`, name: 'Starry Night', note: 'Dreamy clouds and twinkling stars' },
   { src: `${IMG}th-honey-bee.webp`, name: 'Little Honey Bee', note: 'Sunny yellow and the sweetest smiles' },
   { src: `${IMG}th-dreamy-pony.webp`, name: 'Dreamy Pony', note: 'Soft neutrals with moon and clouds' },
@@ -161,6 +164,10 @@ const faqSchema = {
 };
  
 const galleryStrip = [
+  `${IMG}lp-honey-bear.webp`,
+  `${IMG}lp-puppy-pals.webp`,
+  `${IMG}lp-lavender-bloom.webp`,
+  `${IMG}lp-red-rose-bow.webp`,
   '/assets/gallery/newborn/bk-hand-cradle.webp',
   '/assets/gallery/newborn/bk-pink-hammock.webp',
   `${IMG}8th.jpeg`,
@@ -280,7 +287,7 @@ export default function NewbornLandingPage() {
       {/* ---------- Hero ---------- */}
       <section className={styles.hero}>
         <div className={styles.heroText}>
-          <span className={styles.eyebrow}>Newborn packages from {STARTING_PRICE} · Home sessions available across the UAE</span>
+          <span className={styles.eyebrow}>From {STARTING_PRICE} · Home sessions across the UAE</span>
           <h1 className={styles.heroTitle}>
             Newborn Photography
             <em> in Dubai</em>
