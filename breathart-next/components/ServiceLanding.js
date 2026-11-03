@@ -135,8 +135,8 @@ export default function ServiceLanding({ data }) {
         </div>
         <div className={s.gallery}>
           {d.gallery.map((g) => (
-            <figure key={g.src} className={s.galleryItem}>
-              <Image src={g.src} alt={g.alt} fill sizes="(max-width: 640px) 50vw, 25vw" style={{ objectFit: 'cover' }} />
+            <figure key={g.src} className={s.galleryItem} style={d.galleryRatio ? { aspectRatio: d.galleryRatio } : undefined}>
+              <Image src={g.src} alt={g.alt} fill sizes="(max-width: 640px) 50vw, 25vw" style={{ objectFit: d.galleryFit || 'cover' }} />
             </figure>
           ))}
         </div>
