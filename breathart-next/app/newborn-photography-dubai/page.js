@@ -78,6 +78,7 @@ const reasons = [
  
 const themes = [
   { src: `${IMG}th-honey-bear.webp`, name: 'Honey Bear', note: 'Mustard knits and fresh lemons' },
+  { src: `${IMG}th-little-lion.webp`, name: 'Little Lion', note: 'Knitted lion mane with a tiny tail' },
   { src: `${IMG}th-lavender-bloom.webp`, name: 'Lavender Bloom', note: 'Pink bear bonnet with lavender flowers' },
   { src: `${IMG}th-red-rose-bow.webp`, name: 'Red Rose Bow', note: 'A bright red bow and a bed of roses' },
   { src: `${IMG}th-starry-night.webp`, name: 'Starry Night', note: 'Dreamy clouds and twinkling stars' },
@@ -165,6 +166,7 @@ const faqSchema = {
  
 const galleryStrip = [
   `${IMG}lp-honey-bear.webp`,
+  `${IMG}lp-little-lion.webp`,
   `${IMG}lp-puppy-pals.webp`,
   `${IMG}lp-lavender-bloom.webp`,
   `${IMG}lp-red-rose-bow.webp`,
