@@ -4,7 +4,6 @@ const baseUrl = 'https://www.breathartstudio.com';
 
 const pages = [
   { path: '', freq: 'weekly', priority: 1.0 },
-  { path: '/services/newborn-maternity', freq: 'weekly', priority: 0.9 },
   { path: '/newborn-photography-dubai', freq: 'weekly', priority: 0.9 },
   { path: '/services', freq: 'monthly', priority: 0.8 },
   { path: '/services/family-couple', freq: 'monthly', priority: 0.8 },
