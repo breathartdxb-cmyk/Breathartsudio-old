@@ -393,8 +393,8 @@ export default function NewbornLandingPage() {
         <div className={styles.split}>
           <div className={styles.splitMedia}>
             <Image
-              src={`${IMG}NB-453 MUTYA (158).JPG`}
-              alt="Mother cradling her newborn's tiny feet"
+              src={`${IMG}newborn-tiny-details.webp`}
+              alt="Close-up newborn details: lips, hand, feet and ear"
               fill
               sizes="(max-width: 900px) 100vw, 45vw"
               style={{ objectFit: 'cover' }}
