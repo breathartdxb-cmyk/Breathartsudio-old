@@ -12,7 +12,7 @@ const nextConfig = {
       {
         source: '/services/newborn-maternity',
         destination: '/newborn-photography-dubai',
-        permanent: false,
+        permanent: true,
       },
     ];
   },
