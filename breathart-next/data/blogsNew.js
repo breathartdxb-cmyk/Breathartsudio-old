@@ -318,7 +318,7 @@ See our [family and cake smash photography](/services/family-couple), [newborn p
     metaDescription: 'How safe newborn photography works: supported poses, composites, warmth, hygiene and what to ask your photographer. A practical guide for parents in Dubai, Abu Dhabi and the UAE.',
     category: 'Newborn',
     date: 'October 14, 2026',
-    image: '/assets/gallery/newborn/BK-205_WILMA_443_.jpg.webp',
+    image: '/assets/services/newborn/newborn-and-maternity/lp-hands.webp',
     faqs: [
       {
         q: 'Is newborn photography safe for my baby?',
