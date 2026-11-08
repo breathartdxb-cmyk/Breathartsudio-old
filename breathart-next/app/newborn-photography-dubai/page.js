@@ -554,7 +554,7 @@ export default function NewbornLandingPage() {
  
       {/* ---------- Final CTA ---------- */}
       <section className={styles.final}>
-        <Image src={`${IMG}8th.jpeg`} alt="" fill sizes="100vw" style={{ objectFit: 'cover' }} />
+        alt="Newborn photoshoot in Dubai by BreathART"
         <div className={styles.finalInner}>
           <h2>They&apos;ll only be this small once.</h2>
           <p>Book your newborn photoshoot in Dubai today. Packages from {STARTING_PRICE}.</p>
