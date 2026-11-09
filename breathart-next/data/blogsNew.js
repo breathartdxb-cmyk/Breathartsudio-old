@@ -786,4 +786,76 @@ A pre-wedding or engagement shoot is a great way to meet your photographer and f
  
 Ready for a quote? Visit our [wedding photography page](/services/wedding) or message us on WhatsApp at **+971 52 640 0679** with your date and venue.`,
   },
+  {
+    slug: 'newborn-photoshoot-price-dubai',
+    title: 'Newborn Photoshoot Price in Dubai: What You Pay For in Studio and Home Sessions',
+    metaTitle: 'Newborn Photoshoot Price Dubai | Packages from AED 499 | BreathART',
+    metaDescription: 'How much does a newborn photoshoot cost in Dubai? What affects the price, studio vs home sessions, and what each BreathART package from AED 499 includes.',
+    category: 'Newborn',
+    date: 'November 9, 2026',
+    image: '/assets/services/newborn/newborn-and-maternity/lp-honey-bear.webp',
+    faqs: [
+      {
+        q: 'How much does a newborn photoshoot cost in Dubai?',
+        a: 'At BreathART, newborn packages start from AED 499 (Basic) and go up to AED 1,800 (Diamond Nest). The price depends mainly on session length, the number of retouched photos, how many themes you want, and extras such as a video or printed album. A travel charge may apply for home sessions, depending on your location.',
+      },
+      {
+        q: 'Is a home newborn session more expensive than a studio session?',
+        a: 'The package price is the same for studio and home sessions. For home sessions a travel charge may apply, depending on where you live in the UAE. We confirm the full price on WhatsApp before you book, so there are no surprises on the day.',
+      },
+      {
+        q: 'Which newborn package should I choose?',
+        a: 'Basic (AED 499) suits parents who want 20 retouched photos and one theme. Silver Nest (AED 699) adds siblings, more photos, a reel and a digital album. Golden Nest (AED 999) is our most complete storytelling package with 3–4 themes and a highlight video. Diamond Nest (AED 1,800) adds unlimited time and a premium printed album.',
+      },
+    ],
+    content: `Planning a **newborn photoshoot in Dubai** and trying to understand the price? Packages can look very different from one studio to the next, and the cheapest offer is not always the best value. This guide explains what affects the cost, how studio and home sessions compare, and exactly what you get with each package at **BreathART Photography Studio** in Al Qusais, Dubai.
+
+## What affects the price of a newborn photoshoot
+
+* **Session length** — newborn sessions follow the baby's rhythm: feeding, settling and cuddles take time. Longer sessions allow more setups and calmer posing.
+* **Number of retouched photos** — every retouched image is edited by hand. More finished photos means more editing time.
+* **Themes and setups** — each theme (props, wraps, backdrop) is a new setup. More themes means more variety in your gallery.
+* **Family and sibling photos** — including parents, siblings or grandparents adds poses and time.
+* **Video and albums** — a reel, a cinematic highlight video, frames or a printed album are extra deliverables.
+* **Location** — a home session brings the whole studio to you; a travel charge may apply, depending on your location.
+
+![Smiling newborn in a pink bear bonnet in a basket with lavender flowers, photographed by BreathART in Dubai](/assets/services/newborn/newborn-and-maternity/lp-lavender-bloom.webp)
+
+## Studio or home session?
+
+**In our studio** in Al Qusais, every prop, backdrop and light is ready, and the room is kept warm for the baby. **At home**, our team brings lighting, props and outfits to you, so your baby never has to leave the house — ideal in the first two weeks or after a C-section. Home sessions are available across the UAE. The package price is the same either way; for home sessions a travel charge may apply, depending on your location.
+
+## BreathART newborn packages
+
+* **Basic — AED 499:** 1–2 hour session in studio or at home, 20 professionally retouched images, 50+ soft-edited images, 1 premium theme, parents included (up to 5 family members), private online gallery
+* **Silver Nest — AED 699:** 2–3 hours, 30 retouched images, 100+ unedited images, 1–2 themes, parents and siblings, 1 reel video, digital album
+* **Golden Nest — AED 999:** 3–4 hours, 40 retouched images, 3–4 themes, full family coverage, cinematic highlight video, digital album, 3 premium photo frames
+* **Diamond Nest — AED 1,800:** unlimited session time, 70 retouched images, 4–5 themes, cinematic highlight video, digital album plus premium printed album, 3 premium photo frames
+
+Pay by card or cash, or split the amount with **Tabby or Tamara**. See every detail on our [packages and offers page](/offers).
+
+![Newborn baby resting in a basket with two family dogs, a BreathART pet-friendly newborn session](/assets/services/newborn/newborn-and-maternity/lp-puppy-pals.webp)
+
+## 6 questions to ask before you book
+
+1. How many **retouched** photos are included, and how many unedited ones?
+2. How long is the session, and what happens if the baby needs extra feeding breaks?
+3. Is there a **travel charge** for a home session at my address?
+4. Are props, wraps and outfits included?
+5. Is the photographer trained in **safe newborn posing**?
+6. When will I receive my photos, and how?
+
+For more tips, read our guides on [how to choose a newborn photographer in Dubai](/blog/how-to-choose-newborn-photographer-dubai) and [newborn photography safety](/blog/newborn-photography-safety-guide-uae).
+
+## Why parents choose BreathART
+
+* Gentle, baby-led sessions with safe newborn handling
+* Natural, soft editing that keeps your baby looking like your baby
+* Studio in Al Qusais, Dubai, plus an outlet in Abu Dhabi
+* Home sessions across the UAE
+* Lady photographer on request
+* Rated **4.7 on Google**
+
+See themes and sample photos on our [newborn photography in Dubai](/newborn-photography-dubai) page, or message us on WhatsApp at **+971 52 640 0679** with your baby's due date or birth date.`,
+  },
 ];
