@@ -79,7 +79,7 @@ const footprint = [
 const faqs = [
   {
     q: 'Where is BreathART Photography Studio located?',
-    a: 'Our Dubai studio is at 12 22A Street, Al Qusais, Dubai, and we also have an outlet in Abu Dhabi. We shoot on location across the UAE, including Sharjah.',
+    a: 'Our studio is at 12 22A Street, Al Qusais, Dubai. We also shoot at home and on location across the UAE, including Abu Dhabi and Sharjah.',
   },
   {
     q: 'What types of photography does BreathART offer?',
