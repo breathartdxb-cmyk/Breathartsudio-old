@@ -933,4 +933,74 @@ For family-only, couple or cake smash sessions, visit our [family and couple pho
 
 Message us on WhatsApp at **+971 52 640 0679** with your family size and preferred date, and we will help you plan the perfect session.`,
   },
+  {
+    slug: 'christmas-family-photoshoot-dubai',
+    title: 'Christmas Family Photoshoot in Dubai: Ideas, Outfits and When to Book',
+    metaTitle: 'Christmas Family Photoshoot Dubai | Studio & Home | BreathART',
+    metaDescription: 'Plan a Christmas family photoshoot in Dubai: festive ideas with a newborn or toddler, what to wear, studio vs home sessions, and when to book for December.',
+    category: 'Family',
+    date: 'November 11, 2026',
+    image: '/assets/services/newborn/newborn-and-maternity/lp-puppy-pals.webp',
+    faqs: [
+      {
+        q: 'When should we book a Christmas family photoshoot in Dubai?',
+        a: 'Book in November or the first week of December. December weekends fill up quickly, and booking early also leaves time to receive your edited photos for Christmas cards and gifts.',
+      },
+      {
+        q: 'Can we do a Christmas photoshoot at home with our tree?',
+        a: 'Yes. BreathART offers home sessions across the UAE, so we can photograph your family next to your own tree and decorations. Our team brings professional lighting. A travel charge may apply for home sessions, depending on your location.',
+      },
+      {
+        q: 'Can we include our newborn or our pets in Christmas photos?',
+        a: 'Yes. Newborns are always handled safely by our trained team, and we regularly photograph families with their dogs. Tell us in advance so we can plan the setup and timing around the baby and the pets.',
+      },
+    ],
+    content: `A **Christmas family photoshoot in Dubai** is a lovely way to capture the season — matching pyjamas, the first Christmas with a new baby, or the whole family in front of the tree. This guide shares festive ideas, outfit tips, and how to plan a December session with **BreathART Photography Studio** in Al Qusais, Dubai, in our studio or at your home.
+
+## When to book
+
+December is one of the busiest months of the year. **Book in November or the first week of December** so you get the date you want and receive your edited photos in time for Christmas cards, frames and gifts for grandparents.
+
+## Studio or at home?
+
+**At home** you have your own tree, lights and decorations, and children feel relaxed in their own space — perfect for cosy, candid moments on the sofa or by the window. Home sessions are available across the UAE; a travel charge may apply, depending on your location.
+
+**In our studio** you get clean backdrops and controlled lighting for classic, frame-worthy portraits. Message us to ask about a festive setup for your date.
+
+![Elegant family portrait of parents with their baby on a dark background, photographed by BreathART in Dubai](/assets/gallery/family/IMG_9601.webp)
+
+## Christmas photoshoot ideas
+
+* **Baby's first Christmas** — a sleeping newborn in red and white, wrapped in a soft knit
+* **Matching pyjamas** on the sofa with hot chocolate
+* **Decorating the tree together** — the best candid photos happen in action
+* **The whole family with your pets** — dogs in festive jumpers are always a hit
+* **Black-and-white close-ups** of little hands holding an ornament
+* **Gift-opening moments** for natural laughter and surprise
+
+![Newborn baby with a red bow and red roses, a festive newborn setup by BreathART in Dubai](/assets/services/newborn/newborn-and-maternity/lp-red-rose-bow.webp)
+
+## What to wear
+
+* Choose **two or three festive colours** — red, cream, green or soft gold — instead of everyone in the same outfit
+* **Knits and soft fabrics** photograph beautifully and keep babies cosy
+* Avoid big logos and very busy patterns
+* Bring **one change of clothes** for small children, just in case
+* For a calm newborn, keep outfits simple: a soft wrap and a little hat or headband
+
+## Make it a family tradition
+
+Many families book a **Christmas or New Year session every year** and watch the children grow in the same spot by the tree. Expecting a baby in the new year? Plan your [newborn photography in Dubai](/newborn-photography-dubai) now, and read our [family photoshoot guide](/blog/family-photoshoot-dubai) for more posing and outfit ideas.
+
+## Why families choose BreathART
+
+* Studio in Al Qusais, Dubai, and home sessions across the UAE
+* Calm photographers who are great with babies, toddlers and pets
+* Natural, soft editing
+* Lady photographer on request
+* Pay with card, cash, Tabby or Tamara
+* Rated **4.7 on Google**
+
+See our [family and couple photography](/services/family-couple) page and [packages and offers](/offers), or message us on WhatsApp at **+971 52 640 0679** with your preferred December date.`,
+  },
 ];
