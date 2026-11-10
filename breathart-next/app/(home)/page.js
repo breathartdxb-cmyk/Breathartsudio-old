@@ -18,7 +18,7 @@ const stats = [
   { big: '12+', small: 'Years of experience' },
   { big: '4.7★', small: '48 Google reviews' },
   { big: '100+', small: 'Creators in our network' },
-  { big: 'Dubai', small: '& Abu Dhabi outlets' },
+  { big: 'UAE', small: 'Home & on-location sessions' },
 ];
 
 const features = [
