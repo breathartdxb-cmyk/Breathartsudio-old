@@ -6,7 +6,7 @@ export const newBlogs = [
     slug: 'best-newborn-photography-studio-uae',
     title: 'Best Newborn Photography Studio in the UAE: Why Parents in Dubai & Abu Dhabi Choose BreathART',
     metaTitle: 'Best Newborn Photography Studio in UAE | Dubai & Abu Dhabi | BreathART',
-    metaDescription: 'Why parents across the UAE choose BreathART for newborn photography: studios in Dubai and Abu Dhabi, at-home sessions anywhere in the UAE, safe baby-led posing and a 4.7★ Google rating.',
+    metaDescription: 'Why parents across the UAE choose BreathART for newborn photography: a Dubai studio in Al Qusais, at-home sessions anywhere in the UAE, safe baby-led posing and a 4.7★ Google rating.',
     category: 'Newborn',
     date: 'October 18, 2026',
     image: '/assets/gallery/newborn/bk-pink-hammock.webp',
@@ -47,7 +47,7 @@ These are exactly the standards BreathART is built on.
 
 ![Newborn baby sleeping on soft white fur at BreathART studio](/assets/gallery/newborn/BK_264_SABRINA_446_.jpg_filename_UTF_8_BK_264_SABRINA_446_.jpg.webp)
 
-**1. Studios in Dubai and Abu Dhabi.** BreathART has outlets in Dubai (our main studio is in Al Qusais) and Abu Dhabi, so families in both cities can visit a dedicated newborn space that is kept warm, clean and ready for tiny guests.
+**1. A dedicated Dubai studio, plus home sessions across the UAE.** Our studio in Al Qusais, Dubai is a newborn space kept warm, clean and ready for tiny guests, and our team travels to family homes across the UAE, including Abu Dhabi.
 
 **2. At-home newborn sessions across the UAE.** Many new mothers would rather not travel in the first two weeks. Our team brings lighting, backdrops, wraps and props to your home in Dubai, Abu Dhabi, Sharjah, Ajman, Al Ain, Ras Al Khaimah, Umm Al Quwain or Fujairah. Read more in our [guide to at-home newborn photography](/blog/at-home-newborn-photography-dubai).
 
@@ -82,7 +82,7 @@ Dubai families can visit our Al Qusais studio or book an at-home session anywher
 
 ## Newborn photography in Abu Dhabi
 
-Our Abu Dhabi outlet and travelling team cover Abu Dhabi city, Khalifa City, Al Reem Island, Yas Island, Saadiyat, Al Raha and Mohammed Bin Zayed City, as well as Al Ain. Read our full guide to [newborn photography in Abu Dhabi](/blog/newborn-photographer-abu-dhabi).
+Our travelling team covers Abu Dhabi city, Khalifa City, Al Reem Island, Yas Island, Saadiyat, Al Raha and Mohammed Bin Zayed City, as well as Al Ain. Read our full guide to [newborn photography in Abu Dhabi](/blog/newborn-photographer-abu-dhabi).
 
 ## How to book your newborn session
 
@@ -96,16 +96,16 @@ Our Abu Dhabi outlet and travelling team cover Abu Dhabi city, Khalifa City, Al 
 
   {
     slug: 'newborn-photographer-abu-dhabi',
-    title: 'Newborn Photographer in Abu Dhabi: Studio & At-Home Newborn Photoshoots',
-    metaTitle: 'Newborn Photographer Abu Dhabi | Studio & At-Home Sessions | BreathART',
-    metaDescription: 'Looking for a newborn photographer in Abu Dhabi? BreathART offers safe, baby-led newborn photoshoots at our Abu Dhabi outlet or in your home, plus maternity and family portraits.',
+    title: 'Newborn Photographer in Abu Dhabi: At-Home Newborn Photoshoots',
+    metaTitle: 'Newborn Photographer Abu Dhabi | At-Home Sessions | BreathART',
+    metaDescription: 'Looking for a newborn photographer in Abu Dhabi? BreathART offers safe, baby-led newborn photoshoots in your Abu Dhabi home, or at our Dubai studio, plus maternity and family portraits.',
     category: 'Newborn',
     date: 'October 17, 2026',
     image: '/assets/gallery/newborn/BK-62_LORI_244_-_Copy.jpg.webp',
     faqs: [
       {
         q: 'Do you have a newborn photography studio in Abu Dhabi?',
-        a: 'Yes. BreathART has an outlet in Abu Dhabi, and our team also offers at-home newborn sessions across Abu Dhabi and Al Ain.',
+        a: 'Our studio is in Al Qusais, Dubai. For Abu Dhabi families we offer at-home newborn sessions across Abu Dhabi and Al Ain: we bring the lighting, backdrops, wraps and props to you. A travel charge may apply, depending on location.',
       },
       {
         q: 'Which areas of Abu Dhabi do you cover for at-home newborn shoots?',
@@ -116,13 +116,13 @@ Our Abu Dhabi outlet and travelling team cover Abu Dhabi city, Khalifa City, Al 
         a: 'Most newborn sessions take two to three hours. The pace is set by your baby, with time for feeding, soothing and cuddles between setups.',
       },
     ],
-    content: `Welcoming a new baby in the capital? A professional **newborn photographer in Abu Dhabi** can turn those sleepy, tiny first days into portraits your family will treasure for a lifetime. At **BreathART Photography Studio**, we photograph newborns at our **Abu Dhabi outlet** and in family homes across the emirate, with the same premium standard our Dubai studio is known for.
+    content: `Welcoming a new baby in the capital? A professional **newborn photographer in Abu Dhabi** can turn those sleepy, tiny first days into portraits your family will treasure for a lifetime. At **BreathART Photography Studio**, we photograph newborns **in family homes across Abu Dhabi**, with the same premium standard our Dubai studio is known for.
 
 ## Studio or at-home: what suits your family?
 
 ![Sleeping newborn in a knitted hat, newborn photographer Abu Dhabi](/assets/gallery/newborn/BK-62_LORI_244_-_Copy.jpg.webp)
 
-**Studio sessions** give you the widest choice of backdrops, themed setups and lighting, in a space that is kept warm and baby-ready.
+**Studio sessions** at our Dubai studio in Al Qusais give you the widest choice of backdrops, themed setups and lighting, in a space that is kept warm and baby-ready.
 
 **At-home sessions** are perfect if mum is still recovering or you would rather not travel with a newborn. We bring professional lighting, backdrops, wraps and props to your villa or apartment and set up in any room with a little space.
 
@@ -166,7 +166,7 @@ Abu Dhabi families often choose an **Arabian Heritage** setup with lanterns and 
 
 ## Book your newborn photographer in Abu Dhabi
 
-Message BreathART on WhatsApp at +971 52 640 0679 with your due date or baby's birth date, and tell us whether you prefer the studio or an at-home session. You can also see our latest [newborn packages and offers](/newborn-photography-dubai) or learn why parents call us the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
+Message BreathART on WhatsApp at +971 52 640 0679 with your due date or baby's birth date, and tell us whether you would like an at-home session in Abu Dhabi or a visit to our Dubai studio. You can also see our latest [newborn packages and offers](/newborn-photography-dubai) or learn why parents call us the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
   },
 
   {
@@ -363,7 +363,7 @@ A good photographer will be happy to answer every question. At BreathART, we enc
 - **Experienced team** used to calming and posing newborns
 - **Parents always welcome** beside their baby
 - **Stable, padded props**, with baby supported at all times
-- **Clean, warm environment** in our Dubai and Abu Dhabi studios, or in your own home
+- **Clean, warm environment** in our Dubai studio, or in your own home
 - **Lady photographer option** for families who prefer it
 
 Parents often tell us how calm the experience felt. One review mentions our team being "very patient and co-operative" throughout the shoot.
@@ -642,7 +642,7 @@ The best time for newborn photos is **5 to 14 days after birth**. Book during pr
 
 ## Book with BreathART
 
-BreathART Photography Studio is in **Al Qusais, Dubai**, with an outlet in Abu Dhabi, and photographs families across the UAE. Message us on WhatsApp at **+971 52 640 0679** — ask us anything on this checklist. See why parents call us the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
+BreathART Photography Studio is in **Al Qusais, Dubai**, and photographs families at home and on location across the UAE. Message us on WhatsApp at **+971 52 640 0679** — ask us anything on this checklist. See why parents call us the [best newborn photography studio in the UAE](/blog/best-newborn-photography-studio-uae).`,
   },
   {
     slug: 'pre-wedding-photoshoot-dubai',
@@ -735,7 +735,7 @@ Planning the wedding itself? See our [wedding photography service](/services/wed
         a: 'Yes. BreathART offers a lady photographer on request, which many families choose for ladies-only events, bridal preparation and mehndi or henna nights.',
       },
     ],
-    content: `Searching for a **wedding photographer in Dubai** and wondering what it will cost? Prices vary a lot, and two quotes can look very different even when they seem to cover "the whole day". This guide explains what affects the cost, what you should get for your money and the questions to ask before you book. It is written by **BreathART Photography Studio**, a wedding, family and newborn studio in Al Qusais, Dubai, with an outlet in Abu Dhabi.
+    content: `Searching for a **wedding photographer in Dubai** and wondering what it will cost? Prices vary a lot, and two quotes can look very different even when they seem to cover "the whole day". This guide explains what affects the cost, what you should get for your money and the questions to ask before you book. It is written by **BreathART Photography Studio**, a wedding, family and newborn studio in Al Qusais, Dubai, covering weddings across the UAE.
  
 ## Why there is no fixed wedding photography price
  
@@ -777,7 +777,7 @@ Message us with your **date, venue, number of hours and whether you want photo, 
 * Calm, discreet wedding team with photo and video from one studio
 * Nikah, mehndi, wedding day, reception and bridal portraits
 * Lady photographer on request
-* Coverage across the UAE, from our studio in Al Qusais, Dubai and our Abu Dhabi outlet
+* Coverage across the UAE, from our studio in Al Qusais, Dubai
 * Rated **4.7 on Google**
  
 ## Start with a pre-wedding shoot
@@ -851,7 +851,7 @@ For more tips, read our guides on [how to choose a newborn photographer in Dubai
 
 * Gentle, baby-led sessions with safe newborn handling
 * Natural, soft editing that keeps your baby looking like your baby
-* Studio in Al Qusais, Dubai, plus an outlet in Abu Dhabi
+* Studio in Al Qusais, Dubai
 * Home sessions across the UAE
 * Lady photographer on request
 * Rated **4.7 on Google**
