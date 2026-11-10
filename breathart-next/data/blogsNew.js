@@ -858,4 +858,79 @@ For more tips, read our guides on [how to choose a newborn photographer in Dubai
 
 See themes and sample photos on our [newborn photography in Dubai](/newborn-photography-dubai) page, or message us on WhatsApp at **+971 52 640 0679** with your baby's due date or birth date.`,
   },
+  {
+    slug: 'family-photoshoot-dubai',
+    title: 'Family Photoshoot in Dubai: Ideas, What to Wear and Studio vs Home Sessions',
+    metaTitle: 'Family Photoshoot Dubai | Studio & Home Sessions | BreathART',
+    metaDescription: 'Plan a family photoshoot in Dubai: studio or at-home sessions, outfit tips, posing ideas with a newborn or toddler, and the best season for outdoor photos.',
+    category: 'Family',
+    date: 'November 10, 2026',
+    image: '/assets/gallery/family/IMG_9773.webp',
+    faqs: [
+      {
+        q: 'How much does a family photoshoot cost in Dubai?',
+        a: 'At BreathART, family portraits are included in every newborn package, which start from AED 499 (parents and up to 5 family members in the Basic package). For a family-only session, message us on WhatsApp at +971 52 640 0679 with the number of people and your preferred location and we will send a clear quote. A travel charge may apply for home sessions, depending on your location.',
+      },
+      {
+        q: 'Can you do a family photoshoot at our home in Dubai?',
+        a: 'Yes. Our team brings professional lighting and backdrops to your villa or apartment anywhere in the UAE, and we can also use your garden or balcony. Many families with a newborn or toddler prefer this because the children stay relaxed in a familiar place.',
+      },
+      {
+        q: 'When is the best time for an outdoor family photoshoot in Dubai?',
+        a: 'October to April is the most comfortable season. Book the hour before sunset or early morning for soft light, cooler temperatures and happier children.',
+      },
+    ],
+    content: `A **family photoshoot in Dubai** is one of the best gifts you can give your future selves — especially when the children are small and changing every month. This guide covers where to shoot, what to wear, posing ideas with a newborn or toddler, and how to choose between a studio and a home session with **BreathART Photography Studio** in Al Qusais, Dubai.
+
+## Studio or at-home family session?
+
+**In our studio** in Al Qusais you get clean, timeless backdrops, controlled lighting and a warm room that is ready for babies. It is perfect for classic portraits you will frame for years.
+
+![Parents forehead to forehead with their newborn in the BreathART studio in Dubai](/assets/gallery/family/bk-parents-forehead.webp)
+
+**At home** your children stay in their own space, with their own toys and routines — which usually means more natural smiles and fewer tears. Our team brings professional lighting to your villa or apartment, and we can use your garden or balcony too. Home sessions are available across the UAE; a travel charge may apply, depending on your location.
+
+![Family photoshoot at home in a Dubai garden, mother in a blue dress holding the baby](/assets/gallery/family/family-garden-blue-dress.webp)
+
+## What to wear for family photos
+
+* **Coordinate, don't match.** Pick two or three soft colours (cream, beige, dusty blue, sage) and spread them across the family.
+* **Avoid big logos and busy patterns** — they pull attention away from faces.
+* **Choose comfort for children.** A happy toddler in soft cotton beats an unhappy one in a stiff outfit.
+* **Bring one change** for the kids, just in case.
+* **Mums:** a flowing dress photographs beautifully, especially in the studio or garden.
+
+## Posing ideas with a newborn or toddler
+
+* Parents forehead to forehead, with the baby between you
+* A parent lifting the baby up — simple, joyful and full of movement
+* Siblings lying side by side, with the newborn in the middle (always supported by our team)
+* Black-and-white close-ups of tiny hands in a parent's hand
+* Walking together in a garden or park for natural, candid moments
+
+Our photographers guide every pose, so nobody needs to feel awkward in front of the camera. Babies are always handled safely, and a **lady photographer** is available on request.
+
+![Black-and-white portrait of a mother holding her newborn, photographed by BreathART in Dubai](/assets/gallery/family/family-mother-black-white.webp)
+
+## The best season for outdoor family photos in Dubai
+
+The cooler months from **October to April** are ideal. Plan outdoor sessions for the **hour before sunset** or the early morning — the light is soft, the temperature is comfortable and children are usually at their best. Winter is also a lovely time for seasonal family photos around **UAE National Day** and the New Year holidays.
+
+## Family photos with your newborn
+
+Many families book their family portraits together with their baby's newborn session. **Every BreathART newborn package includes family portraits**: the Basic package (AED 499) includes parents and up to 5 family members, and Silver, Golden and Diamond packages include siblings and full family coverage. See all [newborn photography in Dubai](/newborn-photography-dubai) themes and the full [packages and offers](/offers).
+
+For family-only, couple or cake smash sessions, visit our [family and couple photography page](/services/family-couple).
+
+## Why families choose BreathART
+
+* Studio in Al Qusais, Dubai, and home sessions across the UAE
+* Calm photographers who are great with babies and toddlers
+* Natural, soft editing
+* Lady photographer on request
+* Pay with card, cash, Tabby or Tamara
+* Rated **4.7 on Google**
+
+Message us on WhatsApp at **+971 52 640 0679** with your family size and preferred date, and we will help you plan the perfect session.`,
+  },
 ];
