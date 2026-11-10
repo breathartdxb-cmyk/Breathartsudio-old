@@ -127,7 +127,7 @@ export function LocalBusinessSchema() {
     logo: LOGO_URL,
     image: `${SITE_URL}/assets/hero/hero_nature.png`,
     '@id': `${SITE_URL}/#business`,
-    description: 'Premium photography studio in Al Qusais, Dubai (with an outlet in Abu Dhabi) for family, newborn, cake smash, wedding, corporate and commercial photography, videography, events and photo printing.',
+    description: 'Premium photography studio in Al Qusais, Dubai, with home and on-location sessions across the UAE, for family, newborn, cake smash, wedding, corporate and commercial photography, videography, events and photo printing.',
     parentOrganization: { '@type': 'Organization', name: 'BreathART Group' },
     telephone: '+971-52-640-0679',
     email: 'info@breathartstudio.com',
