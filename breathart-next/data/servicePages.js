@@ -322,7 +322,7 @@ export const pages = {
     feature: {
       title: 'Specialist teams, one standard of quality',
       text: 'Each service has its own team, supported by a network of 100+ creators — so you get specialist skills, fresh ideas and reliable, on-time delivery.',
-      points: ['Packages from AED 499', 'Dubai & Abu Dhabi outlets', 'Studio or on location', '4.7★ on Google'],
+      points: ['Packages from AED 499', 'Home sessions across the UAE', 'Studio or on location', '4.7★ on Google'],
       main: img(`${NB}NB-406 SOPHIE (72) copy.jpg`, 'Newborn baby'),
       side: [img(`${C}pexels-pexels-user-766999688-18794228.webp`, 'Executive portrait'), img(`${F}IMG_9601.webp`, 'Family portrait')],
     },
@@ -339,7 +339,7 @@ export const pages = {
     priceTitle: 'Packages from AED 499',
     priceText: 'Newborn, maternity, cake smash and couple packages start from AED 499. Weddings, corporate and commercial shoots are quoted to your needs.',
     faqs: [
-      { q: 'Where are you located?', a: 'Our Dubai studio is at 12 22A Street, Al Qusais, and we also have an outlet in Abu Dhabi. We shoot across the UAE.' },
+      { q: 'Where are you located?', a: 'Our studio is at 12 22A Street, Al Qusais, Dubai. We also shoot at home and on location across the UAE, including Abu Dhabi.' },
       { q: 'Which photography services do you offer?', a: 'Newborn, maternity, family, cake smash, couple, wedding, corporate, commercial, real estate and event photography.' },
       { q: 'How much does a photoshoot cost?', a: 'Packages start from AED 499. Message us with your shoot type for a quick quote.' },
       { q: 'Can I request a female photographer?', a: 'Yes, a lady photographer is available on request.' },
