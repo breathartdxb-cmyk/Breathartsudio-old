@@ -96,10 +96,10 @@ export default function ContactPage() {
             </div>
             <div className={styles.outlet}>
               <h3>Abu Dhabi</h3>
-              <p>Studio and on-location sessions across Abu Dhabi.</p>
+              <p>Home and on-location sessions across Abu Dhabi and Al Ain. We travel to you.</p>
               <p>
-                <a href={wa("Hi BreathART! Could you share your Abu Dhabi location?")} target="_blank" rel="noopener noreferrer">
-                  Ask for directions on WhatsApp →
+                <a href={wa("Hi BreathART! I would like to book a session in Abu Dhabi.")} target="_blank" rel="noopener noreferrer">
+                  Book an Abu Dhabi session on WhatsApp →
                 </a>
               </p>
             </div>
