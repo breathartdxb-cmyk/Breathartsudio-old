@@ -10,7 +10,7 @@ const NB = '/assets/services/newborn/newborn-and-maternity/';
 const included = [
   { title: 'Creative themes', text: 'Styled setups, props and backdrops designed for your shoot.' },
   { title: 'Professional editing', text: 'Every selected image is carefully hand-edited.' },
-  { title: 'Studio or on location', text: 'Dubai and Abu Dhabi outlets, or we come to you.' },
+  { title: 'Studio or on location', text: 'Our Al Qusais studio in Dubai, or we come to you anywhere in the UAE.' },
   { title: 'On-time delivery', text: 'Your gallery delivered on the date we agree.' },
 ];
 
