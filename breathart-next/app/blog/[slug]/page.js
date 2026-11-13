@@ -69,6 +69,22 @@ export default async function BlogPostPage({ params }) {
     ],
   };
 
+  const isNewborn = blog.category === 'Newborn';
+  const NB_STYLE = `
+    .nb-cta-btn{display:inline-flex;align-items:center;gap:.5rem;margin-top:1.75rem;padding:1rem 1.75rem;border-radius:999px;
+      background:linear-gradient(135deg,#f6dfae 0%,#d9a66f 100%);color:#2b1a12 !important;font-weight:700;font-size:1.02rem;
+      letter-spacing:.2px;text-decoration:none;box-shadow:0 0 0 0 rgba(217,166,111,.75);animation:nbPulse 2.2s infinite;
+      transition:transform .2s ease, filter .2s ease}
+    .nb-cta-btn:hover{transform:translateY(-2px);filter:brightness(1.05)}
+    .nb-cta-btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+    @keyframes nbPulse{0%{box-shadow:0 0 0 0 rgba(217,166,111,.75)}70%{box-shadow:0 0 0 16px rgba(217,166,111,0)}100%{box-shadow:0 0 0 0 rgba(217,166,111,0)}}
+    @media (prefers-reduced-motion: reduce){.nb-cta-btn{animation:none}}
+    .nb-cta-box{margin:0 0 2.5rem;padding:1.5rem 1.75rem;border-radius:18px;border:1px solid rgba(217,166,111,.55);
+      background:rgba(217,166,111,.08);color:var(--color-white)}
+    .nb-cta-box p{margin:0;font-size:1.05rem;line-height:1.6}
+    .nb-cta-box .nb-cta-btn{margin-top:1rem}
+  `;
+
   const faqSchema = blog.faqs?.length
     ? {
         '@context': 'https://schema.org',
@@ -79,6 +95,7 @@ export default async function BlogPostPage({ params }) {
 
   return (
     <main style={{ backgroundColor: 'var(--color-black)', minHeight: '100vh' }}>
+      {isNewborn && <style dangerouslySetInnerHTML={{ __html: NB_STYLE }} />}
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -110,12 +127,25 @@ export default async function BlogPostPage({ params }) {
             <span className="post-meta-dot"></span>
             <span>Dubai, UAE</span>
           </div>
+          {isNewborn && (
+            <Link href="/newborn-photography-dubai" className="nb-cta-btn">
+              See Newborn Packages from AED 499 →
+            </Link>
+          )}
         </div>
       </section>
 
       {/* Editorial Content Section */}
       <section className="post-body-wrapper">
         <div className="post-content">
+          {isNewborn && (
+            <div className="nb-cta-box">
+              <p><strong>Planning your baby&apos;s newborn photoshoot?</strong> See our themes, sample photos and packages — studio in Al Qusais or a home session anywhere in the UAE.</p>
+              <Link href="/newborn-photography-dubai" className="nb-cta-btn">
+                View Newborn Photography →
+              </Link>
+            </div>
+          )}
           <MarkdownRenderer content={blog.content} />
 
           {blog.faqs?.length > 0 && (
@@ -137,7 +167,12 @@ export default async function BlogPostPage({ params }) {
               <img src="/assets/logo/BreathArt%20Photography%20new%20Logo.png" alt="BreathArt Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
             <h3 className="post-cta-title">Ready to capture your story?</h3>
-            <p className="post-cta-desc">Our team is ready to help you plan the perfect session in Dubai, Abu Dhabi or at your home anywhere in the UAE.</p>
+            <p className="post-cta-desc">Our team is ready to help you plan the perfect session in our Dubai studio or at your home anywhere in the UAE.</p>
+            {isNewborn && (
+              <Link href="/newborn-photography-dubai" className="nb-cta-btn" style={{ marginTop: 0, marginBottom: '1.25rem' }}>
+                See Newborn Packages & Themes →
+              </Link>
+            )}
             <a
               href={`https://wa.me/971526400679?text=${encodeURIComponent(`Hi BreathART! I read "${blog.title.split('|')[0].trim()}" and would like to book a session.`)}`}
               target="_blank"
