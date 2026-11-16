@@ -28,6 +28,7 @@ const SAME_AS = [
   'https://www.facebook.com/share/193V3fhepb/',
   'https://www.youtube.com/@BreathArtphotogrpahy',
   'https://www.linkedin.com/company/135298125/',
+  'https://in.pinterest.com/breathart_little_world/',
 ];
 const ADDRESS = {
   '@type': 'PostalAddress',
