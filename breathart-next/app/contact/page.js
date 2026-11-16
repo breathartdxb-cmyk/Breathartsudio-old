@@ -1,130 +1,347 @@
+import Link from 'next/link';
 import Image from 'next/image';
-import home from '../(home)/home.module.css';
-import styles from './contact.module.css';
-import ContactForm from '../../components/ContactForm';
+import styles from './about.module.css';
+import { BreadcrumbSchema } from '../schema';
 
-const wa = (msg) => `https://wa.me/971526400679?text=${encodeURIComponent(msg)}`;
+const SITE = 'https://www.breathartstudio.com';
+const WA = `https://wa.me/971526400679?text=${encodeURIComponent("Hi BreathART! I'd like to know more about your photography services.")}`;
 
-const channels = [
-  {
-    label: 'WhatsApp',
-    value: '+971 52 640 0679',
-    note: 'Fastest reply',
-    href: wa("Hi BreathART! I'd like to book a photoshoot."),
-    external: true,
+export const metadata = {
+  title: 'About BreathART Group & BreathART Photography Studio | UAE & India',
+  description:
+    'BreathART Group is a UAE-headquartered group of companies operating in the UAE and India — photography, AI-powered business consultancy, trade licence services and AI education — now expanding to the GCC and Europe.',
+  alternates: { canonical: '/about' },
+  openGraph: {
+    title: 'About BreathART Group | UAE & India',
+    description:
+      'A UAE-headquartered group of companies in photography, AI consultancy, trade licensing and AI education. Operating in the UAE and India, expanding to the GCC and Europe.',
+    url: `${SITE}/about`,
+    images: [{ url: '/assets/hero/hero_event.png', alt: 'BreathART Group' }],
   },
-  { label: 'Call us', value: '+971 52 640 0679', note: '+971 52 215 0837', href: 'tel:+971526400679' },
-  { label: 'Email', value: 'info@breathartstudio.com', note: 'breathartdxb@gmail.com', href: 'mailto:info@breathartstudio.com' },
+};
+
+const stats = [
+  { big: '12+', small: 'Years of experience' },
+  { big: '100+', small: 'Creators in our network' },
+  { big: '4.7★', small: '48 Google reviews' },
+  { big: '7', small: 'Emirates · home sessions' },
+];
+
+const services = [
+  { title: 'Family & Couples', text: 'Family portraits, couple shoots and milestone sessions.', href: '/services/family-couple' },
+  { title: 'Newborn & Maternity', text: 'Safe newborn posing, themed setups and maternity portraits.', href: '/newborn-photography-dubai' },
+  { title: 'Cake Smash', text: 'Joyful first-birthday sessions with custom themes.', href: '/services/family-couple' },
+  { title: 'Weddings', text: 'Nikah, wedding day, engagement and pre-wedding coverage.', href: '/services/wedding' },
+  { title: 'Corporate', text: 'Headshots, team photos, office and corporate events.', href: '/services/corporate' },
+  { title: 'Commercial & Real Estate', text: 'Product, brand, interior and property photography.', href: '/services/real-estate' },
+  { title: 'Videography', text: 'Wedding films, brand videos, reels and event highlights.', href: '/services/videography' },
+  { title: 'Events & Printing', text: 'Event coverage plus professional photo printing in the UAE.', href: '/services/events' },
+];
+
+const values = [
+  { title: 'Premium, yet affordable', text: 'High-end results without luxury-only prices — packages for every family and business.' },
+  { title: 'A dedicated team for every service', text: 'Newborn, wedding, corporate and commercial each have their own specialists, supported by 100+ creators.' },
+  { title: 'Creativity in every frame', text: 'Fresh themes, styling and ideas so your photos feel personal — never copy-paste.' },
+  { title: 'On time, every time', text: 'The best quality, delivered when we promise. Reliability is part of our craft.' },
+];
+
+const group = [
   {
-    label: 'Visit',
-    value: 'Al Qusais, Dubai',
-    note: '12 22A Street',
-    href: 'https://www.google.com/maps/search/?api=1&query=BreathART+Photography+Studio+Al+Qusais+Dubai',
-    external: true,
+    name: 'BreathART Photography',
+    text: 'Family, newborn, cake smash, wedding, corporate and commercial photography, videography, events and photo printing across the UAE.',
+    href: '/',
+    link: 'breathartstudio.com',
+  },
+  {
+    name: 'Forventures',
+    text: 'Consultancy and services for corporates, using AI technology to strengthen marketing, operations, human resources and accounts.',
+  },
+  {
+    name: 'TradeLicenceDXB',
+    text: 'Helping entrepreneurs get the right trade licence and legal documentation to start and grow a business in the UAE.',
+    href: 'https://tradelicencedxb.com',
+    link: 'tradelicencedxb.com',
+  },
+  {
+    name: 'BICT',
+    text: 'An AI and creative technology institution in India, now expanding to the UAE.',
+    href: 'https://www.breathartinstitute.in/',
+    link: 'breathartinstitute.in',
   },
 ];
 
-export default function ContactPage() {
+const footprint = [
+  { label: 'Head office', value: 'United Arab Emirates' },
+  { label: 'Operating in', value: 'UAE · India' },
+  { label: 'Expanding to', value: 'GCC · Europe' },
+];
+
+const faqs = [
+  {
+    q: 'Where is BreathART Photography Studio located?',
+    a: 'Our studio is at 12 22A Street, Al Qusais, Dubai. We also shoot at home and on location across the UAE, including Abu Dhabi and Sharjah.',
+  },
+  {
+    q: 'What types of photography does BreathART offer?',
+    a: 'Family, couple, newborn, maternity, cake smash, wedding, corporate, commercial and real estate photography, plus videography, event coverage and photo printing.',
+  },
+  {
+    q: 'Do you offer photoshoots at home or on location?',
+    a: 'Yes. Newborn, family and maternity sessions can be done at your home, and we cover weddings, offices, venues and events anywhere in the UAE.',
+  },
+  {
+    q: 'How much does a photoshoot cost?',
+    a: 'Newborn sessions start from AED 499. Other packages depend on the type of shoot, duration and location — message us on WhatsApp for a quick quote.',
+  },
+  {
+    q: 'Can I request a female photographer?',
+    a: 'Yes. A lady photographer is available on request — just mention it when you book.',
+  },
+  {
+    q: 'What is BreathART Group?',
+    a: 'BreathART Group is a group of companies headquartered in the UAE and operating in the UAE and India. It includes BreathART Photography, Forventures (AI-powered business consultancy), TradeLicenceDXB (trade licence and legal documentation) and BICT (AI and creative technology education). Expansion to other GCC countries and Europe is in progress.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+
+const aboutSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: 'About BreathART Group & BreathART Photography Studio',
+  url: `${SITE}/about`,
+  description: 'BreathART Group is a UAE-headquartered group of companies operating in the UAE and India, expanding to the GCC and Europe.',
+  mainEntity: {
+    '@type': 'Organization',
+    name: 'BreathART Group',
+    location: { '@type': 'Place', name: 'United Arab Emirates' },
+    areaServed: [
+      { '@type': 'Country', name: 'United Arab Emirates' },
+      { '@type': 'Country', name: 'India' },
+    ],
+    subOrganization: [
+      { '@type': 'Organization', name: 'BreathART Photography Studio', url: SITE },
+      { '@type': 'Organization', name: 'Forventures' },
+      { '@type': 'Organization', name: 'TradeLicenceDXB', url: 'https://tradelicencedxb.com' },
+      { '@type': 'EducationalOrganization', name: 'BICT', url: 'https://www.breathartinstitute.in/' },
+    ],
+  },
+};
+
+export default function AboutPage() {
   return (
-    <main className={home.page}>
-      {/* Hero */}
+    <main className={styles.page}>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about' }]} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
+      {/* ---------- Hero ---------- */}
       <section className={styles.hero}>
-        <Image src="/assets/gallery/wedding/pexels-habib-hosseini-3673463.webp" alt="Bride portrait by BreathART" fill priority sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center 30%' }} />
-        <div className={styles.overlay} />
+        <Image
+          src="/assets/hero/hero_event.png"
+          alt="Corporate conference covered by BreathART"
+          fill
+          priority
+          sizes="100vw"
+          style={{ objectFit: 'cover', objectPosition: 'center 40%' }}
+        />
+        <div className={styles.heroOverlay} />
         <div className={styles.heroContent}>
-          <p className={home.heroEyebrow}>Contact · Dubai &amp; Abu Dhabi</p>
-          <h1 className={styles.title}>
-            Let&apos;s create <em>something beautiful</em>
+          <p className={styles.heroEyebrow}>About us · UAE &amp; India</p>
+          <h1 className={styles.heroTitle}>
+            We are <em>BreathART Group</em>
           </h1>
-          <p className={styles.lead}>
-            Tell us about your shoot — newborn, family, wedding, corporate or commercial — and we&apos;ll reply with
-            availability and the right package.
+          <p className={styles.heroLead}>
+            A group of companies in photography, AI-powered business services and education — headquartered in the
+            UAE, operating in the UAE and India, and growing across the GCC and Europe.
           </p>
         </div>
       </section>
 
-      {/* Channels */}
-      <section className={styles.channelsWrap}>
-        <div className={styles.channels}>
-          {channels.map((c) => (
-            <a
-              key={c.label}
-              href={c.href}
-              target={c.external ? '_blank' : undefined}
-              rel={c.external ? 'noopener noreferrer' : undefined}
-              className={styles.channel}
-            >
-              <span className={styles.chLabel}>{c.label}</span>
-              <strong>{c.value}</strong>
-              <span className={styles.chNote}>{c.note}</span>
-            </a>
+      {/* ---------- Group (top) ---------- */}
+      <section className={styles.groupSection}>
+        <div className={styles.groupInner}>
+          <div className={styles.head}>
+            <p className={styles.heroEyebrow}>BreathART Group</p>
+            <h2 className={styles.h2Light}>One group. Many ways to help you grow.</h2>
+            <p className={styles.leadLight}>
+              BreathART Group brings together specialist companies that serve families, creators, entrepreneurs and
+              corporates — from capturing life&apos;s moments to setting up and growing a business with the help of AI.
+              With our head office in the UAE and operations in the UAE and India, we are now expanding to other GCC
+              countries and Europe.
+            </p>
+          </div>
+          <div className={styles.footprint}>
+            {footprint.map((f) => (
+              <div key={f.label} className={styles.footItem}>
+                <span>{f.label}</span>
+                <strong>{f.value}</strong>
+              </div>
+            ))}
+          </div>
+          <div className={styles.groupGrid}>
+            {group.map((g) => (
+              <div key={g.name} className={styles.groupCard}>
+                <h3>{g.name}</h3>
+                <p>{g.text}</p>
+                {g.href && (
+                  <a href={g.href} target={g.href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer">
+                    {g.link} →
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- Story ---------- */}
+      <section className={styles.section}>
+        <div className={styles.story}>
+          <div className={styles.storyMedia}>
+            <div className={styles.storyMain}>
+              <Image src="/assets/gallery/corporate/pexels-pexels-user-766999688-18794228.webp" alt="Executive portrait by BreathART Photography" fill sizes="(max-width: 900px) 100vw, 40vw" style={{ objectFit: 'cover' }} />
+            </div>
+            <div className={styles.storySmall}>
+              <Image src="/assets/gallery/corporate/pexels-pavel-danilyuk-7654168.webp" alt="Corporate team photography in an office" fill sizes="(max-width: 900px) 45vw, 18vw" style={{ objectFit: 'cover' }} />
+            </div>
+          </div>
+          <div>
+            <p className={styles.eyebrow}>BreathART Photography Studio</p>
+            <h2 className={styles.h2}>Our flagship: photography that feels personal, polished and timeless</h2>
+            <p className={styles.body}>
+              <strong>BreathART Photography Studio</strong> is a premium photography studio in{' '}
+              <strong>Al Qusais, Dubai</strong>, with home sessions across the UAE. For more than 12 years we have photographed the moments that
+              matter — from a baby&apos;s first days and a first-birthday cake smash, to weddings, corporate headshots and
+              commercial campaigns.
+            </p>
+            <p className={styles.body}>
+              Each type of shoot is handled by its own talented team, supported by a network of more than 100
+              creators. That means fresh ideas, specialist skills and a calm, professional experience — whether
+              you visit our studio or we come to your home, venue or office.
+            </p>
+            <p className={styles.body}>
+              Our promise is simple: <strong>premium quality at an affordable price, delivered on time.</strong>
+            </p>
+            <blockquote className={styles.pull}>“Every picture tells a story of love.”</blockquote>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- Stats ---------- */}
+      <section className={styles.stats}>
+        {stats.map((s) => (
+          <div key={s.small} className={styles.stat}>
+            <strong>{s.big}</strong>
+            <span>{s.small}</span>
+          </div>
+        ))}
+      </section>
+
+      {/* ---------- What we do ---------- */}
+      <section className={styles.section}>
+        <div className={styles.head}>
+          <p className={styles.eyebrow}>What we do</p>
+          <h2 className={styles.h2}>From family photography to weddings, newborn to cake smash, corporate to commercial</h2>
+        </div>
+        <div className={styles.serviceList}>
+          {services.map((s, i) => (
+            <Link key={s.title} href={s.href} className={styles.serviceItem}>
+              <span className={styles.num}>{String(i + 1).padStart(2, '0')}</span>
+              <div>
+                <h3>{s.title}</h3>
+                <p>{s.text}</p>
+              </div>
+              <span className={styles.arrow}>→</span>
+            </Link>
           ))}
         </div>
       </section>
 
-      {/* Form + locations */}
-      <section className={home.section}>
-        <div className={styles.split}>
-          <div className={styles.formCard}>
-            <p className={home.eyebrow}>Enquiry form</p>
-            <h2 className={home.h2}>Reserve your date</h2>
-            <p className={styles.formNote}>Share a few details and our team will get back to you shortly.</p>
-            <ContactForm buttonText="Send enquiry" showPackageField={false} />
+      {/* ---------- Values ---------- */}
+      <section className={`${styles.section} ${styles.tinted}`}>
+        <div className={styles.valuesWrap}>
+          <div className={styles.valuesIntro}>
+            <p className={styles.eyebrow}>Our approach</p>
+            <h2 className={styles.h2}>What makes BreathART different</h2>
+            <div className={styles.valuesImg}>
+              <Image src="/assets/gallery/wedding/pexels-dilara-dogar-713705919-30439697.webp" alt="Wedding couple portrait" fill sizes="(max-width: 900px) 100vw, 35vw" style={{ objectFit: 'cover' }} />
+            </div>
           </div>
-
-          <div>
-            <p className={home.eyebrow}>Our outlets</p>
-            <h2 className={home.h2}>Visit or book on location</h2>
-
-            <div className={styles.outlet}>
-              <h3>Dubai studio</h3>
-              <p>12 22A Street, Al Qusais, Dubai, UAE</p>
-              <p>
-                <a href="tel:+971526400679">+971 52 640 0679</a>
-              </p>
-            </div>
-            <div className={styles.map}>
-              <iframe
-                title="BreathART Photography Studio, Al Qusais, Dubai"
-                src="https://maps.google.com/maps?q=BreathART%20Photography%20Studio%20Al%20Qusais%20Dubai&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
-            <div className={styles.outlet}>
-              <h3>Abu Dhabi</h3>
-              <p>Home and on-location sessions across Abu Dhabi and Al Ain. We travel to you.</p>
-              <p>
-                <a href={wa("Hi BreathART! I would like to book a session in Abu Dhabi.")} target="_blank" rel="noopener noreferrer">
-                  Book an Abu Dhabi session on WhatsApp →
-                </a>
-              </p>
-            </div>
-            <div className={styles.outlet}>
-              <h3>On location, anywhere in the UAE</h3>
-              <p>At-home newborn and family sessions, weddings, offices, venues and events — Dubai, Abu Dhabi, Sharjah and beyond.</p>
-            </div>
+          <div className={styles.values}>
+            {values.map((v, i) => (
+              <div key={v.title} className={styles.value}>
+                <span className={styles.num}>{String(i + 1).padStart(2, '0')}</span>
+                <h3>{v.title}</h3>
+                <p>{v.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className={home.cta}>
-        <div className={home.ctaInner}>
-          <p className={home.heroEyebrow}>Prefer to chat?</p>
-          <h2>We usually reply on WhatsApp first</h2>
-          <p>Send us a message any time — our team replies with availability, packages and next steps.</p>
-          <div className={home.ctaRow} style={{ justifyContent: 'center' }}>
-            <a href={wa("Hi BreathART! I'd like to book a photoshoot.")} target="_blank" rel="noopener noreferrer" className={home.btnGold}>
-              Chat on WhatsApp
-            </a>
-            <a href="tel:+971526400679" className={home.btnGlass}>
-              Call now
+      {/* ---------- Locations ---------- */}
+      <section className={styles.section}>
+        <div className={styles.head}>
+          <p className={styles.eyebrow}>Visit us</p>
+          <h2 className={styles.h2}>Our studio &amp; service areas</h2>
+        </div>
+        <div className={styles.locations}>
+          <div className={styles.location}>
+            <h3>Dubai</h3>
+            <p>12 22A Street, Al Qusais, Dubai</p>
+            <p>
+              <a href="tel:+971526400679">+971 52 640 0679</a> · <a href="tel:+971522150837">+971 52 215 0837</a>
+            </p>
+            <a className={styles.textLink} href="https://www.google.com/maps/search/?api=1&query=BreathART+Photography+Studio+Al+Qusais+Dubai" target="_blank" rel="noopener noreferrer">
+              Get directions →
             </a>
           </div>
+          <div className={styles.location}>
+            <h3>Abu Dhabi</h3>
+            <p>Home and on-location sessions across Abu Dhabi. We travel to you.</p>
+            <p>
+              <a href="tel:+971526400679">+971 52 640 0679</a>
+            </p>
+            <a className={styles.textLink} href={WA} target="_blank" rel="noopener noreferrer">
+              Ask for the location →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- FAQ ---------- */}
+      <section className={styles.section}>
+        <div className={styles.head}>
+          <p className={styles.eyebrow}>FAQ</p>
+          <h2 className={styles.h2}>Questions people ask us</h2>
+        </div>
+        <div className={styles.faqs}>
+          {faqs.map((f) => (
+            <details key={f.q} className={styles.faq}>
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      {/* ---------- CTA ---------- */}
+      <section className={styles.cta}>
+        <p className={styles.heroEyebrow}>Let&apos;s create something beautiful</p>
+        <h2>Tell us about your shoot</h2>
+        <p>Message us with your date and the type of shoot — we&apos;ll reply with availability and options.</p>
+        <div className={styles.ctaRow}>
+          <a href={WA} target="_blank" rel="noopener noreferrer" className={styles.btnGold}>
+            Chat on WhatsApp
+          </a>
+          <Link href="/contact" className={styles.btnGlass}>
+            Contact page
+          </Link>
         </div>
       </section>
     </main>
