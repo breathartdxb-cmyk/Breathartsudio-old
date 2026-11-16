@@ -108,6 +108,9 @@ export default function Footer() {
               <a href="https://www.linkedin.com/company/135298125/" target="_blank" rel="noopener noreferrer" className="linkedin" aria-label="LinkedIn">
                 <i className="fab fa-linkedin-in" aria-hidden="true"></i>
               </a>
+              <a href="https://in.pinterest.com/breathart_little_world/" target="_blank" rel="noopener noreferrer" className="pinterest" aria-label="Pinterest">
+                <i className="fab fa-pinterest-p" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
         </div>
