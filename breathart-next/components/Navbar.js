@@ -300,7 +300,10 @@ export default function Navbar() {
         {/* Hamburger button — rendered outside nav-container to escape its stacking context! */}
         <div
           className="mobile-hamburger-btn"
+          role="button"
+          tabIndex={0}
           onClick={() => setMenuOpen(!menuOpen)}
+          onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setMenuOpen(!menuOpen); } }}
           aria-label="Toggle navigation menu"
           aria-expanded={menuOpen}
         >
@@ -391,4 +394,3 @@ export default function Navbar() {
     </>
   );
 }
-
