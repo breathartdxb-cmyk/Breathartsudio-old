@@ -13,11 +13,11 @@ export const newBlogs = [
     faqs: [
       {
         q: 'Which is the best newborn photography studio in the UAE?',
-        a: 'BreathART Photography Studio is one of the most trusted newborn studios in the UAE, with outlets in Dubai and Abu Dhabi, at-home sessions across all seven emirates, a team of 100+ creators and a 4.7-star Google rating from parents.',
+        a: 'BreathART Photography Studio is one of the most trusted newborn studios in the UAE, with a studio in Al Qusais, Dubai, at-home sessions across all seven emirates, a team of 100+ creators and a 4.7-star Google rating from parents.',
       },
       {
         q: 'Does BreathART do newborn photoshoots in both Dubai and Abu Dhabi?',
-        a: 'Yes. BreathART has outlets in Dubai and Abu Dhabi, and our team also travels to your home anywhere in the UAE for at-home newborn sessions.',
+        a: 'Yes. BreathART does at-home newborn sessions in Abu Dhabi and anywhere in the UAE, and our studio is in Al Qusais, Dubai. A travel charge may apply for home sessions, depending on your location.',
       },
       {
         q: 'When is the best time for a newborn photoshoot?',
@@ -282,7 +282,7 @@ Planning something bigger? Our [event photography and videography team](/service
 
 ## Where we offer home photography
 
-BreathART has outlets in **Dubai** and **Abu Dhabi**, and our travelling teams cover the whole country:
+BreathART has a studio in **Al Qusais, Dubai**, and our travelling teams cover the whole country, including **Abu Dhabi**:
 
 - **Dubai** — every community, from Dubai Marina and JVC to Mirdif, Deira and Dubai Hills
 - **Abu Dhabi** — Abu Dhabi city, Al Reem, Yas, Saadiyat, Khalifa City and MBZ
@@ -470,7 +470,7 @@ Many families book their maternity shoot and newborn photoshoot together. Your m
 
 * More than **12 years** photographing families in the UAE
 * **Rated 4.7 on Google** by parents
-* Studio in **Al Qusais, Dubai**, an outlet in **Abu Dhabi**, and sessions at your home anywhere in the UAE
+* Studio in **Al Qusais, Dubai**, and sessions at your home anywhere in the UAE, including **Abu Dhabi**
 * Hand-made themes and careful, hand-edited photos
 * Lady photographer on request
 
