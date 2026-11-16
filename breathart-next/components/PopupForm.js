@@ -9,17 +9,35 @@ import ContactForm from './ContactForm';
 // Pages where the timed pop-up should never appear (e.g. ad landing pages)
 const NO_POPUP_PAGES = ['/newborn-photography-dubai'];
 
-export default function PopupForm({ repeatDelay = 60000 }) {
+// eslint-disable-next-line no-unused-vars
+export default function PopupForm({ repeatDelay }) {
   const [isVisible, setIsVisible] = useState(false);
   const [prefilledService, setPrefilledService] = useState('');
   const [prefilledMessage, setPrefilledMessage] = useState('');
   const pathname = usePathname();
 
   useEffect(() => {
-    // Show initially after 4 seconds
-    const initialTimer = setTimeout(() => {
+    // Gentle pop-up: shows once per visit, only after the visitor has engaged
+    // (40 seconds on the site, or scrolled 60% of a page). Google treats pop-ups
+    // that cover the page right after landing as "intrusive" on mobile.
+    let alreadySeen = false;
+    try { alreadySeen = sessionStorage.getItem('ba_popup_seen') === '1'; } catch (e) {}
+
+    let timer;
+    const show = () => {
+      clearTimeout(timer);
+      window.removeEventListener('scroll', onScroll);
+      try { sessionStorage.setItem('ba_popup_seen', '1'); } catch (e) {}
       setIsVisible(true);
-    }, 4000);
+    };
+    const onScroll = () => {
+      const doc = document.documentElement;
+      if ((window.scrollY + window.innerHeight) / doc.scrollHeight > 0.6) show();
+    };
+    if (!alreadySeen) {
+      timer = setTimeout(show, 40000);
+      window.addEventListener('scroll', onScroll, { passive: true });
+    }
 
     const handleOpenPopup = (e) => {
       if (e && e.detail) {
@@ -32,18 +50,14 @@ export default function PopupForm({ repeatDelay = 60000 }) {
     window.addEventListener('openPopupForm', handleOpenPopup);
 
     return () => {
-      clearTimeout(initialTimer);
+      clearTimeout(timer);
+      window.removeEventListener('scroll', onScroll);
       window.removeEventListener('openPopupForm', handleOpenPopup);
     };
   }, []);
 
   const handleClose = () => {
     setIsVisible(false);
-    
-    // Repeat after specified repeatDelay
-    setTimeout(() => {
-      setIsVisible(true);
-    }, repeatDelay);
   };
 
   if (NO_POPUP_PAGES.includes(pathname)) return null;
