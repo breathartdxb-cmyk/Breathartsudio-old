@@ -216,7 +216,7 @@ export default function Navbar() {
       heading: 'Services', 
       href: '/services',
       subItems: [
-        { heading: 'Newborn & Maternity', href: '/services/newborn-maternity' },
+        { heading: 'Newborn', href: '/newborn-photography-dubai' },
         { heading: 'Wedding & Romance', href: '/services/wedding' },
         { heading: 'Family & Couple', href: '/services/family-couple' },
         { heading: 'Events By BreathArt', href: '/services/events' },
@@ -254,8 +254,8 @@ export default function Navbar() {
                 <div className="mega-menu-container" style={{ gridTemplateColumns: 'repeat(3, 1fr)', gap: '2rem' }}>
                   <div className="mega-menu-column" style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                     <span className="mega-title" style={{ fontSize: '0.85rem', color: 'var(--color-gold)', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '0.5rem', display: 'block', fontWeight: 'bold' }}>Photography</span>
-                    <Link href="/services/newborn-maternity" style={{ padding: '0.25rem 0', display: 'block' }}>
-                      <span className="mega-desc" style={{ color: '#000', fontSize: '0.9rem', fontWeight: '600' }}>Newborn &amp; Maternity</span>
+                    <Link href="/newborn-photography-dubai" style={{ padding: '0.25rem 0', display: 'block' }}>
+                      <span className="mega-desc" style={{ color: '#000', fontSize: '0.9rem', fontWeight: '600' }}>Newborn</span>
                     </Link>
                     <Link href="/services/wedding" style={{ padding: '0.25rem 0', display: 'block' }}>
                       <span className="mega-desc" style={{ color: '#000', fontSize: '0.9rem', fontWeight: '600' }}>Wedding &amp; Romance</span>
