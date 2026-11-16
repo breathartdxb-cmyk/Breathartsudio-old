@@ -57,7 +57,7 @@ export function OrganizationSchema() {
       'Videography',
       'Photo printing',
     ],
-    description: 'Premium photography studio with outlets in Dubai and Abu Dhabi, offering family, newborn, cake smash, wedding, corporate and commercial photography, videography, events and photo printing at affordable prices.',
+    description: 'Premium photography studio in Al Qusais, Dubai, with home sessions across the UAE, offering family, newborn, cake smash, wedding, corporate and commercial photography, videography, events and photo printing at affordable prices.',
     parentOrganization: PARENT,
     areaServed: AREAS,
     contactPoint: [
