@@ -24,7 +24,7 @@ const stats = [
   { big: '12+', small: 'Years of experience' },
   { big: '100+', small: 'Creators in our network' },
   { big: '4.7★', small: '48 Google reviews' },
-  { big: '2', small: 'Outlets · Dubai & Abu Dhabi' },
+  { big: '7', small: 'Emirates · home sessions' },
 ];
 
 const services = [
@@ -214,8 +214,8 @@ export default function AboutPage() {
             <p className={styles.eyebrow}>BreathART Photography Studio</p>
             <h2 className={styles.h2}>Our flagship: photography that feels personal, polished and timeless</h2>
             <p className={styles.body}>
-              <strong>BreathART Photography Studio</strong> is a premium photography studio with outlets in{' '}
-              <strong>Dubai and Abu Dhabi</strong>. For more than 12 years we have photographed the moments that
+              <strong>BreathART Photography Studio</strong> is a premium photography studio in{' '}
+              <strong>Al Qusais, Dubai</strong>, with home sessions across the UAE. For more than 12 years we have photographed the moments that
               matter — from a baby&apos;s first days and a first-birthday cake smash, to weddings, corporate headshots and
               commercial campaigns.
             </p>
@@ -288,7 +288,7 @@ export default function AboutPage() {
       <section className={styles.section}>
         <div className={styles.head}>
           <p className={styles.eyebrow}>Visit us</p>
-          <h2 className={styles.h2}>Our outlets</h2>
+          <h2 className={styles.h2}>Our studio &amp; service areas</h2>
         </div>
         <div className={styles.locations}>
           <div className={styles.location}>
@@ -303,7 +303,7 @@ export default function AboutPage() {
           </div>
           <div className={styles.location}>
             <h3>Abu Dhabi</h3>
-            <p>Studio sessions and on-location shoots across Abu Dhabi.</p>
+            <p>Home and on-location sessions across Abu Dhabi. We travel to you.</p>
             <p>
               <a href="tel:+971526400679">+971 52 640 0679</a>
             </p>
