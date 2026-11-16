@@ -16,7 +16,7 @@ const heroPanels = [
 
 const stats = [
   { big: '12+', small: 'Years of experience' },
-  { big: '4.7★', small: '48 Google reviews' },
+  { big: '4.7★', small: 'Rated on Google' },
   { big: '100+', small: 'Creators in our network' },
   { big: 'UAE', small: 'Home & on-location sessions' },
 ];
@@ -263,7 +263,7 @@ export default function HomePage() {
           <p className={styles.eyebrow}>Kind words</p>
           <h2 className={styles.h2}>Rated 4.7 out of 5 on Google</h2>
           <p className={styles.lead}>
-            <span className={styles.stars}>★★★★★</span> from 48 reviews
+            <span className={styles.stars}>★★★★★</span> Real words from our families and couples
           </p>
         </div>
         <div className={styles.reviewGrid}>
