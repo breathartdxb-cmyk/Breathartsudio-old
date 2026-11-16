@@ -87,6 +87,9 @@ export const metadata = {
   },
   verification: {
     google: '6aDKn65egxmkQVXrF4P7RBf-S6vlIN3LXdA2h-NmJb0',
+    other: {
+      'p:domain_verify': '938f33cbf4b86a690523ea5a85b7a397',
+    },
   },
   robots: {
     index: true,
@@ -101,17 +104,13 @@ export const metadata = {
   },
   icons: {
     icon: [
-      { url: '/assets/logo/photography-logo.webp' },
-      { url: '/app/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/app/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/assets/logo/favicon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/assets/logo/favicon-48.png', sizes: '48x48', type: 'image/png' },
     ],
-    shortcut: '/app/institute.png',
-    apple: '/app/apple-touch-icon.png',
+    apple: '/assets/logo/apple-touch-icon.png',
   },
-  manifest: '/app/site.webmanifest',
   other: {
     'msapplication-TileColor': '#0d1b2e',
-    'msapplication-TileImage': '/app/mstile-150x150.png',
   },
 };
 
@@ -119,7 +118,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable} ${playfairDisplay.variable} ${greatVibes.variable}`}>
       <head>
-        <link rel="icon" href="/assets/logo/photography-logo.webp" />
         {/* Font Awesome — deferred async loading on idle, zero render-blocking impact */}
         <noscript>
           <link
