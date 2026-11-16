@@ -1003,4 +1003,84 @@ Many families book a **Christmas or New Year session every year** and watch the 
 
 See our [family and couple photography](/services/family-couple) page and [packages and offers](/offers), or message us on WhatsApp at **+971 52 640 0679** with your preferred December date.`,
   },
+  {
+    slug: 'uae-national-day-photoshoot-dubai',
+    title: 'UAE National Day Photoshoot in Dubai: Eid Al Etihad Ideas for Families and Newborns',
+    metaTitle: 'UAE National Day Photoshoot Dubai | Eid Al Etihad | BreathART',
+    metaDescription: 'Eid Al Etihad photoshoot ideas in Dubai for families and newborns: Emirati heritage setups, flag colours, outfits, studio vs home and when to book.',
+    category: 'Family',
+    date: 'November 16, 2026',
+    image: '/assets/gallery/newborn/breathart-emirati-newborn-dubai.webp',
+    faqs: [
+      {
+        q: 'When should we book a UAE National Day photoshoot?',
+        a: 'Book 2 to 3 weeks before 2 December. Late November and the National Day holiday are busy, and booking early gives time to plan outfits and props and to receive your edited photos for the celebrations.',
+      },
+      {
+        q: 'Can you do an Emirati heritage newborn photoshoot?',
+        a: 'Yes. BreathART creates Arabian heritage newborn setups with lanterns, a dallah, dates and soft gold and cream fabrics, in our Al Qusais studio or at your home. Newborn packages start from AED 499.',
+      },
+      {
+        q: 'Can the National Day photoshoot be done at home?',
+        a: 'Yes. BreathART offers home sessions across the UAE, including Abu Dhabi, and brings professional lighting and props. A travel charge may apply for home sessions, depending on your location.',
+      },
+    ],
+    content: `Eid Al Etihad, the **UAE National Day on 2 December**, is one of the most loved celebrations of the year, and a beautiful time for a **family or newborn photoshoot in Dubai**. This guide shares National Day photoshoot ideas, outfit tips and how to plan a session with **BreathART Photography Studio** in Al Qusais, Dubai, in our studio or at your home anywhere in the UAE.
+
+![Newborn baby in a traditional Emirati-style outfit with lanterns, a dallah and dates, an Arabian heritage setup by BreathART in Dubai](/assets/gallery/newborn/breathart-emirati-newborn-dubai.webp)
+
+## Why a National Day photoshoot?
+
+For Emirati families it is a proud moment to photograph children in traditional dress. For expat families who call the UAE home, it is a way to remember the years spent here. And for new parents, **baby's first National Day** is a memory worth keeping in a frame.
+
+## National Day photoshoot ideas
+
+* **Arabian heritage newborn setup**: lanterns, a dallah, dates and soft gold and cream fabrics
+* **Children in traditional dress**: kandura and ghutra for boys, a jalabiya or abaya-style dress for girls
+* **Flag colours**: red, green, white and black in outfits, flowers, balloons or a small hand flag
+* **Three generations together**: grandparents, parents and children in one classic portrait
+* **Little details**: tiny hands holding a small flag, henna on mum's hands, a baby's first kandura
+* **Celebration moments**: children waving flags and laughing, captured naturally
+
+![Calm newborn sleeping in cream with a lantern, dates and soft lights, photographed by BreathART in Dubai](/assets/services/newborn/newborn-and-maternity/lp-ramadan-cream.webp)
+
+## Show respect for the flag
+
+The UAE flag is a national symbol. Use the **flag colours in clothes, flowers and props**, or let children hold a small flag, but never wrap a baby in the flag, sit on it or place it on the floor. Our team plans every setup to be both beautiful and respectful.
+
+## What to wear
+
+* **Traditional dress** looks timeless: white or cream kandura, a jalabiya or a modest abaya
+* Or choose **two flag colours** for the family, for example white with a touch of green or red, instead of everyone in the full flag
+* Soft fabrics and simple designs photograph best; avoid big logos
+* For newborns, keep it gentle: a soft wrap, a small knitted hat or a tiny ghutra-style headpiece made for babies
+
+![Family portrait of parents and their newborn in white on a clean studio background, photographed by BreathART in Dubai](/assets/gallery/family/family-studio-white-portrait.webp)
+
+## Studio or at home?
+
+**In our studio** in Al Qusais we prepare heritage and festive setups with controlled lighting, perfect for newborns and classic family portraits.
+
+**At home** your family is relaxed in its own space, and we bring the lighting and props. Home sessions are available across the UAE, including Abu Dhabi; a travel charge may apply, depending on your location.
+
+November and December are also perfect for **outdoor family photos** in the UAE, with cooler weather and soft evening light. Some public locations need a permit, so ask us before you choose a spot.
+
+## When to book
+
+Book **2 to 3 weeks before 2 December**. The days around National Day fill up quickly, and booking early leaves time to plan outfits and props. Expecting a baby soon? See our [newborn photography in Dubai](/newborn-photography-dubai) page and the [newborn photoshoot price guide](/blog/newborn-photoshoot-price-dubai).
+
+![Mother and father in a tender moment with their newborn, photographed by BreathART in Dubai](/assets/gallery/family/bk-279-suhad.webp)
+
+## Why families choose BreathART
+
+* Studio in Al Qusais, Dubai, and home sessions across the UAE
+* Calm, trained team for newborns, babies and toddlers
+* Arabian heritage and festive setups prepared for your session
+* Lady photographer on request
+* Newborn packages from **AED 499**
+* Pay with card, cash, Tabby or Tamara
+* Rated **4.7 on Google**
+
+For more ideas, read our [family photoshoot guide](/blog/family-photoshoot-dubai) and see [family and couple photography](/services/family-couple) and [packages and offers](/offers). Message us on WhatsApp at **+971 52 640 0679** with your preferred date to book your National Day session.`,
+  },
 ];
