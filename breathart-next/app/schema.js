@@ -26,6 +26,8 @@ const SAME_AS = [
   'https://www.instagram.com/breathart.photography',
   'https://www.instagram.com/newborn_photography_breathart',
   'https://www.facebook.com/share/193V3fhepb/',
+  'https://www.youtube.com/@BreathArtphotogrpahy',
+  'https://www.linkedin.com/company/135298125/',
 ];
 const ADDRESS = {
   '@type': 'PostalAddress',
