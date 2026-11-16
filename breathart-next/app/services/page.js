@@ -145,7 +145,7 @@ const steps = [
 ];
 
 const faqs = [
-  { q: 'Which areas do you cover?', a: 'We have outlets in Dubai and Abu Dhabi and shoot on location across the UAE, including Sharjah.' },
+  { q: 'Which areas do you cover?', a: 'Our studio is in Al Qusais, Dubai, and we shoot at your home or venue anywhere in the UAE, including Abu Dhabi and Sharjah. A travel charge may apply for home sessions, depending on your location.' },
   { q: 'Do you offer photoshoots at home?', a: 'Yes — newborn, maternity, family and cake smash sessions can be done at your home. We bring the setup to you.' },
   { q: 'How do I get a price?', a: 'Newborn sessions start from AED 499. For other services, message us on WhatsApp with your requirements for a quick quote.' },
   { q: 'Do you offer both photo and video?', a: 'Yes. Weddings, corporate and events can be booked as photo, video or combined packages.' },
