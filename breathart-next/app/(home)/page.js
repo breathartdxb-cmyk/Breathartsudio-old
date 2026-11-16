@@ -94,7 +94,7 @@ const moreServices = [
 
 const reasons = [
   { title: 'Talented teams, 100+ creators', text: 'A dedicated team for every service, backed by a network of more than 100 creators.' },
-  { title: 'Dubai & Abu Dhabi', text: 'Visit our outlets, or we come to your home, venue or office anywhere in the UAE.' },
+  { title: 'Al Qusais studio + home sessions', text: 'Visit our studio in Al Qusais, Dubai, or we come to your home, venue or office anywhere in the UAE.' },
   { title: 'Lady photographer on request', text: 'Prefer a female photographer? Just let us know when you book.' },
   { title: 'On time, best quality', text: 'Premium, hand-edited results at affordable prices — delivered when we promise.' },
 ];
@@ -180,11 +180,11 @@ export default function HomePage() {
         </div>
         <div className={styles.heroOverlay} />
         <div className={styles.heroContent}>
-          <p className={styles.heroEyebrow}>BreathART Photography Studio · Dubai &amp; Abu Dhabi</p>
+          <p className={styles.heroEyebrow}>BreathART Photography Studio · Al Qusais, Dubai</p>
           <h1 className={styles.heroTitle}>
-            Photography for life&apos;s <em>finest</em> moments
+            Dubai photography studio for life&apos;s <em>finest</em> moments
           </h1>
-          <p className={styles.heroLead}>Weddings · Corporate · Newborn &amp; Family — premium quality at affordable prices</p>
+          <p className={styles.heroLead}>Newborn &amp; Family · Weddings · Corporate — studio or home sessions across the UAE</p>
           <div className={styles.ctaRow} style={{ justifyContent: 'center' }}>
             <a href={wa("Hi BreathArt! I'd like to book a photoshoot.")} target="_blank" rel="noopener noreferrer" className={styles.btnGold}>
               Book on WhatsApp
