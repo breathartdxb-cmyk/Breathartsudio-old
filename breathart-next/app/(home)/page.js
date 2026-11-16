@@ -123,12 +123,12 @@ function Feature({ f }) {
       <div className={styles.featureInner}>
         <div className={styles.featureMedia}>
           <div className={styles.featureMain}>
-            <Image src={f.main.src} alt={f.main.alt} fill sizes="(max-width: 900px) 100vw, 34vw" style={{ objectFit: 'cover' }} />
+            <Image src={f.main.src} alt={f.main.alt} fill sizes="(max-width: 900px) 60vw, 34vw" style={{ objectFit: 'cover' }} />
           </div>
           <div className={styles.featureSide}>
             {f.side.map((s) => (
               <div key={s.src} className={styles.featureSideImg}>
-                <Image src={s.src} alt={s.alt} fill sizes="(max-width: 900px) 50vw, 16vw" style={{ objectFit: 'cover' }} />
+                <Image src={s.src} alt={s.alt} fill sizes="(max-width: 900px) 36vw, 16vw" style={{ objectFit: 'cover' }} />
               </div>
             ))}
           </div>
@@ -171,6 +171,7 @@ export default function HomePage() {
                 alt={p.alt}
                 fill
                 priority={i === 0}
+                fetchPriority={i === 0 ? 'high' : 'auto'}
                 sizes="(max-width: 900px) 34vw, 34vw"
                 style={{ objectFit: 'cover' }}
               />
