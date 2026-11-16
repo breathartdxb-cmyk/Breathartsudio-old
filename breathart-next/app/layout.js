@@ -50,10 +50,10 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL('https://www.breathartstudio.com'),
   title: {
-    default: 'BreathART Photography Studio | Dubai & Abu Dhabi',
+    default: 'BreathART Photography Studio Dubai | Newborn & Family',
     template: '%s',
   },
-  description: 'Premium photography at affordable prices — family, newborn, cake smash, wedding, corporate and commercial. Outlets in Dubai & Abu Dhabi. Rated 4.7 on Google. Part of BreathART Group.',
+  description: 'Photography studio in Al Qusais, Dubai: newborn, maternity, family, wedding and corporate shoots, with home sessions across the UAE. Rated 4.7 on Google.',
   keywords: ['photography studio Dubai', 'newborn photography Dubai', 'maternity photography Dubai', 'cake smash photoshoot Dubai', 'family photographer Dubai', 'wedding photography Dubai', 'corporate photography UAE', 'BreathArt Studio'],
   applicationName: 'BreathArt Studio',
   authors: [{ name: 'BreathArt Photography Studio' }],
@@ -65,8 +65,8 @@ export const metadata = {
     telephone: false,
   },
   openGraph: {
-    title: 'BreathART Photography Studio | Dubai & Abu Dhabi',
-    description: 'Premium photography at affordable prices — family, newborn, wedding, corporate and commercial. Outlets in Dubai & Abu Dhabi.',
+    title: 'BreathART Photography Studio Dubai | Newborn & Family',
+    description: 'Photography studio in Al Qusais, Dubai: newborn, maternity, family, wedding and corporate shoots, with home sessions across the UAE. Rated 4.7 on Google.',
     siteName: 'BreathART Photography Studio',
     locale: 'en_AE',
     type: 'website',
@@ -81,7 +81,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BreathART Photography Studio | Dubai & Abu Dhabi',
+    title: 'BreathART Photography Studio Dubai | Newborn & Family',
     description: 'Photography studio in Al Qusais, Dubai — newborn, maternity, cake smash, family, wedding and corporate shoots.',
     images: ['/assets/hero/hero_nature.png'],
   },
