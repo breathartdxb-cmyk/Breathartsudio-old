@@ -9,7 +9,7 @@ const NB = '/assets/services/newborn/newborn-and-maternity/';
 const W = '/assets/gallery/wedding/';
 const C = '/assets/gallery/corporate/';
 
-// `home: true` = shown in the "All" view; every item shows under its own category.
+// Every item shows under its own category tab (no "All" tab).
 const F = '/assets/gallery/family/';
 const E = '/assets/gallery/event/';
 const G = '/assets/gallery/newborn/';
@@ -57,11 +57,11 @@ const items = [
   { src: `${E}pexels-miriam-salgado-157461221-10733602_1.webp`, alt: 'Beach ceremony arch with flowers', cat: 'Events' },
 ];
 
-const filters = ['All', 'Wedding', 'Corporate', 'Newborn', 'Family', 'Events'];
+const filters = ['Newborn', 'Family', 'Wedding', 'Corporate', 'Events'];
 
 export default function WorkGallery() {
-  const [active, setActive] = useState('All');
-  const shown = active === 'All' ? items.filter((i) => i.home) : items.filter((i) => i.cat === active);
+  const [active, setActive] = useState(filters[0]);
+  const shown = items.filter((i) => i.cat === active);
 
   return (
     <>
