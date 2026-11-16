@@ -1,14 +1,14 @@
 import { BreadcrumbSchema, WebPageSchema } from '../schema';
 
 export const metadata = {
-  title: { absolute: 'BreathART Photography Studio | Dubai & Abu Dhabi' },
-  description: 'Premium photography at affordable prices — family, newborn, cake smash, wedding, corporate and commercial. Studio in Al Qusais, Dubai, with home sessions across the UAE. Rated 4.7 on Google.',
+  title: { absolute: 'BreathART Photography | Newborn & Family, Dubai & Abu Dhabi' },
+  description: 'Photography studio in Al Qusais, Dubai: newborn, maternity, family, wedding and corporate shoots, with home sessions across the UAE. Rated 4.7 on Google.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'BreathART Photography Studio | Dubai & Abu Dhabi',
-    description: 'Premium photography at affordable prices — family, newborn, wedding, corporate and commercial. Studio in Al Qusais, Dubai, with home sessions across the UAE.',
+    title: 'BreathART Photography | Newborn & Family, Dubai & Abu Dhabi',
+    description: 'Photography studio in Al Qusais, Dubai: newborn, maternity, family, wedding and corporate shoots, with home sessions across the UAE. Rated 4.7 on Google.',
     url: 'https://www.breathartstudio.com/',
     images: [
       {
