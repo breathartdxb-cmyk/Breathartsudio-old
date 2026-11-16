@@ -4,6 +4,8 @@ import Image from 'next/image';
 export default function Footer() {
   return (
     <footer className="footer">
+      <style>{`.footer-col h3{color:var(--color-gold);font-family:var(--font-heading);letter-spacing:3px;text-transform:uppercase;font-size:0.8rem;font-weight:600;margin-bottom:2rem;}`}</style>
+
       <div className="container">
         <div className="footer-grid">
           {/* Col 1: Brand & Philosophy */}
@@ -12,7 +14,7 @@ export default function Footer() {
               <Image src="/assets/logo/BreathArt Photography new Logo.png" alt="BreathArt Photography Logo" width={182} height={45} style={{ height: '45px', width: 'auto', objectFit: 'contain' }} />
             </Link>
             <p className="footer-desc">
-              Premium photography at affordable prices — family, newborn, cake smash, wedding, corporate and commercial. Outlets in Dubai &amp; Abu Dhabi. Part of BreathART Group.
+              Premium photography at affordable prices — family, newborn, cake smash, wedding, corporate and commercial. Studio in Al Qusais, Dubai, with home sessions across the UAE. Part of BreathART Group.
             </p>
             <div className="payment-acceptance">
               <span>We accept</span>
@@ -23,7 +25,7 @@ export default function Footer() {
 
           {/* Col 2: Services */}
           <div className="footer-col">
-            <h4>Services</h4>
+            <h3>Services</h3>
             <ul>
               <li>
                 <Link href="/newborn-photography-dubai">Newborn &amp; Maternity</Link>
@@ -48,7 +50,7 @@ export default function Footer() {
 
           {/* Col 3: Studio */}
           <div className="footer-col studio-col">
-            <h4>Studio</h4>
+            <h3>Studio</h3>
             <ul>
               <li>
                 <Link href="/about">Our Philosophy</Link>
@@ -73,7 +75,7 @@ export default function Footer() {
 
           {/* Col 4: Contact & Socials */}
           <div className="footer-col contact-col">
-            <h4>Initiate Story</h4>
+            <h3>Initiate Story</h3>
 
             <div className="footer-contact-item" style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', marginBottom: '1rem' }}>
               <i className="fas fa-envelope" style={{ marginTop: '0.2rem', flexShrink: 0 }} aria-hidden="true"></i>
