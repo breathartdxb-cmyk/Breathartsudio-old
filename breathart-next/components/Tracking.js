@@ -11,6 +11,7 @@ import { usePathname } from 'next/navigation';
  *  - Form leads:      conversion fires when a visitor lands on /thank-you
  *  - WhatsApp clicks: conversion fires on any click on a wa.me link
  *  - Phone clicks:    conversion fires on any click on a tel: link
+ *  - Google Analytics 4 page views + lead events (whatsapp_click, phone_click, generate_lead)
  *  - Microsoft Clarity session recordings
  */
 
@@ -22,6 +23,9 @@ const CALL_LABEL = '9ieDCK_AmY4dEPepy5tE'; // "Phone call click"
 
 const CLARITY_ID = 'yf0xwl0vdr';
 
+// Google Analytics 4 — property "BreathArt", web stream "BreathArt studio"
+const GA4_ID = 'G-3F0TEP3BPX';
+
 function ensureGtag() {
   if (typeof window === 'undefined') return;
   if (window.__baGtagReady) return;
@@ -31,6 +35,7 @@ function ensureGtag() {
   }
   window.gtag('js', new Date());
   window.gtag('config', ADS_ID);
+  window.gtag('config', GA4_ID);
   window.__baGtagReady = true;
 }
 
@@ -38,6 +43,13 @@ function sendConversion(sendTo) {
   if (typeof window === 'undefined') return;
   ensureGtag(); // queues the event even if gtag.js hasn't finished loading yet
   window.gtag('event', 'conversion', { send_to: sendTo });
+}
+
+// GA4 lead events (mark them as Key events in GA4 to count them as leads)
+function sendGa4Event(name, params) {
+  if (typeof window === 'undefined') return;
+  ensureGtag();
+  window.gtag('event', name, { send_to: GA4_ID, ...params });
 }
 
 export default function Tracking() {
@@ -49,6 +61,7 @@ export default function Tracking() {
   useEffect(() => {
     if (pathname === '/thank-you') {
       sendConversion(`${ADS_ID}/${FORM_LABEL}`);
+      sendGa4Event('generate_lead', { method: 'form' });
     }
   }, [pathname]);
 
@@ -60,8 +73,10 @@ export default function Tracking() {
       const href = link.getAttribute('href') || '';
       if (href.includes('wa.me/') || href.includes('api.whatsapp.com')) {
         sendConversion(`${ADS_ID}/${WHATSAPP_LABEL}`);
+        sendGa4Event('whatsapp_click', { page_path: window.location.pathname });
       } else if (href.startsWith('tel:')) {
         sendConversion(`${ADS_ID}/${CALL_LABEL}`);
+        sendGa4Event('phone_click', { page_path: window.location.pathname });
       }
     };
     document.addEventListener('click', onClick, true);
