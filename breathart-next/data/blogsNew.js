@@ -1083,4 +1083,98 @@ Book **2 to 3 weeks before 2 December**. The days around National Day fill up qu
 
 For more ideas, read our [family photoshoot guide](/blog/family-photoshoot-dubai) and see [family and couple photography](/services/family-couple) and [packages and offers](/offers). Message us on WhatsApp at **+971 52 640 0679** with your preferred date to book your National Day session.`,
   },
+  {
+    slug: 'newborn-photoshoot-gift-voucher-dubai',
+    title: 'Newborn Photoshoot Gift Voucher in Dubai: The Perfect Gift for New Mums and Parents',
+    metaTitle: 'Newborn Photoshoot Gift Voucher Dubai & UAE | BreathART',
+    metaDescription: 'Gift a newborn photoshoot in Dubai: a meaningful present for new mums, baby showers and new parents. Packages from AED 499, studio or home sessions.',
+    category: 'Newborn',
+    date: 'November 17, 2026',
+    image: '/assets/services/newborn/newborn-and-maternity/th-sunflower-bouquet.webp',
+    faqs: [
+      {
+        q: 'Can I buy a newborn photoshoot gift voucher before the baby is born?',
+        a: 'Yes. Most people give the voucher at the baby shower or during pregnancy. The parents then message BreathART to book their date, ideally in the first 5 to 14 days after birth, when babies are sleepy and easy to pose.',
+      },
+      {
+        q: 'Which newborn package should I gift?',
+        a: 'Newborn packages start from AED 499 (Basic). Silver Nest is AED 699, Golden Nest AED 999 and Diamond Nest AED 1,800. Bigger packages include more edited photos and setups. Message us on WhatsApp and we will help you choose.',
+      },
+      {
+        q: 'Can the parents choose a home session with the voucher?',
+        a: 'Yes. Parents can choose our studio in Al Qusais, Dubai, or a home session anywhere in the UAE, including Abu Dhabi. A travel charge may apply for home sessions, depending on the location.',
+      },
+    ],
+    content: `Looking for a meaningful present for a new mum or parents-to-be in the UAE? A **newborn photoshoot gift voucher** from **BreathART Photography Studio** gives them something they will keep forever: professional photos of their baby's first days. This guide explains who the voucher is for, which package to choose and how it works in Dubai and across the UAE.
+
+![Newborn baby wrapped like a gift in a sunflower bouquet with a soft yellow bow, photographed by BreathART in Dubai](/assets/services/newborn/newborn-and-maternity/th-sunflower-bouquet.webp)
+
+## Why a newborn photoshoot is the best baby gift
+
+New parents receive many baby clothes, toys and blankets, and babies outgrow most of them in weeks. A newborn photoshoot is different:
+
+* **It lasts forever**: babies change every day, and these first-week photos can never be taken again
+* **It is a gift for the whole family**: parents, siblings and grandparents enjoy the photos for years
+* **New parents rarely book it for themselves**: with a newborn at home, many families simply run out of time
+* **It is personal**: framed prints and albums become the family's most treasured pictures
+
+## Who to gift it to
+
+* **Baby shower gift** from friends, colleagues or the baby shower group
+* **Grandparents** gifting their first grandchild's photos
+* **A husband for his wife**: a thoughtful gift for mum after the birth
+* **Close friends or siblings** who want to give something more personal than clothes
+* **A group gift**: several friends together can gift a bigger package
+
+![Newborn baby sleeping on a moon pillow with knitted teddies, a setup by BreathART in Dubai](/assets/services/newborn/newborn-and-maternity/th-moon-teddies.webp)
+
+## Which package to gift?
+
+* **Basic**: AED 499
+* **Silver Nest**: AED 699
+* **Golden Nest**: AED 999
+* **Diamond Nest**: AED 1,800
+
+Bigger packages include more edited photos and more setups. Not sure which one fits? Send us a message on WhatsApp and we will help you choose. See full details on our [newborn photography in Dubai](/newborn-photography-dubai) page and the [newborn photoshoot price guide](/blog/newborn-photoshoot-price-dubai).
+
+## How the gift voucher works
+
+* **Step 1, message us on WhatsApp** at +971 52 640 0679 with the package and the mum's or parents' names
+* **Step 2, pay** by card or cash, or split the amount with **Tabby or Tamara**
+* **Step 3, we prepare the gift voucher** for you to give at the baby shower, after the birth or with flowers
+* **Step 4, the parents book their session** when the baby arrives; we confirm the voucher details and validity with you when you buy
+
+## When should the shoot happen?
+
+The best time for newborn photos is **within the first 5 to 14 days after birth**, when babies sleep deeply and curl up naturally. That is why giving the voucher **before the birth** works best: the parents can plan the date early. Our team handles every baby gently and safely; read our [newborn photography safety guide](/blog/newborn-photography-safety-guide-uae).
+
+![Smiling baby in a blue hat lying in a hammock with soft toys, photographed by BreathART in Dubai](/assets/services/newborn/newborn-and-maternity/lp-blue-teddy.webp)
+
+## Studio or at home: the parents choose
+
+With the voucher, parents can choose:
+
+* **Our studio in Al Qusais, Dubai**, with many themes, props and outfits ready
+* **A home session** anywhere in the UAE, including Abu Dhabi, so mum does not need to travel in the first days. A travel charge may apply, depending on the location. Read more about [at-home newborn photography in Dubai](/blog/at-home-newborn-photography-dubai).
+
+## Tips for gifting
+
+* **Give it early**: at the baby shower or in the third trimester, so the parents can book on time
+* **Add a personal card** with your message
+* **Pair it with flowers**: a simple bouquet and the voucher make a beautiful gift
+* **Check the theme together**: browse [newborn photoshoot themes and ideas](/blog/newborn-photoshoot-themes-ideas-dubai) with the parents
+
+![Newborn baby in a pink bunny bonnet holding a knitted bunny, a setup by BreathART in Dubai](/assets/services/newborn/newborn-and-maternity/th-pink-bunny.webp)
+
+## Why parents love BreathART
+
+* Studio in Al Qusais, Dubai, and home sessions across the UAE
+* Calm, trained team for safe newborn posing
+* Many themes, props and outfits included in the session
+* Lady photographer on request
+* Natural, soft editing
+* Rated **4.7 on Google**
+
+Ready to give the most memorable baby gift? Message us on WhatsApp at **+971 52 640 0679** to arrange your newborn photoshoot gift voucher, or see all [packages and offers](/offers).`,
+  },
 ];
