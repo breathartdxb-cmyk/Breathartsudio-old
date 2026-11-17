@@ -158,9 +158,67 @@ function Feature({ f }) {
   );
 }
 
+const homeFaqs = [
+  {
+    q: 'Where is BreathART Photography Studio?',
+    a: 'Our studio is at 12 22A Street, Al Qusais, Dubai. We also photograph at your home, venue or office anywhere in the UAE, including Abu Dhabi and Sharjah.',
+    link: { href: '/contact', label: 'Contact and directions' },
+  },
+  {
+    q: 'What photography services do you offer?',
+    a: 'Newborn, maternity, cake smash, family, couple and pre-wedding, wedding, corporate headshots and team photos, events, product and commercial, real estate photography, and videography.',
+    link: { href: '/services', label: 'See all services' },
+  },
+  {
+    q: 'How much does a newborn photoshoot cost in Dubai?',
+    a: 'Newborn packages start from AED 499 (Basic). Silver Nest is AED 699, Golden Nest AED 999 and Diamond Nest AED 1,800. A travel charge may apply for home sessions, depending on your location.',
+    link: { href: '/newborn-photography-dubai', label: 'Newborn photography in Dubai' },
+  },
+  {
+    q: 'When is the best time for newborn photos?',
+    a: 'The best time is within the first 5 to 14 days after birth, when babies sleep deeply and curl up naturally. We recommend booking during pregnancy so we can keep a date for you.',
+    link: { href: '/blog/newborn-photography-safety-guide-uae', label: 'Newborn safety guide' },
+  },
+  {
+    q: 'Do you offer home photoshoots?',
+    a: 'Yes. Newborn, maternity and family sessions can be done at your home anywhere in the UAE. We bring professional lighting and props. A travel charge may apply, depending on your location.',
+    link: { href: '/blog/at-home-newborn-photography-dubai', label: 'At-home newborn photography' },
+  },
+  {
+    q: 'How much do wedding and corporate photoshoots cost?',
+    a: 'Weddings, corporate shoots and events are quoted for each booking, based on the hours, the size of the team and what you need delivered. Send us your date, venue and requirements on WhatsApp for a clear written quote.',
+    link: { href: '/blog/wedding-photographer-dubai-cost', label: 'Wedding photography cost guide' },
+  },
+  {
+    q: 'Can I book a female photographer?',
+    a: 'Yes. A lady photographer is available on request for newborn, maternity, bridal and ladies-only sessions. Just mention it when you book.',
+  },
+  {
+    q: 'How can I pay?',
+    a: 'You can pay by card or cash, or split the payment into instalments with Tabby or Tamara.',
+    link: { href: '/offers', label: 'Packages and offers' },
+  },
+  {
+    q: 'Do you sell newborn photoshoot gift vouchers?',
+    a: 'Yes. A newborn photoshoot voucher is a popular baby shower and new-parent gift. Message us on WhatsApp with the package and the parents\' names, and we will prepare the voucher for you.',
+    link: { href: '/blog/newborn-photoshoot-gift-voucher-dubai', label: 'Gift voucher guide' },
+  },
+];
+
+const homeFaqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: homeFaqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+
 export default function HomePage() {
   return (
     <main className={styles.page}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeFaqSchema) }} />
       {/* ---------- Hero: triptych ---------- */}
       <section className={styles.hero}>
         <div className={styles.triptych}>
@@ -275,6 +333,35 @@ export default function HomePage() {
                 <strong>{r.author}</strong> · Google review
               </footer>
             </blockquote>
+          ))}
+        </div>
+      </section>
+
+      {/* ---------- FAQ ---------- */}
+      <section className={styles.section} id="faq">
+        <div className={styles.sectionHead}>
+          <p className={styles.eyebrow}>Good to know</p>
+          <h2 className={styles.h2}>Frequently asked questions</h2>
+          <p className={styles.lead}>
+            Quick answers about our studio in Al Qusais, Dubai, home sessions across the UAE, prices and booking.
+          </p>
+        </div>
+        <div className={styles.faqs}>
+          {homeFaqs.map((f) => (
+            <details key={f.q} className={styles.faq}>
+              <summary>{f.q}</summary>
+              <p>
+                {f.a}
+                {f.link && (
+                  <>
+                    {' '}
+                    <Link href={f.link.href} className={styles.faqLink}>
+                      {f.link.label} →
+                    </Link>
+                  </>
+                )}
+              </p>
+            </details>
           ))}
         </div>
       </section>
