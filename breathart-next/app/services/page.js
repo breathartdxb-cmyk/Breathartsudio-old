@@ -249,7 +249,7 @@ export default function ServicesPage() {
           <span>Creators in our network</span>
         </div>
         <div className={home.stat}>
-          <strong>4.7★</strong>
+          <strong>4.8★</strong>
           <span>48 Google reviews</span>
         </div>
         <div className={home.stat}>
