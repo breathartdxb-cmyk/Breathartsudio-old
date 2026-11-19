@@ -89,7 +89,7 @@ const themes = [
   { src: `${IMG}1photo.jpeg`, name: 'Arabian Heritage', note: 'Lanterns, dallah and golden accents' },
   { src: `${IMG}th-floral-swing.webp`, name: 'Floral Swing', note: 'Blooming flowers and warm colours' },
   { src: `${IMG}th-pink-bunny.webp`, name: 'Pink Bunny', note: 'Pastel knits with a little bunny' },
-  { src: `${IMG}th-peacock-krishna.webp`, name: 'Little Krishna', note: 'Peacock feathers and a tiny flute' },
+  { src: `${IMG}th-cream-cocoon.webp`, name: 'Cream Cocoon', note: 'Soft knit wrap and a sleepy cap' },
   { src: `${IMG}th-seashell.webp`, name: 'Seashell Princess', note: 'Pearly shell, coral and soft roses' },
   { src: `${IMG}th-butterfly.webp`, name: 'Butterfly Dreams', note: 'Pastel wings framed with flowers' },
   { src: `${IMG}th-sunflower-bouquet.webp`, name: 'Sunflower Bouquet', note: 'Wrapped like a bunch of sunshine' },
