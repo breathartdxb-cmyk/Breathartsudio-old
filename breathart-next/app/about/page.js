@@ -23,7 +23,7 @@ export const metadata = {
 const stats = [
   { big: '12+', small: 'Years of experience' },
   { big: '100+', small: 'Creators in our network' },
-  { big: '4.7★', small: '48 Google reviews' },
+  { big: '4.8★', small: '48 Google reviews' },
   { big: '7', small: 'Emirates · home sessions' },
 ];
 
