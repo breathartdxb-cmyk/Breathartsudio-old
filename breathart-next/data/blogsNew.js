@@ -6,14 +6,14 @@ export const newBlogs = [
     slug: 'best-newborn-photography-studio-uae',
     title: 'Best Newborn Photography Studio in the UAE: Why Parents in Dubai & Abu Dhabi Choose BreathART',
     metaTitle: 'Best Newborn Photography Studio in UAE | Dubai & Abu Dhabi | BreathART',
-    metaDescription: 'Why parents across the UAE choose BreathART for newborn photography: a Dubai studio in Al Qusais, at-home sessions anywhere in the UAE, safe baby-led posing and a 4.7★ Google rating.',
+    metaDescription: 'Why parents across the UAE choose BreathART for newborn photography: a Dubai studio in Al Qusais, at-home sessions anywhere in the UAE, safe baby-led posing and a 4.8★ Google rating.',
     category: 'Newborn',
     date: 'October 18, 2026',
     image: '/assets/gallery/newborn/bk-pink-hammock.webp',
     faqs: [
       {
         q: 'Which is the best newborn photography studio in the UAE?',
-        a: 'BreathART Photography Studio is one of the most trusted newborn studios in the UAE, with a studio in Al Qusais, Dubai, at-home sessions across all seven emirates, a team of 100+ creators and a 4.7-star Google rating from parents.',
+        a: 'BreathART Photography Studio is one of the most trusted newborn studios in the UAE, with a studio in Al Qusais, Dubai, at-home sessions across all seven emirates, a team of 100+ creators and a 4.8-star Google rating from parents.',
       },
       {
         q: 'Does BreathART do newborn photoshoots in both Dubai and Abu Dhabi?',
@@ -57,7 +57,7 @@ These are exactly the standards BreathART is built on.
 
 **5. A lady photographer option.** Many families prefer a female photographer, especially for at-home sessions. Just ask when you book.
 
-**6. Rated 4.7 out of 5 on Google.** Parents regularly mention how calm and patient our team is with their babies. One mother wrote that the team "were great with the baby and calmed her down" for the shoot.
+**6. Rated 4.8 out of 5 on Google.** Parents regularly mention how calm and patient our team is with their babies. One mother wrote that the team "were great with the baby and calmed her down" for the shoot.
 
 **7. Premium quality at an affordable price.** Our goal is simple: luxury-studio results without luxury-studio pricing. See the latest [newborn photography packages and offers](/newborn-photography-dubai).
 
@@ -158,7 +158,7 @@ The best time for newborn photos is **5 to 14 days after birth**. Babies sleep d
 - **100+ creators** across the BreathART Group, so availability is reliable
 - **Hand-edited images** with soft, natural skin tones
 - **In-house printing** for albums, canvases and framed prints
-- **4.7★ on Google** from families across the UAE
+- **4.8★ on Google** from families across the UAE
 
 ## Popular newborn themes in Abu Dhabi
 
@@ -299,7 +299,7 @@ BreathART has a studio in **Al Qusais, Dubai**, and our travelling teams cover t
 - **100+ creators** across the BreathART Group, so we can usually match your date
 - **Lady photographer option** on request
 - **In-house printing** for albums, canvases and frames
-- **Rated 4.7★ on Google** by families across the UAE
+- **Rated 4.8★ on Google** by families across the UAE
 
 ## How to book
 
@@ -469,7 +469,7 @@ Many families book their maternity shoot and newborn photoshoot together. Your m
 ## Why mothers in Dubai choose BreathART
 
 * More than **12 years** photographing families in the UAE
-* **Rated 4.7 on Google** by parents
+* **Rated 4.8 on Google** by parents
 * Studio in **Al Qusais, Dubai**, and sessions at your home anywhere in the UAE, including **Abu Dhabi**
 * Hand-made themes and careful, hand-edited photos
 * Lady photographer on request
@@ -554,7 +554,7 @@ Every newborn package can be done as a home session anywhere in the UAE; a trave
 * Studio or at-home newborn sessions from **AED 499**, anywhere in the UAE
 * Safe, baby-led posing — read our [newborn photography safety guide](/blog/newborn-photography-safety-guide-uae)
 * Lady photographer on request
-* **Rated 4.7 on Google** by parents, with more than 12 years photographing families in the UAE
+* **Rated 4.8 on Google** by parents, with more than 12 years photographing families in the UAE
 
 ## See it for yourself
 
@@ -612,7 +612,7 @@ Our [newborn photography safety guide](/blog/newborn-photography-safety-guide-ua
 
 ## 4. Read recent reviews from parents
 
-Look at Google reviews from the last few months. The most useful ones mention **editing quality, how the team handled the baby, and whether they were on time**. BreathART is **rated 4.7 on Google** by parents across the UAE.
+Look at Google reviews from the last few months. The most useful ones mention **editing quality, how the team handled the baby, and whether they were on time**. BreathART is **rated 4.8 on Google** by parents across the UAE.
 
 ## 5. Compare the real, all-in price
 
@@ -709,7 +709,7 @@ Pay by card or cash, or split it with Tabby or Tamara. See all [couple packages]
 * A calm team that guides your poses — no awkward moments
 * Photo and video from one team
 * Female photographer on request
-* Rated 4.7 on Google
+* Rated 4.8 on Google
 
 Planning the wedding itself? See our [wedding photography service](/services/wedding) and our guide to the [top wedding photography locations in Dubai](/blog/top-wedding-photography-locations-dubai-uae). Message us on WhatsApp at **+971 52 640 0679** with your date and favourite location.`,
   },
@@ -778,7 +778,7 @@ Message us with your **date, venue, number of hours and whether you want photo, 
 * Nikah, mehndi, wedding day, reception and bridal portraits
 * Lady photographer on request
 * Coverage across the UAE, from our studio in Al Qusais, Dubai
-* Rated **4.7 on Google**
+* Rated **4.8 on Google**
  
 ## Start with a pre-wedding shoot
  
@@ -854,7 +854,7 @@ For more tips, read our guides on [how to choose a newborn photographer in Dubai
 * Studio in Al Qusais, Dubai
 * Home sessions across the UAE
 * Lady photographer on request
-* Rated **4.7 on Google**
+* Rated **4.8 on Google**
 
 See themes and sample photos on our [newborn photography in Dubai](/newborn-photography-dubai) page, or message us on WhatsApp at **+971 52 640 0679** with your baby's due date or birth date.`,
   },
@@ -929,7 +929,7 @@ For family-only, couple or cake smash sessions, visit our [family and couple pho
 * Natural, soft editing
 * Lady photographer on request
 * Pay with card, cash, Tabby or Tamara
-* Rated **4.7 on Google**
+* Rated **4.8 on Google**
 
 Message us on WhatsApp at **+971 52 640 0679** with your family size and preferred date, and we will help you plan the perfect session.`,
   },
@@ -999,7 +999,7 @@ Many families book a **Christmas or New Year session every year** and watch the 
 * Natural, soft editing
 * Lady photographer on request
 * Pay with card, cash, Tabby or Tamara
-* Rated **4.7 on Google**
+* Rated **4.8 on Google**
 
 See our [family and couple photography](/services/family-couple) page and [packages and offers](/offers), or message us on WhatsApp at **+971 52 640 0679** with your preferred December date.`,
   },
@@ -1079,7 +1079,7 @@ Book **2 to 3 weeks before 2 December**. The days around National Day fill up qu
 * Lady photographer on request
 * Newborn packages from **AED 499**
 * Pay with card, cash, Tabby or Tamara
-* Rated **4.7 on Google**
+* Rated **4.8 on Google**
 
 For more ideas, read our [family photoshoot guide](/blog/family-photoshoot-dubai) and see [family and couple photography](/services/family-couple) and [packages and offers](/offers). Message us on WhatsApp at **+971 52 640 0679** with your preferred date to book your National Day session.`,
   },
@@ -1173,7 +1173,7 @@ With the voucher, parents can choose:
 * Many themes, props and outfits included in the session
 * Lady photographer on request
 * Natural, soft editing
-* Rated **4.7 on Google**
+* Rated **4.8 on Google**
 
 Ready to give the most memorable baby gift? Message us on WhatsApp at **+971 52 640 0679** to arrange your newborn photoshoot gift voucher, or see all [packages and offers](/offers).`,
   },
