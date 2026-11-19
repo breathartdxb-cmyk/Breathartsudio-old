@@ -2,7 +2,7 @@ import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../schema';
 
 const TITLE = 'Newborn Photography Dubai from AED 499 | Home Sessions UAE';
 const DESCRIPTION =
-  'Newborn photoshoot in Dubai from AED 499. Studio or home sessions across the UAE, trained newborn photographers, lady photographer on request. Rated 4.7.';
+  'Newborn photoshoot in Dubai from AED 499. Studio or home sessions across the UAE, trained newborn photographers, lady photographer on request. Rated 4.8.';
 const OG_IMAGE = '/assets/services/newborn/newborn-and-maternity/8th.jpeg';
 
 export const metadata = {
