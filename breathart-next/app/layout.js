@@ -53,7 +53,7 @@ export const metadata = {
     default: 'BreathART Photography Studio Dubai | Newborn & Family',
     template: '%s',
   },
-  description: 'Photography studio in Al Qusais, Dubai: newborn, maternity, family, wedding and corporate shoots, with home sessions across the UAE. Rated 4.7 on Google.',
+  description: 'Photography studio in Al Qusais, Dubai: newborn, maternity, family, wedding and corporate shoots, with home sessions across the UAE. Rated 4.8 on Google.',
   keywords: ['photography studio Dubai', 'newborn photography Dubai', 'maternity photography Dubai', 'cake smash photoshoot Dubai', 'family photographer Dubai', 'wedding photography Dubai', 'corporate photography UAE', 'BreathArt Studio'],
   applicationName: 'BreathArt Studio',
   authors: [{ name: 'BreathArt Photography Studio' }],
@@ -66,7 +66,7 @@ export const metadata = {
   },
   openGraph: {
     title: 'BreathART Photography Studio Dubai | Newborn & Family',
-    description: 'Photography studio in Al Qusais, Dubai: newborn, maternity, family, wedding and corporate shoots, with home sessions across the UAE. Rated 4.7 on Google.',
+    description: 'Photography studio in Al Qusais, Dubai: newborn, maternity, family, wedding and corporate shoots, with home sessions across the UAE. Rated 4.8 on Google.',
     siteName: 'BreathART Photography Studio',
     locale: 'en_AE',
     type: 'website',
