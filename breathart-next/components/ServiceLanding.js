@@ -65,7 +65,7 @@ export default function ServiceLanding({ data }) {
           </div>
           <ul className={s.trust}>
             <li>
-              <span className={home.stars}>★★★★★</span> 4.7 · 48 Google reviews
+              <span className={home.stars}>★★★★★</span> 4.8 · 48 Google reviews
             </li>
             <li>Dubai &amp; Abu Dhabi</li>
             {d.priceFrom ? <li>From AED {d.priceFrom}</li> : <li>Custom quotes</li>}
@@ -184,7 +184,7 @@ export default function ServiceLanding({ data }) {
       <section className={home.section}>
         <div className={home.sectionHead}>
           <p className={home.eyebrow}>Kind words</p>
-          <h2 className={home.h2}>Rated 4.7 out of 5 on Google</h2>
+          <h2 className={home.h2}>Rated 4.8 out of 5 on Google</h2>
         </div>
         <div className={home.reviewGrid}>
           {reviews.map((r) => (
