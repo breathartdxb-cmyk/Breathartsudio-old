@@ -481,7 +481,7 @@ export default function NewbornLandingPage() {
             {[1, 2, 3, 4, 5].map((i) => <Star key={i} size={22} fill="currentColor" />)}
           </div>
           <h2 className={styles.h2}>What Dubai parents say</h2>
-          <p className={styles.lead}>Rated 4.7 out of 5 on Google</p>
+          <p className={styles.lead}>Rated 4.8 out of 5 on Google</p>
         </div>
         <div className={styles.reviews}>
           {testimonials.map((t) => (
