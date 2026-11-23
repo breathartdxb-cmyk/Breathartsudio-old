@@ -14,6 +14,7 @@ const pages = [
   { path: '/services/events', freq: 'monthly', priority: 0.6 },
   { path: '/services/real-estate', freq: 'monthly', priority: 0.6 },
   { path: '/services/events-by-breathart', freq: 'monthly', priority: 0.5 },
+  { path: '/services/gifts', freq: 'monthly', priority: 0.6 },
   { path: '/offers', freq: 'weekly', priority: 0.8 },
   { path: '/about', freq: 'monthly', priority: 0.7 },
   { path: '/contact', freq: 'monthly', priority: 0.8 },
