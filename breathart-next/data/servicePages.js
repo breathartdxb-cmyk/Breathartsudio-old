@@ -406,6 +406,12 @@ export const pages = {
     priceFrom: 99,
     hero: { ...img(`${NB}lp-hero-sleeping.webp`, 'Sleeping newborn photographed by BreathART'), pos: 'center 40%' },
     offerTitle: 'Gifts people keep for a lifetime',
+    giftCards: [
+      { type: 'voucher', title: 'Newborn Gift Voucher', price: 'from AED 499', text: 'A professional newborn shoot for a new mum — Basic, Silver, Golden or Diamond Nest.', image: `${NB}lp-hands.webp`, alt: 'Newborn cradled in its parents’ hands', msg: "Hi BreathART! I'd like to order a newborn gift voucher." },
+      { type: 'hamper', title: 'Gift Hamper', price: 'from AED 299', text: 'A photoshoot voucher, prints and keepsakes presented in a beautiful gift box.', msg: "Hi BreathART! I'd like to order a gift hamper." },
+      { type: 'corporate', title: 'Corporate Gifts', price: 'from AED 99', text: 'Framed portraits, printed albums and photo gifts for your staff and clients.', msg: "Hi BreathART! I'd like a quote for corporate gifts." },
+      { type: 'print', title: 'Photo Printing & Frames', price: '2–3 day delivery', text: 'Prints, wall frames, canvas and albums from your shoot or your own photos.', image: `${NB}lp-pink-smile.webp`, alt: 'Framed print of a smiling baby', msg: "Hi BreathART! I'd like to order photo prints / frames." },
+    ],
     offerings: [
       { title: 'Newborn gift vouchers', text: 'The perfect baby-shower or new-mum gift: a professional newborn shoot, from AED 499.' },
       { title: 'Maternity session vouchers', text: 'Gift an expecting mum a beautiful bump session in our studio or outdoors.' },
