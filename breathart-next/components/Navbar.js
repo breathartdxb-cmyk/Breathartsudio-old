@@ -222,7 +222,8 @@ export default function Navbar() {
         { heading: 'Events By BreathArt', href: '/services/events' },
         { heading: 'Corporate Photography', href: '/services/corporate' },
         { heading: 'Real Estate Showcase', href: '/services/real-estate' },
-        { heading: 'Videography Films', href: '/services/videography' }
+        { heading: 'Videography Films', href: '/services/videography' },
+        { heading: 'Gifts & Vouchers', href: '/services/gifts' }
       ]
     },
     { heading: 'Offers', href: '/offers' },
@@ -282,6 +283,10 @@ export default function Navbar() {
                     <Link href="/services/events" style={{ padding: '0.25rem 0', display: 'block' }}>
                       <span className="mega-desc" style={{ color: '#000', fontSize: '0.9rem', fontWeight: '600' }}>Events By BreathArt</span>
                       <span className="mega-desc" style={{ display: 'block', fontSize: '0.75rem', marginTop: '0.25rem', color: '#666' }}>Social celebrations &amp; planning</span>
+                    </Link>
+                    <Link href="/services/gifts" style={{ padding: '0.25rem 0', display: 'block' }}>
+                      <span className="mega-desc" style={{ color: '#000', fontSize: '0.9rem', fontWeight: '600' }}>Gifts &amp; Vouchers</span>
+                      <span className="mega-desc" style={{ display: 'block', fontSize: '0.75rem', marginTop: '0.25rem', color: '#666' }}>Vouchers, prints &amp; corporate gifts</span>
                     </Link>
                   </div>
                 </div>
