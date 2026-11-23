@@ -403,7 +403,7 @@ export const pages = {
     lead: 'Give a memory, not just a present. Newborn and maternity photoshoot vouchers for new mums, printed albums and frames, gift hampers and corporate gifts for your team and clients.',
     waMessage: "Hi BreathART! I'd like to order a gift (voucher / prints / corporate gift).",
     ctaLabel: 'Order a gift on WhatsApp',
-    priceFrom: 499,
+    priceFrom: 99,
     hero: { ...img(`${NB}lp-hero-sleeping.webp`, 'Sleeping newborn photographed by BreathART'), pos: 'center 40%' },
     offerTitle: 'Gifts people keep for a lifetime',
     offerings: [
