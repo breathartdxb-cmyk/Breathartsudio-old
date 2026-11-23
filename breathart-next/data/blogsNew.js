@@ -1177,4 +1177,80 @@ With the voucher, parents can choose:
 
 Ready to give the most memorable baby gift? Message us on WhatsApp at **+971 52 640 0679** to arrange your newborn photoshoot gift voucher, or see all [packages and offers](/offers).`,
   },
+  {
+    slug: 'event-photography-abu-dhabi',
+    title: 'Event Photography in Abu Dhabi: Corporate Events, Gala Dinners and Celebrations',
+    metaTitle: 'Event Photographer Abu Dhabi | Corporate & Private Events | BreathART',
+    metaDescription: 'Event photography in Abu Dhabi for conferences, gala dinners, launches, birthdays and weddings. Photo and video team, clear quotes, lady photographer.',
+    category: 'Event',
+    date: 'November 23, 2026',
+    image: '/assets/gallery/event/WhatsApp_Image_2026-06-25_at_17.28.30.webp',
+    faqs: [
+      {
+        q: 'Do you cover events in Abu Dhabi?',
+        a: 'Yes. BreathART is based in Al Qusais, Dubai, and our photo and video team covers corporate and private events across Abu Dhabi, including hotels, exhibition venues, offices and private homes. A travel charge may apply, depending on the location.',
+      },
+      {
+        q: 'How much does an event photographer cost in Abu Dhabi?',
+        a: 'Every event gets its own written quote, based on the number of hours, how many photographers or videographers you need, and what you want delivered (edited photos, highlight video, same-day photos for social media). Send your date, venue and hours on WhatsApp at +971 52 640 0679.',
+      },
+      {
+        q: 'Can we book a female photographer for a ladies-only event in Abu Dhabi?',
+        a: 'Yes. A lady photographer is available on request for ladies-only events, bridal gatherings, baby showers and family celebrations.',
+      },
+    ],
+    content: `Planning a conference, gala dinner, product launch or family celebration in the capital? A professional **event photographer in Abu Dhabi** makes sure the speeches, guests, details and big moments are captured properly, so you have strong photos for your website, LinkedIn, press and family albums. This guide explains which events we cover, how to plan the photography and what affects the price. It is written by **BreathART Photography Studio**, a photo and video team from Al Qusais, Dubai, covering events across Abu Dhabi and the UAE.
+
+![Elegant outdoor event setup with white chairs, floral centrepieces and table settings, photographed by BreathART](/assets/gallery/event/WhatsApp_Image_2026-06-25_at_17.28.30.webp)
+
+## Events we photograph in Abu Dhabi
+
+* **Corporate events**: conferences, seminars, award nights, team events and year-end parties
+* **Gala dinners and hotel events**: stage moments, guests, table details and the venue
+* **Product launches and brand activations**: the product, the crowd and the press moments
+* **Exhibitions and trade shows**: your stand, visitors, meetings and speakers
+* **Private celebrations**: birthdays, engagements, baby showers, gender reveals and anniversaries
+* **Weddings and ladies-only events**, with a lady photographer on request
+* **National Day and seasonal events** for companies, schools and communities
+
+## Why companies book a professional event photographer
+
+Event photos keep working long after the day. Companies use them for **LinkedIn posts, press releases, the company website, annual reports and next year's sponsorship decks**. Good event photography shows the energy of the room, the people who attended and the brand on stage, which phone photos rarely manage under hall lighting.
+
+We combine candid photos of guests with planned shots: **speakers on stage, VIP arrivals, group photos, brand signage and venue details**. For hotel and exhibition venues, we bring flash and fast lenses for low light.
+
+## Photo, video or both?
+
+Many Abu Dhabi events now book **photo and video together**. Photos give you strong frames for press and social media; a short highlight film brings back the atmosphere and works well for Instagram Reels and LinkedIn. With one team you get one plan, one point of contact and a consistent style. See our [videography service](/services/videography).
+
+## How to plan event photography
+
+* **Share the agenda**: arrival time, speeches, award moments, dinner and entertainment.
+* **Make a shot list**: VIPs, sponsors, group photos, the stage, branding and products.
+* **Check venue rules**: some hotels and exhibition halls need the photographer's details in advance for access.
+* **Plan same-day photos** if your team wants to post on social media during the event.
+* **Name one contact person** on the day who knows the guests and the schedule.
+
+## What affects the price
+
+* **Hours of coverage**, from a 2-hour launch to a full-day conference
+* **Team size**: one photographer, two photographers, or photo plus video
+* **Deliverables**: number of edited photos, highlight video, full-length video, same-day selects
+* **Location** in Abu Dhabi and timing (early setup or late finish)
+
+We send a clear written quote with everything listed, so you can compare like with like. You can pay by card or bank transfer for companies, or split private bookings with **Tabby or Tamara**.
+
+## Why choose BreathART for your Abu Dhabi event
+
+* Photo and video from one studio team
+* Corporate, private and ladies-only events
+* Lady photographer on request
+* Low-light experience for hotels and halls
+* Clear written quotes for every event
+* Rated **4.7 on Google**
+
+Planning an event in Dubai too? Read our [event photography services in Dubai](/blog/event-photography-services-dubai) guide, see [corporate photography](/services/corporate) for headshots and team photos, or visit our [events page](/services/events). For family occasions in the capital, see our [newborn photographer in Abu Dhabi](/blog/newborn-photographer-abu-dhabi) guide.
+
+Send your **date, venue and hours** on WhatsApp at **+971 52 640 0679** for a quote for your Abu Dhabi event.`,
+  },
 ];
