@@ -1,0 +1,276 @@
+.wrap {
+  padding: clamp(3.5rem, 7vw, 6rem) 1.25rem;
+  background: #faf6f2;
+}
+.head {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+}
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #8a6053;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+}
+.h2 {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  line-height: 1.1;
+  color: #1d1916;
+  margin: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 14px 34px -22px rgba(59, 35, 26, 0.45);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 44px -24px rgba(59, 35, 26, 0.55);
+}
+.visual {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.95);
+  color: #1d1916;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+}
+.body {
+  padding: 1.25rem 1.3rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.body h3 {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 0 0 0.45rem;
+  color: #1d1916;
+}
+.body p {
+  margin: 0 0 1rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #5c524d;
+}
+.cta {
+  margin-top: auto;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #8a6053;
+}
+
+/* 1. Voucher: real photo with a voucher card on top */
+.voucher {
+  background: #1c120e;
+}
+.voucherCard {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-4deg);
+  width: 74%;
+  aspect-ratio: 16 / 10;
+  background: #fffaf5;
+  border-radius: 10px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  outline: 1.5px solid #c9a27e;
+  outline-offset: -8px;
+}
+.vBrand {
+  font-size: 0.62rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #8a6053;
+  font-weight: 700;
+}
+.vTitle {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-size: clamp(1.3rem, 2vw, 1.7rem);
+  color: #1d1916;
+  margin: 0.2rem 0;
+}
+.vSub {
+  font-size: 0.68rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #5c524d;
+}
+
+/* 2 & 3. Gift box drawn in CSS */
+.hamper {
+  background: radial-gradient(circle at 50% 35%, #f6e6dc 0%, #e8cfc0 100%);
+}
+.corporate {
+  background: radial-gradient(circle at 50% 35%, #3a312c 0%, #1d1916 100%);
+}
+.box {
+  position: relative;
+  width: 58%;
+  aspect-ratio: 1 / 0.78;
+  margin-top: 12%;
+}
+.boxBody {
+  position: absolute;
+  inset: 22% 4% 0 4%;
+  border-radius: 6px;
+  box-shadow: 0 22px 36px -14px rgba(0, 0, 0, 0.45);
+}
+.boxLid {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8%;
+  height: 20%;
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+}
+.ribbonV {
+  position: absolute;
+  left: 50%;
+  top: 8%;
+  bottom: 0;
+  width: 12%;
+  transform: translateX(-50%);
+}
+.bow {
+  position: absolute;
+  left: 50%;
+  top: 8%;
+  width: 0;
+  height: 0;
+}
+.bow::before,
+.bow::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: clamp(28px, 4.5vw, 46px);
+  height: clamp(20px, 3.2vw, 32px);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  border: clamp(5px, 0.8vw, 8px) solid;
+}
+.bow::before {
+  right: 0;
+  transform: rotate(-22deg);
+  transform-origin: right bottom;
+}
+.bow::after {
+  left: 0;
+  transform: rotate(22deg);
+  transform-origin: left bottom;
+}
+.hamper .boxBody,
+.hamper .boxLid {
+  background: #fffaf5;
+}
+.hamper .ribbonV {
+  background: #8a6053;
+}
+.hamper .bow::before,
+.hamper .bow::after {
+  border-color: #8a6053;
+}
+.corporate .boxBody,
+.corporate .boxLid {
+  background: #0f0c0a;
+  outline: 1px solid rgba(201, 162, 126, 0.35);
+}
+.corporate .ribbonV {
+  background: #c9a27e;
+}
+.corporate .bow::before,
+.corporate .bow::after {
+  border-color: #c9a27e;
+}
+.tag {
+  position: absolute;
+  right: -6%;
+  bottom: 14%;
+  z-index: 2;
+  background: #fffaf5;
+  color: #1d1916;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  transform: rotate(6deg);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+.hamper .tag {
+  background: #1d1916;
+  color: #fffaf5;
+}
+
+/* 4. Printing: real photo in a frame on a wall */
+.print {
+  background: linear-gradient(180deg, #ece4dc 0%, #e2d6cb 100%);
+}
+.frame {
+  width: 64%;
+  padding: 5%;
+  background: #2b211c;
+  box-shadow: 0 24px 40px -16px rgba(0, 0, 0, 0.45);
+  margin-bottom: 8%;
+}
+.mat {
+  background: #fffaf5;
+  padding: 11%;
+}
+.photo {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
