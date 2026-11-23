@@ -1,7 +1,7 @@
 import { BreadcrumbSchema, WebPageSchema, ServiceSchema } from '../../schema';
 
 const title = 'Photography Gift Vouchers, Prints & Corporate Gifts Dubai | BreathART';
-const description = 'Newborn and maternity photoshoot gift vouchers from AED 499, photo printing, frames, gift hampers and corporate gifts in Dubai and across the UAE.';
+const description = 'Newborn photoshoot gift vouchers from AED 499, gift hampers from AED 299, corporate gifts from AED 99, photo printing and frames in Dubai. Delivery within 2–3 days.';
 const image = '/assets/services/newborn/newborn-and-maternity/lp-hero-sleeping.webp';
 
 export const metadata = {
