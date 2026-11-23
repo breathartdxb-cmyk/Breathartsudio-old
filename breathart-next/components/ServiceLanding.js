@@ -33,6 +33,7 @@ const allServices = [
   { label: 'Videography', href: '/services/videography' },
   { label: 'Real Estate & Commercial', href: '/services/real-estate' },
   { label: 'Event Management', href: '/services/events-by-breathart' },
+  { label: 'Gifts & Vouchers', href: '/services/gifts' },
 ];
 
 export default function ServiceLanding({ data }) {
