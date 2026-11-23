@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import home from '../app/(home)/home.module.css';
 import s from './serviceLanding.module.css';
+import GiftCards from './GiftCards';
 
 const wa = (msg) => `https://wa.me/971526400679?text=${encodeURIComponent(msg)}`;
 
@@ -92,6 +93,8 @@ export default function ServiceLanding({ data }) {
           ))}
         </div>
       </section>
+
+      {d.giftCards && <GiftCards cards={d.giftCards} />}
 
       {/* Feature */}
       <section className={`${home.feature} ${home.featureDark}`}>
