@@ -348,7 +348,7 @@ export default function HomePage() {
         </div>
         <div className={styles.faqs}>
           {homeFaqs.map((f) => (
-            <details key={f.q} className={styles.faq}>
+            <details key={f.q} className={styles.faq} open>
               <summary>{f.q}</summary>
               <p>
                 {f.a}
