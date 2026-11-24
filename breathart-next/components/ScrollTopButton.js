@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { ChevronUp } from "lucide-react";
 
 export default function ScrollToTop() {
@@ -18,13 +17,10 @@ export default function ScrollToTop() {
   };
 
   return (
-    <AnimatePresence>
+    <>
       {visible && (
-        <motion.button
-          initial={{ opacity: 0, scale: 0.8, y: 10 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.8, y: 10 }}
-          transition={{ duration: 0.25, ease: "easeOut" }}
+        <button
+          style={{ animation: 'baPopIn 0.25s ease-out both' }}
           onClick={scrollToTop}
           aria-label="Scroll to top"
           className="fixed bottom-28 right-8 z-40 w-11 h-11 rounded-full flex items-center justify-center
@@ -38,8 +34,9 @@ export default function ScrollToTop() {
             transition-colors duration-200 cursor-pointer scroll-top-tailwind-fallback"
         >
           <ChevronUp className="w-5 h-5 scroll-top-icon" />
-        </motion.button>
+        </button>
       )}
-    </AnimatePresence>
+      <style>{`@keyframes baFadeIn{from{opacity:0}to{opacity:1}}@keyframes baSlideIn{from{transform:translateX(100%);opacity:.9}to{transform:translateX(0);opacity:1}}@keyframes baPopIn{from{opacity:0;transform:translateY(20px) scale(.95)}to{opacity:1;transform:none}}@media (prefers-reduced-motion:reduce){.ba-anim{animation:none!important}}`}</style>
+    </>
   );
 }
