@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import ContactForm from './ContactForm';
@@ -66,15 +65,12 @@ export default function PopupForm({ repeatDelay }) {
   if (NO_POPUP_PAGES.includes(pathname)) return null;
 
   return (
-    <AnimatePresence>
+    <>
       {isVisible && (
         <div className="popup-overlay">
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.9, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.9, y: 20 }}
-            transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-            className="popup-container"
+          <div
+            className="popup-container ba-anim"
+            style={{ animation: 'baPopIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) both' }}
           >
             <button className="popup-close" onClick={handleClose} aria-label="Close Popup">
               <X size={20} />
@@ -91,9 +87,10 @@ export default function PopupForm({ repeatDelay }) {
                 onSuccess={() => setIsVisible(false)}
               />
             </div>
-          </motion.div>
+          </div>
         </div>
       )}
-    </AnimatePresence>
+      <style>{`@keyframes baFadeIn{from{opacity:0}to{opacity:1}}@keyframes baSlideIn{from{transform:translateX(100%);opacity:.9}to{transform:translateX(0);opacity:1}}@keyframes baPopIn{from{opacity:0;transform:translateY(20px) scale(.95)}to{opacity:1;transform:none}}@media (prefers-reduced-motion:reduce){.ba-anim{animation:none!important}}`}</style>
+    </>
   );
 }
