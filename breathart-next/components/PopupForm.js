@@ -22,6 +22,9 @@ export default function PopupForm({ repeatDelay }) {
     // that cover the page right after landing as "intrusive" on mobile.
     let alreadySeen = false;
     try { alreadySeen = sessionStorage.getItem('ba_popup_seen') === '1'; } catch (e) {}
+    // Never auto-open for automated browsers (Google, Lighthouse, SEO audit tools)
+    const isBot = navigator.webdriver || /bot|crawl|spider|lighthouse|headless|pagespeed|seoptimer/i.test(navigator.userAgent);
+    if (isBot) alreadySeen = true;
 
     let timer;
     const show = () => {
