@@ -940,7 +940,7 @@ Message us on WhatsApp at **+971 52 640 0679** with your family size and preferr
     metaDescription: 'Plan a Christmas family photoshoot in Dubai: festive ideas with a newborn or toddler, what to wear, studio vs home sessions, and when to book for December.',
     category: 'Family',
     date: 'November 11, 2026',
-    image: '/assets/services/newborn/newborn-and-maternity/lp-puppy-pals.webp',
+    image: '/assets/gallery/family/christmas-newborn-santa-scene.jpg',
     faqs: [
       {
         q: 'When should we book a Christmas family photoshoot in Dubai?',
@@ -961,11 +961,13 @@ Message us on WhatsApp at **+971 52 640 0679** with your family size and preferr
 
 December is one of the busiest months of the year. **Book in November or the first week of December** so you get the date you want and receive your edited photos in time for Christmas cards, frames and gifts for grandparents.
 
+![Newborn baby in a red Santa wrap and hat beside Santa and reindeer, a Christmas newborn setup by BreathART in Dubai](/assets/gallery/family/christmas-newborn-santa-flatlay.jpg)
+
 ## Studio or at home?
 
 **At home** you have your own tree, lights and decorations, and children feel relaxed in their own space — perfect for cosy, candid moments on the sofa or by the window. Home sessions are available across the UAE; a travel charge may apply, depending on your location.
 
-**In our studio** you get clean backdrops and controlled lighting for classic, frame-worthy portraits. Message us to ask about a festive setup for your date.
+**In our studio** you get clean backdrops and controlled lighting for classic, frame-worthy portraits, plus a **Christmas setup** with Santa, reindeer and snow — perfect for baby's first Christmas.
 
 ![Elegant family portrait of parents with their baby on a dark background, photographed by BreathART in Dubai](/assets/gallery/family/IMG_9601.webp)
 
@@ -980,6 +982,8 @@ December is one of the busiest months of the year. **Book in November or the fir
 
 ![Newborn baby with a red bow and red roses, a festive newborn setup by BreathART in Dubai](/assets/services/newborn/newborn-and-maternity/lp-red-rose-bow.webp)
 
+![Sleeping newborn in a Santa hat in a basket, surrounded by Santa, reindeer and snow, photographed by BreathART](/assets/gallery/family/christmas-newborn-santa-portrait.jpg)
+
 ## What to wear
 
 * Choose **two or three festive colours** — red, cream, green or soft gold — instead of everyone in the same outfit
@@ -988,9 +992,13 @@ December is one of the busiest months of the year. **Book in November or the fir
 * Bring **one change of clothes** for small children, just in case
 * For a calm newborn, keep outfits simple: a soft wrap and a little hat or headband
 
+![Parents dressed in white holding their newborn in a red wrap, a simple festive colour idea by BreathART](/assets/gallery/family/christmas-family-newborn-red-wrap.jpg)
+
 ## Make it a family tradition
 
 Many families book a **Christmas or New Year session every year** and watch the children grow in the same spot by the tree. Expecting a baby in the new year? Plan your [newborn photography in Dubai](/newborn-photography-dubai) now, and read our [family photoshoot guide](/blog/family-photoshoot-dubai) for more posing and outfit ideas.
+
+![Smiling parents in white with their newborn wrapped in red, a family Christmas portrait at BreathART studio](/assets/gallery/family/christmas-family-parents-smile.jpg)
 
 ## Why families choose BreathART
 
