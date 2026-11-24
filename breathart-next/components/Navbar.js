@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import { AnimatePresence, motion, useMotionValue } from 'framer-motion';
 import { X } from 'lucide-react';
 import Image from 'next/image';
 
@@ -39,25 +38,6 @@ const FigmaIcon = ({ size = 24 }) => (
   </svg>
 );
 
-const MENU_SLIDE_ANIMATION = {
-  initial: { x: '100%', opacity: 0.9 },
-  enter: { 
-    x: 0, 
-    opacity: 1, 
-    transition: { 
-      duration: 0.5, 
-      ease: [0.16, 1, 0.3, 1] /* Premium buttery smooth cubic-bezier */
-    } 
-  },
-  exit: {
-    x: '100%',
-    opacity: 0.9,
-    transition: { 
-      duration: 0.4, 
-      ease: [0.16, 1, 0.3, 1] 
-    },
-  },
-};
 
 // NavLink item styled with a clean layout for mobile links
 function NavLink({ heading, href, index, isActive, onClose, subItems }) {
@@ -328,26 +308,20 @@ export default function Navbar() {
 
       {/* Premium Right-Side Slide-In Curved Menu (Portaled to document.body for clean layout) */}
       {mounted && typeof document !== 'undefined' && createPortal(
-        <AnimatePresence>
+        <>
           {menuOpen && (
-            <motion.div
+            <div
               key="curved-menu-backdrop"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.3 }}
-              className="curved-menu-backdrop"
+              className="curved-menu-backdrop ba-anim"
+              style={{ animation: 'baFadeIn 0.3s ease both' }}
               onClick={() => setMenuOpen(false)}
             />
           )}
           {menuOpen && (
-            <motion.div
+            <div
               key="curved-menu-panel"
-              variants={MENU_SLIDE_ANIMATION}
-              initial="initial"
-              animate="enter"
-              exit="exit"
-              className="curved-menu-panel"
+              className="curved-menu-panel ba-anim"
+              style={{ animation: 'baSlideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both' }}
             >
               {/* Top accent gradient line */}
               <div className="curved-menu-top-line" />
@@ -391,9 +365,10 @@ export default function Navbar() {
                   </a>
                 </div>
               </div>
-            </motion.div>
+            </div>
           )}
-        </AnimatePresence>,
+          <style>{`@keyframes baFadeIn{from{opacity:0}to{opacity:1}}@keyframes baSlideIn{from{transform:translateX(100%);opacity:.9}to{transform:translateX(0);opacity:1}}@keyframes baPopIn{from{opacity:0;transform:translateY(20px) scale(.95)}to{opacity:1;transform:none}}@media (prefers-reduced-motion:reduce){.ba-anim{animation:none!important}}`}</style>
+        </>,
         document.body
       )}
     </>
