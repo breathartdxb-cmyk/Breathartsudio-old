@@ -90,6 +90,8 @@ const themes = [
   { src: `${IMG}th-floral-swing.webp`, name: 'Floral Swing', note: 'Blooming flowers and warm colours' },
   { src: `${IMG}th-pink-bunny.webp`, name: 'Pink Bunny', note: 'Pastel knits with a little bunny' },
   { src: `${IMG}th-cream-cocoon.webp`, name: 'Cream Cocoon', note: 'Soft knit wrap and a sleepy cap' },
+  { src: `${IMG}th-blush-wrap.webp`, name: 'Blush Wrap', note: 'Soft peach wrap with a little bow' },
+  { src: `${IMG}th-lace-basket.webp`, name: 'Lace Basket', note: 'White lace and tulle with lavender flowers' },
   { src: `${IMG}th-seashell.webp`, name: 'Seashell Princess', note: 'Pearly shell, coral and soft roses' },
   { src: `${IMG}th-butterfly.webp`, name: 'Butterfly Dreams', note: 'Pastel wings framed with flowers' },
   { src: `${IMG}th-sunflower-bouquet.webp`, name: 'Sunflower Bouquet', note: 'Wrapped like a bunch of sunshine' },
