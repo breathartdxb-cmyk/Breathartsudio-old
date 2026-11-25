@@ -16,6 +16,9 @@ function Visual({ c }) {
       </>
     );
   }
+  if ((c.type === 'hamper' || c.type === 'corporate') && c.image) {
+    return <Image src={c.image} alt={c.alt} fill sizes="(max-width: 560px) 100vw, (max-width: 1000px) 50vw, 25vw" style={{ objectFit: 'cover' }} />;
+  }
   if (c.type === 'hamper' || c.type === 'corporate') {
     return (
       <div className={s.box} aria-hidden="true">
