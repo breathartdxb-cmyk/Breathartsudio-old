@@ -408,8 +408,8 @@ export const pages = {
     offerTitle: 'Gifts people keep for a lifetime',
     giftCards: [
       { type: 'voucher', title: 'Newborn Gift Voucher', price: 'from AED 499', text: 'A professional newborn shoot for a new mum — Basic, Silver, Golden or Diamond Nest.', image: `${NB}lp-hands.webp`, alt: 'Newborn cradled in its parents’ hands', msg: "Hi BreathART! I'd like to order a newborn gift voucher." },
-      { type: 'hamper', title: 'Gift Hamper', price: 'from AED 299', text: 'A photoshoot voucher, prints and keepsakes presented in a beautiful gift box.', msg: "Hi BreathART! I'd like to order a gift hamper." },
-      { type: 'corporate', title: 'Corporate Gifts', price: 'from AED 99', text: 'Framed portraits, printed albums and photo gifts for your staff and clients.', msg: "Hi BreathART! I'd like a quote for corporate gifts." },
+      { type: 'hamper', title: 'Gift Hamper', price: 'from AED 299', text: 'A photoshoot voucher, prints and keepsakes presented in a beautiful gift box.', image: `${NB}gift-hamper.webp`, alt: 'Gift hamper basket with a teddy, flowers, candle and treats', msg: "Hi BreathART! I'd like to order a gift hamper." },
+      { type: 'corporate', title: 'Corporate Gifts', price: 'from AED 99', text: 'Framed portraits, printed albums and photo gifts for your staff and clients.', image: `${NB}gift-corporate.webp`, alt: 'Navy corporate gift set with a logo bottle, notebook, mug and treats', msg: "Hi BreathART! I'd like a quote for corporate gifts." },
       { type: 'print', title: 'Photo Printing & Frames', price: '2–3 day delivery', text: 'Prints, wall frames, canvas and albums from your shoot or your own photos.', image: `${NB}lp-pink-smile.webp`, alt: 'Framed print of a smiling baby', msg: "Hi BreathART! I'd like to order photo prints / frames." },
     ],
     offerings: [
